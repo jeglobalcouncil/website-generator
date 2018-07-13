@@ -1,0 +1,61 @@
+{
+  "jes": [
+    {
+      "name": "TECMEC",
+      "lat": -15.76233,
+      "lng": -47.87362,
+      "country": "Brazil",
+      "field": ["mech"],
+      "courses": "Mechanical Engineering",
+      "award": [0,1,0]
+    },
+    {
+      "name": "CJR",
+      "lat": -15.75891,
+      "lng": -47.86889,
+      "field": ["comp"],
+      "country": "Brazil",
+      "courses": "Computer Sciences",
+      "award": [0,1,0]
+    },
+    {
+      "name": "EESC Jr.",
+      "lat": -22.00712,
+      "lng": -47.89622,
+      "country": "Brazil",
+      "field": ["mech","civ","elec","mgmt","comp"],
+      "courses": "Engineering (All)",
+      "award": [1,1,1]
+    },
+    {
+      "name": "EJComp",
+      "lat": -22.120919,
+      "lng": -51.407695,
+      "country": "Brazil",
+      "field": ["comp"],
+      "courses": "Computer Sciences",
+      "award": [0,0,1]
+    },
+    {
+      "name": "Atlas Empresa Junior",
+      "lat": -31.435595,
+      "lng": -64.185828,
+      "country": "Argentina",
+      "field": ["env","civ","elec","comp"],
+      "courses": "Biomedical, Civil, Electronic & Computer Engineering",
+      "award": [0,0,0]
+    }
+  ],
+  "confs": [
+    {
+      "name": "Brasil Júnior",
+      "lat": -23.57361,
+      "lng": -46.63683
+    },
+    {
+      "name": "JADE",
+      "lat": 50.86404,
+      "lng": 4.4076
+    }
+  ]
+}

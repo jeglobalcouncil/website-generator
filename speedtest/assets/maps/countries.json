@@ -1,0 +1,5713 @@
+[{
+  "id": 69,
+  "name": "180 Degrees Consulting Ghent",
+  "latitude": "51.0362557",
+  "longitude": "3.7339239",
+  "country": "belgium",
+  "field": null
+}, {
+  "id": 115,
+  "name": "180 Degrees Consulting Vienna",
+  "latitude": "48.2193849",
+  "longitude": "16.3589724",
+  "country": "austria",
+  "field": null
+}, {
+  "id": 340,
+  "name": "A.C.E. Consultoria",
+  "latitude": "-8.0495016",
+  "longitude": "-34.9506613",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 718,
+  "name": "A2S: Action, Services et Solutions",
+  "latitude": "33.979679",
+  "longitude": "-6.86665900000003",
+  "country": "morocco",
+  "field": null
+}, {
+  "id": 17,
+  "name": "Academics For Companies",
+  "latitude": "50.8703233",
+  "longitude": "4.6993966",
+  "country": "belgium",
+  "field": null
+}, {
+  "id": 710,
+  "name": "Academy Consult",
+  "latitude": "48.1477332",
+  "longitude": "11.5620349",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 359,
+  "name": "A\u00e7\u00e3o J\u00fanior Consultoria em Gest\u00e3o",
+  "latitude": "-27.598717",
+  "longitude": "-48.521682",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 303,
+  "name": "Accounting Academy",
+  "latitude": "-2.526812",
+  "longitude": "-44.2930831",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 417,
+  "name": "ACE Jr",
+  "latitude": "-21.776392",
+  "longitude": "-43.3690038",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 374,
+  "name": "Acens",
+  "latitude": "-3.7881259",
+  "longitude": "-38.5532501",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 415,
+  "name": "Acesso Comunica\u00e7\u00e3o Jr.",
+  "latitude": "-21.7752708",
+  "longitude": "-43.366707",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 364,
+  "name": "ACPE Consultoria Jr",
+  "latitude": "-18.918491",
+  "longitude": "-48.257834",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 691,
+  "name": "Active",
+  "latitude": "53.1107976",
+  "longitude": "8.8562465",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 337,
+  "name": "AD&M Consultoria Empresarial",
+  "latitude": "-15.758804",
+  "longitude": "-47.871698",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 450,
+  "name": "Adapti - Solu\u00e7\u00f5es Web",
+  "latitude": "-18.674945",
+  "longitude": "-39.861381",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 320,
+  "name": "ADECON Consultoria Empresarial",
+  "latitude": "-23.405928",
+  "longitude": "-51.9379044",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 345,
+  "name": "ADM Consult",
+  "latitude": "-5.8379922",
+  "longitude": "-35.2002406",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 316,
+  "name": "ADM Solu\u00e7\u00f5es: Empresa J\u00fanior",
+  "latitude": "-3.7887869",
+  "longitude": "-38.5517583",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 317,
+  "name": "ADM.Jr - UEFS",
+  "latitude": "-12.2020346",
+  "longitude": "-38.9696213",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 319,
+  "name": "Administra\u00e7\u00e3o Jr",
+  "latitude": "-23.3242573",
+  "longitude": "-51.1968255",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 395,
+  "name": "ADV Junior Consultoria Jur\u00eddica",
+  "latitude": "-12.9985053",
+  "longitude": "-38.5227602",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 439,
+  "name": "Advocatta",
+  "latitude": "-15.7595684",
+  "longitude": "-47.8721465",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 239,
+  "name": "AEC J\u00fanior",
+  "latitude": "-9.633464",
+  "longitude": "-35.70386",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 517,
+  "name": "AFAS-Projects",
+  "latitude": "48.087601",
+  "longitude": "-0.757790999999997",
+  "country": "france",
+  "field": null
+}, {
+  "id": 771,
+  "name": "AFPE",
+  "latitude": "37.1806461",
+  "longitude": "-3.60452759999998",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 458,
+  "name": "Ag\u00eancia de Comunica\u00e7\u00f5es ECA Jr.",
+  "latitude": "-23.557564",
+  "longitude": "-46.7255213",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 451,
+  "name": "Ag\u00eancia Officina Empresa J\u00fanior",
+  "latitude": "-10.9289331",
+  "longitude": "-37.1041966",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 143,
+  "name": "\u00c1gil Engenharia J\u00fanior",
+  "latitude": "-2.583454",
+  "longitude": "-44.2095852",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 723,
+  "name": "AGIR",
+  "latitude": "33.5731104",
+  "longitude": "-7.589843399999999",
+  "country": "morocco",
+  "field": null
+}, {
+  "id": 125,
+  "name": "Agrha Consultoria",
+  "latitude": "-22.9045596",
+  "longitude": "-43.1311151",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 371,
+  "name": "Agrifes",
+  "latitude": "-20.3073669",
+  "longitude": "-40.3022416",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 518,
+  "name": "AGRISA, \u00e9tudes & services",
+  "latitude": "50.6336894",
+  "longitude": "3.04692990000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 519,
+  "name": "Agro Projets Etudes",
+  "latitude": "45.7278464",
+  "longitude": "4.83623660000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 469,
+  "name": "Agrobio Consultoria J\u00fanior",
+  "latitude": "-21.1041399",
+  "longitude": "-44.2483842",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 384,
+  "name": "AgroJr. Consultoria",
+  "latitude": "-23.4086587",
+  "longitude": "-51.9374843",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 490,
+  "name": "Agron\u00f4mica",
+  "latitude": "-3.7417228",
+  "longitude": "-38.5774398",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 520,
+  "name": "AgroParisTech Service Etudes",
+  "latitude": "48.8396743",
+  "longitude": "2.34800040000005",
+  "country": "france",
+  "field": null
+}, {
+  "id": 474,
+  "name": "AgroPlan-UFV",
+  "latitude": "-20.75841",
+  "longitude": "-42.871461",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 696,
+  "name": "Aixsolution",
+  "latitude": "50.777661",
+  "longitude": "6.07789500000001",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 719,
+  "name": "AJD: Association des Jeunes D\u00e9veloppeurs",
+  "latitude": "33.9843118",
+  "longitude": "-6.86760189999995",
+  "country": "morocco",
+  "field": null
+}, {
+  "id": 757,
+  "name": "AJEDUC (Asociaci\u00f3n de J\u00f3venes Emprendedores de Ingenier\u00eda de la Universidad de Cantabria)",
+  "latitude": "43.4725118",
+  "longitude": "-3.79932220000001",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 763,
+  "name": "AJEIUC (Asociaci\u00f3n de J\u00f3venes Emprendedores de Econ\u00f3micas y Derecho de la Universidad de Cantabria)",
+  "latitude": "43.4761932",
+  "longitude": "-3.80750369999998",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 521,
+  "name": "AJIR INSA de Rouen",
+  "latitude": "49.3844716",
+  "longitude": "1.06930550000004",
+  "country": "france",
+  "field": null
+}, {
+  "id": 196,
+  "name": "Alcance",
+  "latitude": "-25.448288",
+  "longitude": "-49.2365007",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 373,
+  "name": "Alfa Consultoria Jr.",
+  "latitude": "-13.0124644",
+  "longitude": "-38.4704061",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 776,
+  "name": "Alfil Juvenil",
+  "latitude": "40.942996",
+  "longitude": "-4.11391309999999",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 171,
+  "name": "Alimentares",
+  "latitude": "-20.7619422",
+  "longitude": "-41.5355627",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 269,
+  "name": "Alimentos J\u00fanior",
+  "latitude": "-20.7601688",
+  "longitude": "-42.8661098",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 489,
+  "name": "All Chemistry",
+  "latitude": "-22.8190829",
+  "longitude": "-47.0676043",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 482,
+  "name": "All Pharma Jr",
+  "latitude": "-21.8068066",
+  "longitude": "-48.1925755",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 616,
+  "name": "Alpha Conseils",
+  "latitude": "43.3176827",
+  "longitude": "-0.364427599999999",
+  "country": "france",
+  "field": null
+}, {
+  "id": 522,
+  "name": "Alsace Etudes Projets",
+  "latitude": "48.5823042",
+  "longitude": "7.76493719999996",
+  "country": "france",
+  "field": null
+}, {
+  "id": 617,
+  "name": "Alt\u00e9o Conseil",
+  "latitude": "49.461262",
+  "longitude": "1.06338860000005",
+  "country": "france",
+  "field": null
+}, {
+  "id": 297,
+  "name": "Alternativa Jr",
+  "latitude": "-30.0554521",
+  "longitude": "-51.2074569",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 773,
+  "name": "ALUM (Asociaci\u00f3n de Letras de la Universidad de Murcia)",
+  "latitude": "37.9942223",
+  "longitude": "-1.1254146",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 268,
+  "name": "Ambiental Jr - Solu\u00e7\u00f5es Integradas em Meio Ambiente",
+  "latitude": "-20.762113",
+  "longitude": "-42.868995",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 618,
+  "name": "AMS Conseil",
+  "latitude": "44.7964981",
+  "longitude": "-0.602061499999991",
+  "country": "france",
+  "field": null
+}, {
+  "id": 313,
+  "name": "An\u00e1lise Consultoria",
+  "latitude": "-5.0610042",
+  "longitude": "-42.7961667",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 390,
+  "name": "Animalia",
+  "latitude": "-9.9549711",
+  "longitude": "-67.8638199",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 523,
+  "name": "APLICAEN",
+  "latitude": "49.2141822",
+  "longitude": "-0.36577120000004",
+  "country": "france",
+  "field": null
+}, {
+  "id": 363,
+  "name": "Apoio Consultoria",
+  "latitude": "-18.918942",
+  "longitude": "-48.258209",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 524,
+  "name": "Aquitaine Electronique Informatique",
+  "latitude": "44.8060657",
+  "longitude": "-0.604980399999931",
+  "country": "france",
+  "field": null
+}, {
+  "id": 273,
+  "name": "Arb\u00f3rea",
+  "latitude": "-18.203239",
+  "longitude": "-43.5781019",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 467,
+  "name": "Arch\u00e9 Consultoria Jr.",
+  "latitude": "-21.1222571",
+  "longitude": "-44.2518228",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 51,
+  "name": "Arizona Microcredit Initiative",
+  "latitude": "33.4255104",
+  "longitude": "-111.9400054",
+  "country": "usa",
+  "field": null
+}, {
+  "id": 769,
+  "name": "Arteverse",
+  "latitude": "43.330754",
+  "longitude": "-2.96921499999996",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 525,
+  "name": "Arts et M\u00e9tiers Junior Etudes Aix",
+  "latitude": "43.5296823",
+  "longitude": "5.4559534",
+  "country": "france",
+  "field": null
+}, {
+  "id": 526,
+  "name": "Arts et M\u00e9tiers Junior Etudes Bordeaux",
+  "latitude": "44.805991",
+  "longitude": "-0.602315999999973",
+  "country": "france",
+  "field": null
+}, {
+  "id": 527,
+  "name": "Arts et M\u00e9tiers Junior Etudes Cluny",
+  "latitude": "46.4329883",
+  "longitude": "4.6627737",
+  "country": "france",
+  "field": null
+}, {
+  "id": 747,
+  "name": "ASEMAT (Asociaci\u00f3n de Estad\u00edstica y Matem\u00e1tica)",
+  "latitude": "38.0181155",
+  "longitude": "-1.16920490000007",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 760,
+  "name": "ASEMUN",
+  "latitude": "38.0167547",
+  "longitude": "-1.17002309999998",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 686,
+  "name": "Assas Junior Conseil",
+  "latitude": "48.8470155",
+  "longitude": "2.34440229999996",
+  "country": "france",
+  "field": null
+}, {
+  "id": 528,
+  "name": "Association Entrepreneuriale Etudiante de l'Ecole des M\u00e9tiers de l'Environnement",
+  "latitude": "48.0442911",
+  "longitude": "-1.74578999999994",
+  "country": "france",
+  "field": null
+}, {
+  "id": 108,
+  "name": "Atlas Empresa Junior",
+  "latitude": "-31.4352436",
+  "longitude": "-64.1935494",
+  "country": "argentina",
+  "field": "Engineering"
+}, {
+  "id": 258,
+  "name": "ATP Jr. Consultoria em Bioprocessos",
+  "latitude": "-20.526658",
+  "longitude": "-43.731162",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 50,
+  "name": "AU Junior Enterprise",
+  "latitude": "41.9640692",
+  "longitude": "-86.35911639999999",
+  "country": "usa",
+  "field": null
+}, {
+  "id": 615,
+  "name": "Audencia Junior Conseil",
+  "latitude": "47.2461826",
+  "longitude": "-1.55324110000004",
+  "country": "france",
+  "field": null
+}, {
+  "id": 398,
+  "name": "AUG biotec",
+  "latitude": "-3.745373",
+  "longitude": "-38.573578",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 619,
+  "name": "Ausone Conseil",
+  "latitude": "44.798392",
+  "longitude": "-0.61480860000006",
+  "country": "france",
+  "field": null
+}, {
+  "id": 862,
+  "name": "Austral404",
+  "latitude": "-39.8195857",
+  "longitude": "-73.2452103",
+  "country": "chile",
+  "field": "IT"
+}, {
+  "id": 121,
+  "name": "Autec Jr",
+  "latitude": "-6.8896541",
+  "longitude": "-38.5449157",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 245,
+  "name": "Autojun",
+  "latitude": "-27.6003228",
+  "longitude": "-48.5174673",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 19,
+  "name": "Aveiro Smart Business",
+  "latitude": "40.6303024",
+  "longitude": "-8.657506",
+  "country": "portugal",
+  "field": null
+}, {
+  "id": 529,
+  "name": "Avenir Bois",
+  "latitude": "48.194783",
+  "longitude": "6.46494200000006",
+  "country": "france",
+  "field": null
+}, {
+  "id": 307,
+  "name": "Ayra Consultoria",
+  "latitude": "-22.9523826",
+  "longitude": "-43.1744847",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 201,
+  "name": "Base Jr",
+  "latitude": "-30.0321224",
+  "longitude": "-51.2219002",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 697,
+  "name": "BCPro",
+  "latitude": "52.4893046",
+  "longitude": "13.5255936",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 96,
+  "name": "BDSU",
+  "latitude": "50.7193396",
+  "longitude": "7.150015199999999",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 752,
+  "name": "Betta Studio",
+  "latitude": "37.179749",
+  "longitude": "-3.60967389999996",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 480,
+  "name": "Biotec Jr",
+  "latitude": "-22.6495713",
+  "longitude": "-50.4374706",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 104,
+  "name": "Brasil Junior",
+  "latitude": "-15.7942287",
+  "longitude": "-47.8821658",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 332,
+  "name": "Brava Prime",
+  "latitude": "-16.6029311",
+  "longitude": "-49.2652023",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 213,
+  "name": "Brent Engenharia",
+  "latitude": "-5.8429204",
+  "longitude": "-35.1983032",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 620,
+  "name": "Bretagne Conseil",
+  "latitude": "48.1277152",
+  "longitude": "-1.69284500000003",
+  "country": "france",
+  "field": null
+}, {
+  "id": 742,
+  "name": "Business Organisation for Students BOS",
+  "latitude": "44.4474051",
+  "longitude": "26.0974752",
+  "country": "romania",
+  "field": null
+}, {
+  "id": 250,
+  "name": "C2E - Empresa J\u00fanior de Consultoria em Engenharia El\u00e9trica",
+  "latitude": "-27.60052",
+  "longitude": "-48.517776",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 365,
+  "name": "CACE Consultoria Jr.",
+  "latitude": "-20.759259",
+  "longitude": "-42.868518",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 362,
+  "name": "Caduceu J\u00fanior UFSM",
+  "latitude": "-29.6880766",
+  "longitude": "-53.8087068",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 274,
+  "name": "Calculus Jr.",
+  "latitude": "-12.951871",
+  "longitude": "-38.45905",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 462,
+  "name": "Caltech Consultoria Em Alimentos",
+  "latitude": "-27.5815379",
+  "longitude": "-48.5052228",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 333,
+  "name": "Campe Consultoria Jr.",
+  "latitude": "-21.774584",
+  "longitude": "-43.367241",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 695,
+  "name": "Campus Consult",
+  "latitude": "51.7010138",
+  "longitude": "8.76367800000003",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 705,
+  "name": "Campus Contact Halle",
+  "latitude": "51.4846904",
+  "longitude": "11.9828678",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 530,
+  "name": "CAPISEN",
+  "latitude": "48.406963",
+  "longitude": "-4.49508200000002",
+  "country": "france",
+  "field": null
+}, {
+  "id": 391,
+  "name": "Capital Jr",
+  "latitude": "-9.9547386",
+  "longitude": "-67.8641525",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 703,
+  "name": "Capufaktur",
+  "latitude": "54.0973845",
+  "longitude": "13.3801931",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 441,
+  "name": "Caro\u00e1 Design",
+  "latitude": "-5.8347904",
+  "longitude": "-35.21133",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 287,
+  "name": "CATI Jr.",
+  "latitude": "-21.9812645",
+  "longitude": "-47.8819907",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 31,
+  "name": "Cat\u00f3lica Students' Corporation",
+  "latitude": "41.1532817",
+  "longitude": "-8.6721261",
+  "country": "portugal",
+  "field": null
+}, {
+  "id": 500,
+  "name": "CCGP",
+  "latitude": "45.504384",
+  "longitude": "-73.6128829",
+  "country": "canada",
+  "field": null
+}, {
+  "id": 502,
+  "name": "CCM HEC",
+  "latitude": "45.5016889",
+  "longitude": "-73.567256",
+  "country": "canada",
+  "field": null
+}, {
+  "id": 472,
+  "name": "CEANUT",
+  "latitude": "-29.713848",
+  "longitude": "-53.714003",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 366,
+  "name": "CECCO Consultoria Cont\u00e1bil",
+  "latitude": "-20.759682",
+  "longitude": "-42.868919",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 308,
+  "name": "CEFET Jr. Consultoria",
+  "latitude": "-22.9117137",
+  "longitude": "-43.2248468",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 100,
+  "name": "CEJE",
+  "latitude": "38.0203629",
+  "longitude": "-1.1720837",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 531,
+  "name": "Centrale Conseil Rh\u00f4ne Alpes",
+  "latitude": "45.7837564",
+  "longitude": "4.77039300000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 516,
+  "name": "Centrale Lille Projets",
+  "latitude": "50.6050234",
+  "longitude": "3.13943700000004",
+  "country": "france",
+  "field": null
+}, {
+  "id": 512,
+  "name": "Centrale Nantes \u00c9tudes",
+  "latitude": "47.248838",
+  "longitude": "-1.54789200000005",
+  "country": "france",
+  "field": null
+}, {
+  "id": 223,
+  "name": "Ceta J\u00fanior",
+  "latitude": "-22.7651485",
+  "longitude": "-43.6930467",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 532,
+  "name": "Chimie Lille Etudes",
+  "latitude": "50.609347",
+  "longitude": "3.14668099999994",
+  "country": "france",
+  "field": null
+}, {
+  "id": 533,
+  "name": "Chimie Perspectives",
+  "latitude": "48.8445394",
+  "longitude": "2.34407899999997",
+  "country": "france",
+  "field": null
+}, {
+  "id": 323,
+  "name": "Cia J\u00fanior Consultoria",
+  "latitude": "-14.7973338",
+  "longitude": "-39.1731929",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 167,
+  "name": "Ciclo Jr Consultoria",
+  "latitude": "-3.7438974",
+  "longitude": "-38.575341",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 195,
+  "name": "Ciclus Consultoria",
+  "latitude": "-25.4504072",
+  "longitude": "-49.2317631",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 227,
+  "name": "CIMATEC J\u00fanior",
+  "latitude": "-12.9386404",
+  "longitude": "-38.3874953",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 405,
+  "name": "Cin\u00e9tica Jr.",
+  "latitude": "-20.761877",
+  "longitude": "-41.535721",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 176,
+  "name": "CIPPAL Consultoria J\u00fanior",
+  "latitude": "-16.5982927",
+  "longitude": "-49.2798125",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 748,
+  "name": "CireBits",
+  "latitude": "38.9934081",
+  "longitude": "-3.92554710000002",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 433,
+  "name": "CITi",
+  "latitude": "-8.0521287",
+  "longitude": "-34.9452969",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 766,
+  "name": "Citius",
+  "latitude": "38.0151709",
+  "longitude": "-1.17154600000003",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 190,
+  "name": "Civil Jr.",
+  "latitude": "-20.3971188",
+  "longitude": "-43.5106122",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 330,
+  "name": "CJA - Empresa Jr. de Economia e Contabilidade",
+  "latitude": "-20.276861",
+  "longitude": "-40.306026",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 105,
+  "name": "CJEM",
+  "latitude": "33.5470595",
+  "longitude": "-7.649992699999999",
+  "country": "morocco",
+  "field": null
+}, {
+  "id": 189,
+  "name": "CJR - Empresa J\u00fanior de Computa\u00e7\u00e3o",
+  "latitude": "-15.7589199",
+  "longitude": "-47.8688901",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 404,
+  "name": "Click Jr.",
+  "latitude": "-20.7616563",
+  "longitude": "-41.5356459",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 83,
+  "name": "CNJE",
+  "latitude": "48.8491536",
+  "longitude": "2.3930434",
+  "country": "france",
+  "field": null
+}, {
+  "id": 792,
+  "name": "CO-JED Junior Entreprise",
+  "latitude": "34.739822",
+  "longitude": "10.7600196",
+  "country": "tunisia",
+  "field": "Engineering"
+}, {
+  "id": 379,
+  "name": "Code Computa\u00e7\u00e3o Empresa J\u00fanior",
+  "latitude": "-21.775459",
+  "longitude": "-43.372178",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 199,
+  "name": "Coemjr - Consultoria de Engenharia Mec\u00e2nica",
+  "latitude": "-25.44996",
+  "longitude": "-49.22992",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 416,
+  "name": "Colucci Consultoria Jur\u00eddica J\u00fanior",
+  "latitude": "-21.7653538",
+  "longitude": "-43.3478467",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 380,
+  "name": "Comp J\u00fanior",
+  "latitude": "-21.227883",
+  "longitude": "-44.97853",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 414,
+  "name": "CompAct",
+  "latitude": "-29.713344",
+  "longitude": "-53.716821",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 689,
+  "name": "Company Consulting Team",
+  "latitude": "52.5123426",
+  "longitude": "13.3244070000001",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 465,
+  "name": "Comunica!",
+  "latitude": "-27.5989442",
+  "longitude": "-48.5176116",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 161,
+  "name": "Conalimentos Jr. - Consultoria em Alimentos",
+  "latitude": "-3.739445",
+  "longitude": "-38.5705705",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 251,
+  "name": "CONAQ - Empresa Junior de Engenharia Qu\u00edmica e Engenharia de Alimentos",
+  "latitude": "-27.5993482",
+  "longitude": "-48.5140049",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 534,
+  "name": "Concept' ICAM",
+  "latitude": "43.5987905",
+  "longitude": "1.41556709999998",
+  "country": "france",
+  "field": null
+}, {
+  "id": 187,
+  "name": "Concreta Consultoria e Servi\u00e7os",
+  "latitude": "-15.763409",
+  "longitude": "-47.872543",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 238,
+  "name": "Concretize JR",
+  "latitude": "-9.411971",
+  "longitude": "-40.515573",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 226,
+  "name": "CONEX - Consultoria em Neg\u00f3cios Exteriores",
+  "latitude": "-15.863466",
+  "longitude": "-48.030566",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 386,
+  "name": "CONGEOjr - Empresa J\u00fanior de Geografia",
+  "latitude": "-23.4058724",
+  "longitude": "-51.9416758",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 426,
+  "name": "Conpec - UNICAMP",
+  "latitude": "-22.8216115",
+  "longitude": "-47.0650836",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 40,
+  "name": "ConQuest Consulting",
+  "latitude": "52.2064178",
+  "longitude": "21.0060455",
+  "country": "poland",
+  "field": null
+}, {
+  "id": 421,
+  "name": "Consea",
+  "latitude": "-21.2292703",
+  "longitude": "-44.9775718",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 263,
+  "name": "Conselt - Empresa J\u00fanior de Consultoria em Engenharia El\u00e9trica",
+  "latitude": "-18.919314",
+  "longitude": "-48.259422",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 475,
+  "name": "Consenso \u2013 Empresa J\u00fanior de Direito da UFV",
+  "latitude": "-20.7542585",
+  "longitude": "-42.8720194",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 142,
+  "name": "CONSEQ - Consultoria e Solu\u00e7\u00f5es em Engenharia Qu\u00edmica J\u00fanior",
+  "latitude": "-23.40881",
+  "longitude": "-51.935977",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 388,
+  "name": "CONSET Consultoria",
+  "latitude": "-23.41041",
+  "longitude": "-51.938181",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 181,
+  "name": "CONSPEQ - EMPRESA J\u00daNIOR DE ENGENHARIA QU\u00cdMICA",
+  "latitude": "-2.564943",
+  "longitude": "-44.311718",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 241,
+  "name": "Construtiva Jr.",
+  "latitude": "-3.7691821",
+  "longitude": "-38.4817005",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 690,
+  "name": "Consult One",
+  "latitude": "52.2665668",
+  "longitude": "10.5239054",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 707,
+  "name": "consult.IN",
+  "latitude": "48.766974",
+  "longitude": "11.431811",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 318,
+  "name": "Consulte Jr. - UEFS",
+  "latitude": "-12.2007731",
+  "longitude": "-38.9729637",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 159,
+  "name": "Consultec Jr.",
+  "latitude": "-3.7436218",
+  "longitude": "-38.5753896",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 265,
+  "name": "ConsultEQ",
+  "latitude": "-18.9278446",
+  "longitude": "-48.2274632",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 704,
+  "name": "Consulting Team",
+  "latitude": "51.5409837",
+  "longitude": "9.93478419999997",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 294,
+  "name": "Consultoria J\u00fanior P\u00fablica - FGV",
+  "latitude": "-23.559403",
+  "longitude": "-46.653075",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 709,
+  "name": "Contact & Cooperation",
+  "latitude": "53.2464214",
+  "longitude": "10.4115179",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 198,
+  "name": "COPLAF",
+  "latitude": "-25.4440781",
+  "longitude": "-49.2407441",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 184,
+  "name": "CPEJr - Consultoria e Projetos El\u00e9tricos J\u00fanior",
+  "latitude": "-19.8723815",
+  "longitude": "-43.9649174",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 753,
+  "name": "Creart Designers",
+  "latitude": "40.4486372",
+  "longitude": "-3.71927979999998",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 724,
+  "name": "CREAT'SULTING",
+  "latitude": "33.592654",
+  "longitude": "-7.62750499999993",
+  "country": "morocco",
+  "field": null
+}, {
+  "id": 498,
+  "name": "CREATIV Junior Consulting",
+  "latitude": "3.8437901",
+  "longitude": "11.5202165",
+  "country": "cameroon",
+  "field": null
+}, {
+  "id": 427,
+  "name": "Cria UFMG",
+  "latitude": "-19.867078",
+  "longitude": "-43.961435",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 152,
+  "name": "Cristal Minera\u00e7\u00e3o Jr.",
+  "latitude": "-12.999905",
+  "longitude": "-38.510835",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 221,
+  "name": "CSTQ Jr.",
+  "latitude": "-15.7684834",
+  "longitude": "-47.8648052",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 172,
+  "name": "CT Junior - Consultoria em Engenharia",
+  "latitude": "-20.271746",
+  "longitude": "-40.305389",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 49,
+  "name": "CUBE Consulting",
+  "latitude": "40.1166102",
+  "longitude": "-88.2412504",
+  "country": "usa",
+  "field": null
+}, {
+  "id": 150,
+  "name": "Datum Engenharia Jr",
+  "latitude": "-12.9992573",
+  "longitude": "-38.5115211",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 621,
+  "name": "Dauphine Junior Conseil",
+  "latitude": "48.87005",
+  "longitude": "2.27396599999997",
+  "country": "france",
+  "field": null
+}, {
+  "id": 811,
+  "name": "DESIGNERS Junior Entreprise",
+  "latitude": "36.8093284",
+  "longitude": "10.0863269",
+  "country": "tunisia",
+  "field": "Design"
+}, {
+  "id": 535,
+  "name": "Di\u00e8se",
+  "latitude": "48.6266931",
+  "longitude": "2.43214620000003",
+  "country": "france",
+  "field": null
+}, {
+  "id": 166,
+  "name": "Diferencial Jr.",
+  "latitude": "-3.7444287",
+  "longitude": "-38.5768269",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 622,
+  "name": "Dijon Etudes Conseils",
+  "latitude": "47.327843",
+  "longitude": "5.04076499999996",
+  "country": "france",
+  "field": null
+}, {
+  "id": 360,
+  "name": "Din\u00e2mica",
+  "latitude": "-21.104924",
+  "longitude": "-44.2506207",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 140,
+  "name": "Din\u00e2mica Consultoria",
+  "latitude": "-23.4066652",
+  "longitude": "-51.9391533",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 755,
+  "name": "Dinitek",
+  "latitude": "43.3119697",
+  "longitude": "-2.01044730000001",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 452,
+  "name": "Doisnovemeia",
+  "latitude": "-15.7608387",
+  "longitude": "-47.8703017",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 453,
+  "name": "Domani Consultoria Internacional",
+  "latitude": "-15.7581451",
+  "longitude": "-47.8696425",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 801,
+  "name": "DTC Junior Entreprise",
+  "latitude": "36.8064948",
+  "longitude": "10.1815316",
+  "country": "tunisia",
+  "field": "Business"
+}, {
+  "id": 494,
+  "name": "Dynamic Engineers For Future (DEFF)",
+  "latitude": "7.369722",
+  "longitude": "12.354722",
+  "country": "cameroon",
+  "field": null
+}, {
+  "id": 759,
+  "name": "EADE Consulting J.E.",
+  "latitude": "39.995431",
+  "longitude": "-0.0644629999999324",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 764,
+  "name": "Ebersix",
+  "latitude": "37.1946577",
+  "longitude": "-3.59636479999995",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 275,
+  "name": "ECO Jr.",
+  "latitude": "-28.7016362",
+  "longitude": "-49.4083808",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 126,
+  "name": "Ecoa",
+  "latitude": "-2.5265815",
+  "longitude": "-44.2932601",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 403,
+  "name": "Ecoceano",
+  "latitude": "-20.274559",
+  "longitude": "-40.302792",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 418,
+  "name": "ECOFARMA - Empresa de Consultoria Farmac\u00eautica J\u00fanior",
+  "latitude": "-21.776079",
+  "longitude": "-43.3675",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 217,
+  "name": "ECOFLOR - Empresa J\u00fanior Florestal Planalto Verde",
+  "latitude": "-15.7634199",
+  "longitude": "-47.8725029",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 679,
+  "name": "Ecole du Louvre Junior Conseil",
+  "latitude": "48.8615965",
+  "longitude": "2.33339990000002",
+  "country": "france",
+  "field": null
+}, {
+  "id": 369,
+  "name": "ECONOMICA",
+  "latitude": "-22.815176",
+  "longitude": "-47.065617",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 347,
+  "name": "Economus Consultoria",
+  "latitude": "-22.7657065",
+  "longitude": "-43.6836836",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 346,
+  "name": "Econsul",
+  "latitude": "-5.8395405",
+  "longitude": "-35.2016142",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 342,
+  "name": "Econsult - Consultoria Econ\u00f4mica",
+  "latitude": "-15.758855",
+  "longitude": "-47.871797",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 402,
+  "name": "Ecos Jr.",
+  "latitude": "-20.2770515",
+  "longitude": "-40.3042512",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 442,
+  "name": "ECOSIN Solu\u00e7\u00f5es Ambientais",
+  "latitude": "-5.841873",
+  "longitude": "-35.201364",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 222,
+  "name": "Ecossam J\u00fanior",
+  "latitude": "-22.7671666",
+  "longitude": "-43.6902787",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 624,
+  "name": "EDHEC BBA Junior Consulting",
+  "latitude": "50.6758095",
+  "longitude": "3.1693505",
+  "country": "france",
+  "field": null
+}, {
+  "id": 623,
+  "name": "EDHEC Junior Etudes",
+  "latitude": "50.675935",
+  "longitude": "3.16944939999996",
+  "country": "france",
+  "field": null
+}, {
+  "id": 253,
+  "name": "EDIFICar Jr.",
+  "latitude": "-21.9841446",
+  "longitude": "-47.8802454",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 208,
+  "name": "Edifique Jr",
+  "latitude": "-5.8422598",
+  "longitude": "-35.1966243",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 235,
+  "name": "EESC jr.",
+  "latitude": "-22.007128",
+  "longitude": "-47.896221",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 476,
+  "name": "EFICAP",
+  "latitude": "-20.7672897",
+  "longitude": "-42.8621614",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 625,
+  "name": "EGE Junior Conseil",
+  "latitude": "48.8563749",
+  "longitude": "2.30736760000002",
+  "country": "france",
+  "field": null
+}, {
+  "id": 338,
+  "name": "EJA Consultoria-UFPB",
+  "latitude": "-7.139184",
+  "longitude": "-34.8512526",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 321,
+  "name": "EJAD - Empresa Junior de Administra\u00e7\u00e3o",
+  "latitude": "-2.5769274",
+  "longitude": "-44.2092325",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 349,
+  "name": "EJAUFS",
+  "latitude": "-10.9259062",
+  "longitude": "-37.1022218",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 329,
+  "name": "EJCAD Consultoria",
+  "latitude": "-20.2754373",
+  "longitude": "-40.3051568",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 261,
+  "name": "EJCM Consultoria WEB",
+  "latitude": "-22.857572",
+  "longitude": "-43.232103",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 322,
+  "name": "EJCON",
+  "latitude": "-5.535772",
+  "longitude": "-47.483389",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 277,
+  "name": "EJEAmb",
+  "latitude": "-22.3969084",
+  "longitude": "-47.5463042",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 148,
+  "name": "EJEC-Empresa J\u00fanior de Engenharia Civil e Arquitetura",
+  "latitude": "-9.5518442",
+  "longitude": "-35.7752044",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 118,
+  "name": "EJECiv - Empresa J\u00fanior Engenharia Civil UFRGS",
+  "latitude": "-30.032279",
+  "longitude": "-51.2211437",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 259,
+  "name": "EJEL",
+  "latitude": "-21.1405864",
+  "longitude": "-44.2619372",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 246,
+  "name": "EJEP - Empresa J\u00fanior de Engenharia de Produ\u00e7\u00e3o",
+  "latitude": "-27.601016",
+  "longitude": "-48.517872",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 200,
+  "name": "EJEQ",
+  "latitude": "-25.4499257",
+  "longitude": "-49.2342548",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 248,
+  "name": "EJESAM",
+  "latitude": "-27.60026",
+  "longitude": "-48.518393",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 203,
+  "name": "EJMinas",
+  "latitude": "-30.0325822",
+  "longitude": "-51.2213905",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 758,
+  "name": "eJoventud",
+  "latitude": "41.3937243",
+  "longitude": "2.11446569999998",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 399,
+  "name": "EJUDI Solu\u00e7\u00f5es Jur\u00eddicas",
+  "latitude": "-3.733823",
+  "longitude": "-38.532553",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 481,
+  "name": "EJUR",
+  "latitude": "-20.5100906",
+  "longitude": "-47.3866845",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 352,
+  "name": "EJUVV",
+  "latitude": "-20.3540715",
+  "longitude": "-40.2991541",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 194,
+  "name": "Elementus J\u00fanior Consultoria",
+  "latitude": "-8.0464178",
+  "longitude": "-34.9505494",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 153,
+  "name": "EletroJr - Empresa J\u00fanior de Engenharia El\u00e9trica da UFBA",
+  "latitude": "-12.999507",
+  "longitude": "-38.51009",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 383,
+  "name": "Elo Consultoria",
+  "latitude": "-23.3240957",
+  "longitude": "-51.2027325",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 212,
+  "name": "ELO Engenharia J\u00fanior",
+  "latitude": "-16.677727",
+  "longitude": "-49.2413186",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 146,
+  "name": "EMa Jr",
+  "latitude": "-25.0865846",
+  "longitude": "-50.1610497",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 536,
+  "name": "Emagine",
+  "latitude": "44.1385754",
+  "longitude": "4.11049679999996",
+  "country": "france",
+  "field": null
+}, {
+  "id": 186,
+  "name": "Emas Jr. Consultoria",
+  "latitude": "-19.8725545",
+  "longitude": "-43.9647299",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 446,
+  "name": "Embragea",
+  "latitude": "-15.6008169",
+  "longitude": "-47.6582112",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 197,
+  "name": "Emjel",
+  "latitude": "-25.4512816",
+  "longitude": "-49.2338293",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 626,
+  "name": "EMLYON Junior Conseil",
+  "latitude": "45.787326",
+  "longitude": "4.76364599999999",
+  "country": "france",
+  "field": null
+}, {
+  "id": 139,
+  "name": "EMPEA Consultoria | Empresa J\u00fanior de Engenharia de Alimentos",
+  "latitude": "-23.408948",
+  "longitude": "-51.937596",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 138,
+  "name": "EMPEC",
+  "latitude": "-23.405406",
+  "longitude": "-51.936541",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 477,
+  "name": "Empnut",
+  "latitude": "-20.7621207",
+  "longitude": "-42.8616518",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 367,
+  "name": "Empreender Jr.",
+  "latitude": "-21.927168",
+  "longitude": "-50.492614",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 370,
+  "name": "Empresa Florestal do Piau\u00ed J\u00fanior",
+  "latitude": "-9.071654",
+  "longitude": "-44.359348",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 325,
+  "name": "Empresa JR. ADM UFBA",
+  "latitude": "-12.9955844",
+  "longitude": "-38.5201706",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 295,
+  "name": "Empresa J\u00fanior - EJFGV",
+  "latitude": "-23.559719",
+  "longitude": "-46.653152",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 278,
+  "name": "Empresa Junior de Engenharia de Alimentos",
+  "latitude": "-20.7852705",
+  "longitude": "-49.3607166",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 136,
+  "name": "Empresa J\u00fanior de Engenharia El\u00e9trica - UEL",
+  "latitude": "-23.3270922",
+  "longitude": "-51.2022597",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 299,
+  "name": "Empresa Junior Mackenzie Consultoria",
+  "latitude": "-23.5453945",
+  "longitude": "-46.6513676",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 511,
+  "name": "Empresa Juvenil de la Espol (EJE)",
+  "latitude": "-2.1481458",
+  "longitude": "-79.9644885",
+  "country": "ecuador",
+  "field": null
+}, {
+  "id": 178,
+  "name": "EnA\u00e7\u00e3o Consultoria Jr",
+  "latitude": "-18.1611948",
+  "longitude": "-47.9400455",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 252,
+  "name": "ENEjr",
+  "latitude": "-28.951329",
+  "longitude": "-49.465853",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 237,
+  "name": "Energize Jr",
+  "latitude": "-9.411937",
+  "longitude": "-40.515456",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 173,
+  "name": "Energy",
+  "latitude": "-18.6755096",
+  "longitude": "-39.8634824",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 793,
+  "name": "ENET'COM Junior Entreprise",
+  "latitude": "34.838315",
+  "longitude": "10.755036",
+  "country": "tunisia",
+  "field": "Engineering"
+}, {
+  "id": 214,
+  "name": "ENETEC - Consultoria",
+  "latitude": "-15.765883",
+  "longitude": "-47.872137",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 145,
+  "name": "Engenium",
+  "latitude": "-25.0865166",
+  "longitude": "-50.1607278",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 455,
+  "name": "Engenius Solu\u00e7\u00f5es Inteligentes",
+  "latitude": "-3.6765254",
+  "longitude": "-40.3401104",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 156,
+  "name": "ENGETOP - Empresa J\u00fanior de Engenharia Civil da UFBA",
+  "latitude": "-12.999466",
+  "longitude": "-38.510438",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 211,
+  "name": "EngNet Consultoria",
+  "latitude": "-15.765864",
+  "longitude": "-47.87213",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 207,
+  "name": "ENGRENA: Solu\u00e7\u00f5es em Engenharia",
+  "latitude": "-15.989295",
+  "longitude": "-48.045052",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 255,
+  "name": "Engrenar Jr.",
+  "latitude": "-21.981105",
+  "longitude": "-47.882559",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 787,
+  "name": "ENIB Junior Entreprise",
+  "latitude": "37.2346593",
+  "longitude": "9.88280299999997",
+  "country": "tunisia",
+  "field": "Engineering"
+}, {
+  "id": 780,
+  "name": "ENIG Junior Entreprise",
+  "latitude": "33.888077",
+  "longitude": "10.0975221",
+  "country": "tunisia",
+  "field": "Engineering"
+}, {
+  "id": 537,
+  "name": "ENIM Etudes",
+  "latitude": "49.0928285",
+  "longitude": "6.22593310000002",
+  "country": "france",
+  "field": null
+}, {
+  "id": 790,
+  "name": "ENIM Junior Entreprise",
+  "latitude": "35.6707037",
+  "longitude": "10.8899876",
+  "country": "tunisia",
+  "field": "Engineering"
+}, {
+  "id": 53,
+  "name": "ENISo Junior Entreprise",
+  "latitude": "35.82039",
+  "longitude": "10.5930903",
+  "country": "tunisia",
+  "field": "Engineering"
+}, {
+  "id": 54,
+  "name": "ENIT Junior Entreprise",
+  "latitude": "36.831102",
+  "longitude": "10.147424",
+  "country": "tunisia",
+  "field": "Engineering"
+}, {
+  "id": 770,
+  "name": "EnLinet",
+  "latitude": "38.9961521",
+  "longitude": "-3.92288780000001",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 119,
+  "name": "ENPRO",
+  "latitude": "-20.307253",
+  "longitude": "-40.3022872",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 538,
+  "name": "ENSAE Junior Etudes",
+  "latitude": "48.8243559",
+  "longitude": "2.30245890000003",
+  "country": "france",
+  "field": null
+}, {
+  "id": 539,
+  "name": "Ensai Junior Consultant",
+  "latitude": "48.0508322",
+  "longitude": "-1.74190069999997",
+  "country": "france",
+  "field": null
+}, {
+  "id": 540,
+  "name": "ENSEM Conseil",
+  "latitude": "48.6528998",
+  "longitude": "6.14852429999996",
+  "country": "france",
+  "field": null
+}, {
+  "id": 722,
+  "name": "ENSEM ENGINEERING",
+  "latitude": "33.5410318",
+  "longitude": "-7.65707369999996",
+  "country": "morocco",
+  "field": null
+}, {
+  "id": 52,
+  "name": "ENSI Junior Entreprise",
+  "latitude": "36.8160304",
+  "longitude": "10.0615511",
+  "country": "tunisia",
+  "field": "Engineering"
+}, {
+  "id": 785,
+  "name": "ENSIT Junior Entreprise",
+  "latitude": "36.7842722",
+  "longitude": "10.1763583",
+  "country": "tunisia",
+  "field": "Engineering"
+}, {
+  "id": 544,
+  "name": "ENSMA Junior Etudes",
+  "latitude": "46.6600962",
+  "longitude": "0.361190899999997",
+  "country": "france",
+  "field": null
+}, {
+  "id": 541,
+  "name": "ENVOL Junior \u00c9tudes",
+  "latitude": "43.5657466",
+  "longitude": "1.48049900000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 244,
+  "name": "EPEC - Escrit\u00f3rio Piloto de Engenharia Civil",
+  "latitude": "-27.5996372",
+  "longitude": "-48.5149966",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 542,
+  "name": "EPF Projets Montpellier",
+  "latitude": "43.6004198",
+  "longitude": "3.87149790000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 543,
+  "name": "EPF Projets Sceaux",
+  "latitude": "48.7784501",
+  "longitude": "2.30332090000002",
+  "country": "france",
+  "field": null
+}, {
+  "id": 514,
+  "name": "EPINE",
+  "latitude": "48.1181879",
+  "longitude": "-1.63655389999997",
+  "country": "france",
+  "field": null
+}, {
+  "id": 225,
+  "name": "EPJEL - Empresa J\u00fanior de Engenharia El\u00e9trica",
+  "latitude": "-10.923923",
+  "longitude": "-37.103865",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 205,
+  "name": "EPR Consultoria",
+  "latitude": "-30.0322048",
+  "longitude": "-51.2215061",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 240,
+  "name": "EPRO Consultoria",
+  "latitude": "-3.770534",
+  "longitude": "-38.477012",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 784,
+  "name": "EPT Junior Entreprise",
+  "latitude": "36.8964803",
+  "longitude": "10.310501",
+  "country": "tunisia",
+  "field": "Engineering"
+}, {
+  "id": 256,
+  "name": "EQ Jr. - Consultoria e Projetos",
+  "latitude": "-21.981627",
+  "longitude": "-47.882809",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 120,
+  "name": "Equacione Junior",
+  "latitude": "-30.0264323",
+  "longitude": "-51.2211171",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 343,
+  "name": "Equil\u00edbrio Assessoria Econ\u00f4mica",
+  "latitude": "-30.0327314",
+  "longitude": "-51.22258",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 314,
+  "name": "ESAG Jr\/ UDESC",
+  "latitude": "-27.5858959",
+  "longitude": "-48.5022358",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 155,
+  "name": "ESAJr - Empresa J\u00fanior de Engenharia Sanit\u00e1ria e Ambiental",
+  "latitude": "-12.9996196",
+  "longitude": "-38.5105253",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 457,
+  "name": "ESALQ Jr. Consultoria",
+  "latitude": "-22.710882",
+  "longitude": "-47.6356401",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 818,
+  "name": "ESAM Junior Entreprise",
+  "latitude": "36.422941",
+  "longitude": "10.0917133",
+  "country": "tunisia",
+  "field": "Agronomic engineering"
+}, {
+  "id": 249,
+  "name": "ESATI - Escrit\u00f3rio de Apoio Tecnol\u00f3gico Intermodal",
+  "latitude": "-26.274438",
+  "longitude": "-48.853901",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 813,
+  "name": "ESB Junior Entreprise",
+  "latitude": "36.894925",
+  "longitude": "10.1857799",
+  "country": "tunisia",
+  "field": "Business"
+}, {
+  "id": 627,
+  "name": "ESCadrille Toulouse Junior Conseil",
+  "latitude": "43.609412",
+  "longitude": "1.43094700000006",
+  "country": "france",
+  "field": null
+}, {
+  "id": 628,
+  "name": "ESCP Europe Conseil",
+  "latitude": "48.8642411",
+  "longitude": "2.38070740000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 629,
+  "name": "ESDES Junior Conseil",
+  "latitude": "45.7538878",
+  "longitude": "4.8266764",
+  "country": "france",
+  "field": null
+}, {
+  "id": 822,
+  "name": "ESEN Junior Entreprise",
+  "latitude": "36.8160304",
+  "longitude": "10.0615511",
+  "country": "tunisia",
+  "field": "Engineering"
+}, {
+  "id": 783,
+  "name": "ESIAT Junior Entreprise",
+  "latitude": "36.8269469",
+  "longitude": "10.1837221",
+  "country": "tunisia",
+  "field": "Industries Alimentaires"
+}, {
+  "id": 872,
+  "name": "ESITC Etudes",
+  "latitude": "48.8049759",
+  "longitude": "2.3254947",
+  "country": "france",
+  "field": null
+}, {
+  "id": 761,
+  "name": "ESME",
+  "latitude": "43.3102037",
+  "longitude": "-1.97668069999997",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 361,
+  "name": "ESPM - Escola Superior de Propaganda e Marketing",
+  "latitude": "-30.0554521",
+  "longitude": "-51.2074569",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 306,
+  "name": "ESPM Jr.",
+  "latitude": "-22.9028854",
+  "longitude": "-43.1779197",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 779,
+  "name": "ESPRO Junior Entreprise",
+  "latitude": "36.8442742",
+  "longitude": "10.2067501",
+  "country": "tunisia",
+  "field": "Engineering"
+}, {
+  "id": 630,
+  "name": "ESSCA Junior Conseil",
+  "latitude": "48.8400635",
+  "longitude": "2.22509420000006",
+  "country": "france",
+  "field": null
+}, {
+  "id": 99,
+  "name": "ESSECT Junior Entreprise",
+  "latitude": "36.7863306",
+  "longitude": "10.1743217",
+  "country": "tunisia",
+  "field": "Business"
+}, {
+  "id": 545,
+  "name": "ESSTIN Services",
+  "latitude": "48.6595759",
+  "longitude": "6.18781330000002",
+  "country": "france",
+  "field": null
+}, {
+  "id": 443,
+  "name": "Estat Consultoria em Estat\u00edstica",
+  "latitude": "-15.7588789",
+  "longitude": "-47.8689561",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 335,
+  "name": "Estrat\u00e9gica",
+  "latitude": "-2.5525002",
+  "longitude": "-44.3063136",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 12,
+  "name": "ETH Juniors",
+  "latitude": "47.3784436",
+  "longitude": "8.5545922",
+  "country": "switzerland",
+  "field": null
+}, {
+  "id": 546,
+  "name": "ETIC INSA Technologies",
+  "latitude": "45.7832345",
+  "longitude": "4.8816921",
+  "country": "france",
+  "field": null
+}, {
+  "id": 631,
+  "name": "Europe Etudes",
+  "latitude": "48.5825357",
+  "longitude": "7.77369620000002",
+  "country": "france",
+  "field": null
+}, {
+  "id": 680,
+  "name": "Excellence Junior Conseil",
+  "latitude": "48.578912",
+  "longitude": "7.76774980000005",
+  "country": "france",
+  "field": null
+}, {
+  "id": 339,
+  "name": "Executive Consultoria",
+  "latitude": "-6.7481541",
+  "longitude": "-35.6248931",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 408,
+  "name": "ExLege",
+  "latitude": "-16.6755584",
+  "longitude": "-49.2434759",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 375,
+  "name": "Expresse! - Consultoria",
+  "latitude": "-22.910673",
+  "longitude": "-43.236189",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 547,
+  "name": "Fa7 Junior Etudes",
+  "latitude": "43.5553854",
+  "longitude": "1.50389139999993",
+  "country": "france",
+  "field": null
+}, {
+  "id": 188,
+  "name": "FACTIVA JR - Consultorias",
+  "latitude": "-20.7841233",
+  "longitude": "-51.6658238",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 434,
+  "name": "Facto",
+  "latitude": "-15.7606838",
+  "longitude": "-47.8703393",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 428,
+  "name": "Farm\u00e1cia Jr. Consultoria UFMG",
+  "latitude": "-19.8702921",
+  "longitude": "-43.9695932",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 357,
+  "name": "FCAP JR. Consultoria",
+  "latitude": "-8.0612529",
+  "longitude": "-34.903376",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 356,
+  "name": "FEA j\u00fanior USP",
+  "latitude": "-23.5578713",
+  "longitude": "-46.7292264",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 33,
+  "name": "FEP Junior Consulting",
+  "latitude": "41.1772344",
+  "longitude": "-8.5995974",
+  "country": "portugal",
+  "field": null
+}, {
+  "id": 632,
+  "name": "FGES Conseil",
+  "latitude": "50.6329455",
+  "longitude": "3.04627359999995",
+  "country": "france",
+  "field": null
+}, {
+  "id": 309,
+  "name": "FGV Jr. Consultoria e Finan\u00e7as",
+  "latitude": "-22.9411996",
+  "longitude": "-43.180085",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 410,
+  "name": "Firenze J\u00fanior",
+  "latitude": "-16.6056791",
+  "longitude": "-49.2621777",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 271,
+  "name": "Florestal Jr. Consultoria UFV",
+  "latitude": "-20.759906",
+  "longitude": "-42.868534",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 270,
+  "name": "Florestal J\u00fanior",
+  "latitude": "-9.9558426",
+  "longitude": "-67.869072",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 128,
+  "name": "Fluxo Consultoria - Empresa J\u00fanior de Engenharia da UFRJ",
+  "latitude": "-22.8593456",
+  "longitude": "-43.2310317",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 305,
+  "name": "Focus Consultoria",
+  "latitude": "-22.5036279",
+  "longitude": "-41.9239051",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 807,
+  "name": "FSEGN Junior Entreprise",
+  "latitude": "36.4512893",
+  "longitude": "10.7356634",
+  "country": "tunisia",
+  "field": "Business"
+}, {
+  "id": 71,
+  "name": "Fucam Junior Consulting",
+  "latitude": "50.4497873",
+  "longitude": "3.9515121",
+  "country": "belgium",
+  "field": null
+}, {
+  "id": 706,
+  "name": "GalileiConsult",
+  "latitude": "49.4086493",
+  "longitude": "8.68429349999997",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 504,
+  "name": "GCMG",
+  "latitude": "45.3787078",
+  "longitude": "-71.931992",
+  "country": "canada",
+  "field": null
+}, {
+  "id": 658,
+  "name": "GEM Junior Conseil",
+  "latitude": "45.1901529",
+  "longitude": "5.71333449999997",
+  "country": "france",
+  "field": null
+}, {
+  "id": 423,
+  "name": "Geotec",
+  "latitude": "-2.5527092",
+  "longitude": "-44.3060669",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 280,
+  "name": "GEPEA - Grupo de Estudos e Projetos em Engenharia de Alimentos",
+  "latitude": "-22.8202345",
+  "longitude": "-47.0667145",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 548,
+  "name": "GER Telecom",
+  "latitude": "48.358744",
+  "longitude": "-4.57017300000007",
+  "country": "france",
+  "field": null
+}, {
+  "id": 473,
+  "name": "Global Jr",
+  "latitude": "-29.7128695",
+  "longitude": "-53.7152217",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 509,
+  "name": "GoUp!",
+  "latitude": "-38.747816",
+  "longitude": "-72.616833",
+  "country": "chile",
+  "field": null
+}, {
+  "id": 290,
+  "name": "Granbery Consultoria",
+  "latitude": "-21.7662695",
+  "longitude": "-43.344253",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 701,
+  "name": "GREEN finance consulting",
+  "latitude": "50.128122",
+  "longitude": "8.66474900000003",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 204,
+  "name": "Grupo Gest\u00e3o Consultoria",
+  "latitude": "-15.763345",
+  "longitude": "-47.87249",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 613,
+  "name": "GT Process",
+  "latitude": "43.319586",
+  "longitude": "-0.363969699999984",
+  "country": "france",
+  "field": null
+}, {
+  "id": 132,
+  "name": "GTi Engenharia Jr",
+  "latitude": "-3.74502",
+  "longitude": "-38.578177",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 101,
+  "name": "Handels Consulting",
+  "latitude": "57.6983895",
+  "longitude": "11.9652463",
+  "country": "sweden",
+  "field": null
+}, {
+  "id": 29,
+  "name": "HEC Advisory",
+  "latitude": "50.6370222",
+  "longitude": "5.5630061",
+  "country": "belgium",
+  "field": null
+}, {
+  "id": 633,
+  "name": "HEC Junior Conseil",
+  "latitude": "48.75588",
+  "longitude": "2.16934000000003",
+  "country": "france",
+  "field": null
+}, {
+  "id": 549,
+  "name": "H\u00e9lios",
+  "latitude": "46.5683614",
+  "longitude": "0.383285000000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 129,
+  "name": "Hidros Consultoria",
+  "latitude": "-22.910924",
+  "longitude": "-43.235949",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 751,
+  "name": "HISPIR",
+  "latitude": "37.3807579",
+  "longitude": "-5.99123069999996",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 720,
+  "name": "HJE: Hassania Junior Entreprise",
+  "latitude": "33.5731104",
+  "longitude": "-7.589843399999999",
+  "country": "morocco",
+  "field": null
+}, {
+  "id": 677,
+  "name": "Horizon Ing\u00e9nieur",
+  "latitude": "48.3606496",
+  "longitude": "-4.56668609999997",
+  "country": "france",
+  "field": null
+}, {
+  "id": 550,
+  "name": "Horizons Alsace Chimie",
+  "latitude": "47.7324408",
+  "longitude": "7.31208600000002",
+  "country": "france",
+  "field": null
+}, {
+  "id": 551,
+  "name": "Horus HealthCare Systems",
+  "latitude": "43.6246131",
+  "longitude": "2.26892350000003",
+  "country": "france",
+  "field": null
+}, {
+  "id": 409,
+  "name": "Humaniza Consultoria J\u00fanior em Gest\u00e3o de Pessoas",
+  "latitude": "-17.8904435",
+  "longitude": "-51.718648",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 483,
+  "name": "HUMANUS",
+  "latitude": "-22.6495713",
+  "longitude": "-50.4374706",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 247,
+  "name": "i9 CONSULTORIA",
+  "latitude": "-27.6017199",
+  "longitude": "-48.5178633",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 635,
+  "name": "IAE Bordeaux Consulting",
+  "latitude": "44.845242",
+  "longitude": "-0.557254999999941",
+  "country": "france",
+  "field": null
+}, {
+  "id": 634,
+  "name": "IAE Junior Conseil",
+  "latitude": "43.607543",
+  "longitude": "1.43908999999996",
+  "country": "france",
+  "field": null
+}, {
+  "id": 636,
+  "name": "IAE Lyon Junior Conseil",
+  "latitude": "45.7478903",
+  "longitude": "4.86093449999998",
+  "country": "france",
+  "field": null
+}, {
+  "id": 637,
+  "name": "IAEntrepreneurs",
+  "latitude": "50.6465489",
+  "longitude": "3.06226200000003",
+  "country": "france",
+  "field": null
+}, {
+  "id": 491,
+  "name": "IAG Jr.",
+  "latitude": "-23.5594854",
+  "longitude": "-46.7345685",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 310,
+  "name": "Ibmec Jr. Consultoria Empresarial",
+  "latitude": "-23.006078",
+  "longitude": "-43.3135401",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 638,
+  "name": "ICARE",
+  "latitude": "46.3276181",
+  "longitude": "-0.490932499999985",
+  "country": "france",
+  "field": null
+}, {
+  "id": 16,
+  "name": "ICHEC Junior Consult",
+  "latitude": "50.8278296",
+  "longitude": "4.4555856",
+  "country": "belgium",
+  "field": null
+}, {
+  "id": 355,
+  "name": "ICMC Jr.",
+  "latitude": "-22.0070347",
+  "longitude": "-47.8949323",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 640,
+  "name": "ICN Junior Conseil",
+  "latitude": "48.6979905",
+  "longitude": "6.17074969999999",
+  "country": "france",
+  "field": null
+}, {
+  "id": 113,
+  "name": "Icons - consulting by students",
+  "latitude": "48.2019111",
+  "longitude": "16.3632034",
+  "country": "austria",
+  "field": null
+}, {
+  "id": 406,
+  "name": "Ide",
+  "latitude": "-29.1620865",
+  "longitude": "-51.1485109",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 257,
+  "name": "Ideal Consultoria Jr.",
+  "latitude": "-20.5224793",
+  "longitude": "-43.745384",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 378,
+  "name": "IDEAS",
+  "latitude": "-20.202783",
+  "longitude": "-40.220204",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 554,
+  "name": "Idiil",
+  "latitude": "50.6302014",
+  "longitude": "3.04168679999998",
+  "country": "france",
+  "field": null
+}, {
+  "id": 639,
+  "name": "I\u00c9SEG Conseil\u00a0",
+  "latitude": "50.6353034",
+  "longitude": "3.0451137",
+  "country": "france",
+  "field": null
+}, {
+  "id": 641,
+  "name": "I\u00c9SEG Conseil Paris",
+  "latitude": "48.892422",
+  "longitude": "2.23616100000004",
+  "country": "france",
+  "field": null
+}, {
+  "id": 857,
+  "name": "IHECS Junior Consulting",
+  "latitude": "50.8441408",
+  "longitude": "4.3493195",
+  "country": "belgium",
+  "field": null
+}, {
+  "id": 552,
+  "name": "Imagine Conseil",
+  "latitude": "45.1910716",
+  "longitude": "5.71758209999996",
+  "country": "france",
+  "field": null
+}, {
+  "id": 130,
+  "name": "IME J\u00fanior",
+  "latitude": "-22.955546",
+  "longitude": "-43.166267",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 610,
+  "name": "Impact",
+  "latitude": "48.418859",
+  "longitude": "-4.47202800000002",
+  "country": "france",
+  "field": null
+}, {
+  "id": 553,
+  "name": "Impact'ICAM",
+  "latitude": "48.6135618",
+  "longitude": "2.53823779999993",
+  "country": "france",
+  "field": null
+}, {
+  "id": 266,
+  "name": "IN Junior - Empresa Junior de Computa\u00e7\u00e3o da UFF",
+  "latitude": "-22.9063556",
+  "longitude": "-43.1333917",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 798,
+  "name": "INAT Junior Entreprise",
+  "latitude": "36.8064948",
+  "longitude": "10.1815316",
+  "country": "tunisia",
+  "field": "Agronomic engineering"
+}, {
+  "id": 110,
+  "name": "INCA\u00a0 Empresa Junior",
+  "latitude": "-32.8786681",
+  "longitude": "-68.8763058",
+  "country": "argentina",
+  "field": null
+}, {
+  "id": 782,
+  "name": "INCEPTUM Junior Entreprise",
+  "latitude": "37.0758838",
+  "longitude": "9.536755",
+  "country": "tunisia",
+  "field": "Engineering"
+}, {
+  "id": 279,
+  "name": "Include Engenharia",
+  "latitude": "-5.8434568",
+  "longitude": "-35.1994619",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 353,
+  "name": "Index Consultoria Jr",
+  "latitude": "-3.6768255",
+  "longitude": "-40.3402955",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 397,
+  "name": "InfoJr - UFBA",
+  "latitude": "-13.0013726",
+  "longitude": "-38.507592",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 749,
+  "name": "INFOMUN",
+  "latitude": "38.0152154",
+  "longitude": "-1.16813920000004",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 754,
+  "name": "INGENIA",
+  "latitude": "38.0209402",
+  "longitude": "-1.16972550000003",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 555,
+  "name": "Ing\u00e9nierie et Conseil en Cognitique",
+  "latitude": "44.8062709",
+  "longitude": "-0.597483099999977",
+  "country": "france",
+  "field": null
+}, {
+  "id": 311,
+  "name": "Iniciativa Consultoria",
+  "latitude": "-22.9110992",
+  "longitude": "-43.2373809",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 510,
+  "name": "INNOVAMUNDO Empresa Junior FUP ",
+  "latitude": "2.4439269",
+  "longitude": "-76.6129879",
+  "country": "colombia",
+  "field": null
+}, {
+  "id": 799,
+  "name": "INNOVEN Junior Entreprise",
+  "latitude": "36.8205066",
+  "longitude": "10.187046",
+  "country": "tunisia",
+  "field": "Engineering"
+}, {
+  "id": 192,
+  "name": "Inova",
+  "latitude": "-19.8358057",
+  "longitude": "-43.1685102",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 326,
+  "name": "Inova Empresa J\u00fanior",
+  "latitude": "-3.7385329",
+  "longitude": "-38.5367847",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 284,
+  "name": "Inovar-Eco",
+  "latitude": "-2.5220279",
+  "longitude": "-44.2463475",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 141,
+  "name": "INOVATECH - Empresa J\u00fanior de Engenharia Mec\u00e2nica e El\u00e9trica da UEM",
+  "latitude": "-23.4088889",
+  "longitude": "-51.9378874",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 298,
+  "name": "Inove Consultoria Jr",
+  "latitude": "-3.6917419",
+  "longitude": "-40.3484836",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 786,
+  "name": "INSAT Junior Entreprise",
+  "latitude": "36.842893",
+  "longitude": "10.196202",
+  "country": "tunisia",
+  "field": "Engineering"
+}, {
+  "id": 642,
+  "name": "INSEEC Conseil Bordeaux",
+  "latitude": "44.8591828",
+  "longitude": "-0.555602000000022",
+  "country": "france",
+  "field": null
+}, {
+  "id": 376,
+  "name": "Insight Consultoria",
+  "latitude": "-22.9534791",
+  "longitude": "-43.1740859",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 296,
+  "name": "Insper",
+  "latitude": "-23.5984764",
+  "longitude": "-46.6766652",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 556,
+  "name": "Inspire",
+  "latitude": "45.4523598",
+  "longitude": "4.38782909999998",
+  "country": "france",
+  "field": null
+}, {
+  "id": 714,
+  "name": "Instead",
+  "latitude": "48.5719091",
+  "longitude": "13.451876",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 702,
+  "name": "Institut f\u00fcr Business Consulting",
+  "latitude": "48.0510993",
+  "longitude": "8.20821269999999",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 431,
+  "name": "Instituto de Ci\u00eancia Pol\u00edtica (IPOL)",
+  "latitude": "-15.7583342",
+  "longitude": "-47.8695774",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 177,
+  "name": "Instituto Federal de Educa\u00e7\u00e3o, Ci\u00eancia e Tecnologia de Goi\u00e1s - C\u00e2mpus An\u00e1polis",
+  "latitude": "-16.3733301",
+  "longitude": "-48.9820758",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 488,
+  "name": "Integra",
+  "latitude": "-22.5552756",
+  "longitude": "-47.429508",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 643,
+  "name": "Interface Sciences Po Toulouse Junior Conseil",
+  "latitude": "43.60744",
+  "longitude": "1.43797100000006",
+  "country": "france",
+  "field": null
+}, {
+  "id": 413,
+  "name": "\u00cdnteri",
+  "latitude": "-22.216717",
+  "longitude": "-54.8150427",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 715,
+  "name": "intouchCONSULT",
+  "latitude": "49.0180588",
+  "longitude": "12.1011142",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 315,
+  "name": "Invent\u00f3rio - Empresa J\u00fanior de Design e Moda",
+  "latitude": "-27.5867731",
+  "longitude": "-48.5043637",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 674,
+  "name": "IPAG Nice Junior Conseil",
+  "latitude": "43.7034691",
+  "longitude": "7.27764379999996",
+  "country": "france",
+  "field": null
+}, {
+  "id": 400,
+  "name": "Ipharma Jr. - Consultoria Farmac\u00eautica",
+  "latitude": "-3.748393",
+  "longitude": "-38.5506436",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 557,
+  "name": "IPSA Consult",
+  "latitude": "48.8139632",
+  "longitude": "2.39402010000003",
+  "country": "france",
+  "field": null
+}, {
+  "id": 558,
+  "name": "Iris INSA",
+  "latitude": "47.0826088",
+  "longitude": "2.41628479999997",
+  "country": "france",
+  "field": null
+}, {
+  "id": 26,
+  "name": "ISCAC Junior Solutions",
+  "latitude": "40.2096468",
+  "longitude": "-8.4524855",
+  "country": "portugal",
+  "field": null
+}, {
+  "id": 805,
+  "name": "ISCAE Junior Entreprise",
+  "latitude": "36.8149871",
+  "longitude": "10.060968",
+  "country": "tunisia",
+  "field": "Business"
+}, {
+  "id": 24,
+  "name": "ISCTE Junior Consulting",
+  "latitude": "38.7465123",
+  "longitude": "-9.1580301",
+  "country": "portugal",
+  "field": null
+}, {
+  "id": 644,
+  "name": "ISEM Junior Conseil",
+  "latitude": "43.604157",
+  "longitude": "3.89881100000002",
+  "country": "france",
+  "field": null
+}, {
+  "id": 559,
+  "name": "Isen Concept",
+  "latitude": "50.6340629",
+  "longitude": "3.04887499999995",
+  "country": "france",
+  "field": null
+}, {
+  "id": 817,
+  "name": "ISG-Gab\u00e8s Junior Entreprise",
+  "latitude": "33.883592",
+  "longitude": "10.0904929",
+  "country": "tunisia",
+  "field": "Business"
+}, {
+  "id": 122,
+  "name": "ITA Jr.",
+  "latitude": "-23.2106637",
+  "longitude": "-45.8756462",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 460,
+  "name": "Itatech Group Jr",
+  "latitude": "-10.6817456",
+  "longitude": "-37.4351948",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 168,
+  "name": "ITEP J\u00fanior",
+  "latitude": "-30.0315531",
+  "longitude": "-51.2204692",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 95,
+  "name": "ITU Entreprise",
+  "latitude": "55.6598896",
+  "longitude": "12.591191",
+  "country": "danemark",
+  "field": null
+}, {
+  "id": 32,
+  "name": "IURIS FDUP J\u00fanior",
+  "latitude": "41.1522923",
+  "longitude": "-8.6161321",
+  "country": "portugal",
+  "field": null
+}, {
+  "id": 84,
+  "name": "JADE",
+  "latitude": "50.86384229999999",
+  "longitude": "4.4074183",
+  "country": "europe",
+  "field": null
+}, {
+  "id": 81,
+  "name": "JADE Austria",
+  "latitude": "47.516231",
+  "longitude": "14.550072",
+  "country": "austria",
+  "field": null
+}, {
+  "id": 75,
+  "name": "JADE Belgium",
+  "latitude": "50.86384229999999",
+  "longitude": "4.4074183",
+  "country": "belgium",
+  "field": null
+}, {
+  "id": 82,
+  "name": "JADE Italia",
+  "latitude": "41.87194",
+  "longitude": "12.56738",
+  "country": "italy",
+  "field": null
+}, {
+  "id": 78,
+  "name": "JADE Poland",
+  "latitude": "51.919438",
+  "longitude": "19.145136",
+  "country": "poland",
+  "field": null
+}, {
+  "id": 76,
+  "name": "JADE Portugal",
+  "latitude": "41.1519381",
+  "longitude": "-8.6078219",
+  "country": "portugal",
+  "field": null
+}, {
+  "id": 102,
+  "name": "JADE Romania",
+  "latitude": "44.4267674",
+  "longitude": "26.1025384",
+  "country": "romania",
+  "field": null
+}, {
+  "id": 74,
+  "name": "JADE Switzerland",
+  "latitude": "46.818188",
+  "longitude": "8.227511999999999",
+  "country": "switzerland",
+  "field": null
+}, {
+  "id": 97,
+  "name": "Janus Consultants",
+  "latitude": "52.3791768",
+  "longitude": "9.723882099999999",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 725,
+  "name": "JBC: JUNIOR BUSINESS CONSULTING",
+  "latitude": "35.7594651",
+  "longitude": "-5.833954299999999",
+  "country": "morocco",
+  "field": null
+}, {
+  "id": 106,
+  "name": "JC3",
+  "latitude": "45.5016889",
+  "longitude": "-73.567256",
+  "country": "canada",
+  "field": null
+}, {
+  "id": 28,
+  "name": "JE Brighton",
+  "latitude": "50.842225",
+  "longitude": "-0.119449",
+  "country": "england",
+  "field": null
+}, {
+  "id": 501,
+  "name": "JE Thunderbird",
+  "latitude": "49.2606052",
+  "longitude": "-123.2459939",
+  "country": "canada",
+  "field": null
+}, {
+  "id": 87,
+  "name": "JEBE Sant'Anna",
+  "latitude": "43.7198185",
+  "longitude": "10.4029306",
+  "country": "italy",
+  "field": null
+}, {
+  "id": 57,
+  "name": "JEBO Consulting",
+  "latitude": "44.4790636",
+  "longitude": "11.3579021",
+  "country": "italy",
+  "field": null
+}, {
+  "id": 58,
+  "name": "JEBS Consulting",
+  "latitude": "41.1280118",
+  "longitude": "14.7815682",
+  "country": "italy",
+  "field": null
+}, {
+  "id": 59,
+  "name": "JECatt",
+  "latitude": "45.47287439999999",
+  "longitude": "9.1524169",
+  "country": "italy",
+  "field": null
+}, {
+  "id": 503,
+  "name": "JED Consulting",
+  "latitude": "45.5023822",
+  "longitude": "-73.5763619",
+  "country": "canada",
+  "field": null
+}, {
+  "id": 745,
+  "name": "JEDA Granada",
+  "latitude": "37.1932416",
+  "longitude": "-3.59968400000002",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 744,
+  "name": "JEDI Junior Empresa",
+  "latitude": "41.3894765",
+  "longitude": "2.11299050000002",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 560,
+  "name": "JEECE",
+  "latitude": "48.8518608",
+  "longitude": "2.2851012",
+  "country": "france",
+  "field": null
+}, {
+  "id": 30,
+  "name": "JEEFEUC",
+  "latitude": "40.2147405",
+  "longitude": "-8.4086965",
+  "country": "portugal",
+  "field": null
+}, {
+  "id": 726,
+  "name": "JEGESI",
+  "latitude": "34.0154924",
+  "longitude": "-5.00727099999995",
+  "country": "morocco",
+  "field": null
+}, {
+  "id": 27,
+  "name": "jeKnowledge",
+  "latitude": "40.2079488",
+  "longitude": "-8.4239712",
+  "country": "portugal",
+  "field": null
+}, {
+  "id": 91,
+  "name": "JELU Consulting",
+  "latitude": "41.92493",
+  "longitude": "12.49308",
+  "country": "italy",
+  "field": null
+}, {
+  "id": 584,
+  "name": "JEMA",
+  "latitude": "43.618023",
+  "longitude": "3.85449530000005",
+  "country": "france",
+  "field": null
+}, {
+  "id": 61,
+  "name": "JEME Bocconi",
+  "latitude": "45.4494444",
+  "longitude": "9.1843785",
+  "country": "italy",
+  "field": null
+}, {
+  "id": 62,
+  "name": "JEMP - Junior Entreprise Milano Politecnico",
+  "latitude": "45.5065975",
+  "longitude": "9.1634988",
+  "country": "italy",
+  "field": null
+}, {
+  "id": 561,
+  "name": "Jensim\u00a0",
+  "latitude": "48.0186599",
+  "longitude": "0.15750909999997",
+  "country": "france",
+  "field": null
+}, {
+  "id": 795,
+  "name": "JEPSO Junior Entreprise",
+  "latitude": "35.8245029",
+  "longitude": "10.634584",
+  "country": "tunisia",
+  "field": "Engineering"
+}, {
+  "id": 65,
+  "name": "JET ESCP Europe",
+  "latitude": "45.038064",
+  "longitude": "7.6521047",
+  "country": "italy",
+  "field": null
+}, {
+  "id": 3,
+  "name": "Jeune Consulting",
+  "latitude": "46.99388440000001",
+  "longitude": "6.9387156",
+  "country": "switzerland",
+  "field": null
+}, {
+  "id": 21,
+  "name": "Jewacs",
+  "latitude": "50.4589316",
+  "longitude": "3.9502682",
+  "country": "belgium",
+  "field": null
+}, {
+  "id": 819,
+  "name": "JJC Junior Entreprise",
+  "latitude": "36.82930899999999",
+  "longitude": "10.146268",
+  "country": "tunisia",
+  "field": "Juridic"
+}, {
+  "id": 116,
+  "name": "Jo\u00e3o Pinheiro Jr.",
+  "latitude": "-19.8523198",
+  "longitude": "-43.9645656",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 777,
+  "name": "J\u00f6nk\u00f6ping International Business School",
+  "latitude": "57.780033",
+  "longitude": "14.1586321",
+  "country": "sweden",
+  "field": null
+}, {
+  "id": 341,
+  "name": "JR Consultoria - UFPR",
+  "latitude": "-25.445145",
+  "longitude": "-49.237534",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 276,
+  "name": "Jr. Eng",
+  "latitude": "-22.8025789",
+  "longitude": "-45.1921615",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 354,
+  "name": "Jr. FEA - RP",
+  "latitude": "-21.1726543",
+  "longitude": "-47.8594759",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 324,
+  "name": "JRS Consultoria",
+  "latitude": "-9.5556611",
+  "longitude": "-35.7765671",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 506,
+  "name": "JSEC",
+  "latitude": "45.4970605",
+  "longitude": "-73.5788022",
+  "country": "canada",
+  "field": null
+}, {
+  "id": 767,
+  "name": "Judoc",
+  "latitude": "38.0175444",
+  "longitude": "-1.16961049999998",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 562,
+  "name": "JuMP MINES ParisTech",
+  "latitude": "48.8455",
+  "longitude": "2.33961060000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 762,
+  "name": "JUNE",
+  "latitude": "43.3113742",
+  "longitude": "-2.01047110000002",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 34,
+  "name": "JuniFEUP",
+  "latitude": "41.1782504",
+  "longitude": "-8.599064",
+  "country": "portugal",
+  "field": null
+}, {
+  "id": 508,
+  "name": "Junior Antofagasta",
+  "latitude": "-23.6792662",
+  "longitude": "-70.4084745",
+  "country": "chile",
+  "field": null
+}, {
+  "id": 688,
+  "name": "Junior Beratung Bayreuth",
+  "latitude": "49.929371",
+  "longitude": "11.5804614",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 577,
+  "name": "Junior CentraleSup\u00e9lec",
+  "latitude": "48.7097519",
+  "longitude": "2.1651914",
+  "country": "france",
+  "field": null
+}, {
+  "id": 645,
+  "name": "Junior Communication",
+  "latitude": "48.8944825",
+  "longitude": "2.27453760000003",
+  "country": "france",
+  "field": null
+}, {
+  "id": 612,
+  "name": "Junior Conseil ENSE3",
+  "latitude": "45.202782",
+  "longitude": "5.70329600000002",
+  "country": "france",
+  "field": null
+}, {
+  "id": 676,
+  "name": "Junior Conseil ESCE",
+  "latitude": "48.8511759",
+  "longitude": "2.28855880000003",
+  "country": "france",
+  "field": null
+}, {
+  "id": 646,
+  "name": "Junior Conseil et Strategie",
+  "latitude": "45.747039",
+  "longitude": "4.83574699999997",
+  "country": "france",
+  "field": null
+}, {
+  "id": 823,
+  "name": "Junior Conseil Taker",
+  "latitude": "48.8155478",
+  "longitude": "2.3629841",
+  "country": "france",
+  "field": "Engineering"
+}, {
+  "id": 837,
+  "name": "Junior Conseil Taker Bordeaux",
+  "latitude": "46.227638",
+  "longitude": "2.213749",
+  "country": "france",
+  "field": "Engineering"
+}, {
+  "id": 836,
+  "name": "Junior Conseil Taker Lille",
+  "latitude": null,
+  "longitude": null,
+  "country": "france",
+  "field": "Engineering"
+}, {
+  "id": 832,
+  "name": "Junior Conseil Taker Lyon",
+  "latitude": null,
+  "longitude": null,
+  "country": "france",
+  "field": "Engineering"
+}, {
+  "id": 835,
+  "name": "Junior Conseil Taker Marseille",
+  "latitude": "46.227638",
+  "longitude": "2.213749",
+  "country": "france",
+  "field": "Engineering"
+}, {
+  "id": 833,
+  "name": "Junior Conseil Taker Montpellier",
+  "latitude": null,
+  "longitude": null,
+  "country": "france",
+  "field": "Engineering"
+}, {
+  "id": 834,
+  "name": "Junior Conseil Taker Nancy",
+  "latitude": "46.227638",
+  "longitude": "2.213749",
+  "country": "france",
+  "field": "Engineering"
+}, {
+  "id": 565,
+  "name": "Junior Conseil UTBM",
+  "latitude": "47.5884135",
+  "longitude": "6.86553739999999",
+  "country": "france",
+  "field": null
+}, {
+  "id": 566,
+  "name": "Junior Conseil UTT",
+  "latitude": "48.2693243",
+  "longitude": "4.06548559999999",
+  "country": "france",
+  "field": null
+}, {
+  "id": 68,
+  "name": "Junior Consulting",
+  "latitude": "50.92847159999999",
+  "longitude": "5.3887681",
+  "country": "belgium",
+  "field": null
+}, {
+  "id": 647,
+  "name": "Junior Consulting - Grenoble IAE",
+  "latitude": "45.192064",
+  "longitude": "5.76552620000007",
+  "country": "france",
+  "field": null
+}, {
+  "id": 648,
+  "name": "Junior Consulting IAE Aix",
+  "latitude": "43.5863623",
+  "longitude": "5.42343080000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 649,
+  "name": "Junior Consulting Partners",
+  "latitude": "48.8896843",
+  "longitude": "2.25318270000002",
+  "country": "france",
+  "field": null
+}, {
+  "id": 72,
+  "name": "Junior Consulting Sciences Po",
+  "latitude": "48.8540917",
+  "longitude": "2.3283745",
+  "country": "france",
+  "field": null
+}, {
+  "id": 713,
+  "name": "Junior Consulting Team",
+  "latitude": "49.4583166",
+  "longitude": "11.0861172",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 567,
+  "name": "Junior des Territoires",
+  "latitude": "45.1652303",
+  "longitude": "5.72789039999998",
+  "country": "france",
+  "field": null
+}, {
+  "id": 436,
+  "name": "J\u00fanior Design",
+  "latitude": "-25.426753",
+  "longitude": "-49.262274",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 609,
+  "name": "Junior ENSEA",
+  "latitude": "49.0389554",
+  "longitude": "2.07125989999997",
+  "country": "france",
+  "field": null
+}, {
+  "id": 89,
+  "name": "Junior Enterprise Communication & Marketing Milano",
+  "latitude": "45.4657931",
+  "longitude": "9.202663099999999",
+  "country": "italy",
+  "field": null
+}, {
+  "id": 88,
+  "name": "Junior Enterprise di Cagliari",
+  "latitude": "39.2413507",
+  "longitude": "9.1957205",
+  "country": "italy",
+  "field": null
+}, {
+  "id": 64,
+  "name": "Junior Enterprise di Ingegneria Gestionale di Vicenza",
+  "latitude": "45.545699",
+  "longitude": "11.548762",
+  "country": "italy",
+  "field": null
+}, {
+  "id": 85,
+  "name": "Junior Enterprise Global Council",
+  "latitude": "50.8624911",
+  "longitude": "4.4051991",
+  "country": "world",
+  "field": null
+}, {
+  "id": 60,
+  "name": "Junior Enterprise LIUC",
+  "latitude": "45.6119356",
+  "longitude": "8.9007572",
+  "country": "italy",
+  "field": null
+}, {
+  "id": 92,
+  "name": "Junior Enterprise Milano Bicocca",
+  "latitude": "45.51844639999999",
+  "longitude": "9.2131057",
+  "country": "italy",
+  "field": null
+}, {
+  "id": 93,
+  "name": "Junior Enterprise Torino Politecnico",
+  "latitude": "45.06249200000001",
+  "longitude": "7.6622029",
+  "country": "italy",
+  "field": null
+}, {
+  "id": 79,
+  "name": "Junior Enterprise USA",
+  "latitude": "37.09024",
+  "longitude": "-95.712891",
+  "country": "usa",
+  "field": null
+}, {
+  "id": 80,
+  "name": "Junior Enterprises of Tunisia",
+  "latitude": "33.886917",
+  "longitude": "9.537499",
+  "country": "tunisia",
+  "field": "Confederation"
+}, {
+  "id": 107,
+  "name": "Junior Entreprise Cameroun",
+  "latitude": "3.8480325",
+  "longitude": "11.5020752",
+  "country": "cameroon",
+  "field": null
+}, {
+  "id": 721,
+  "name": "Junior Entreprise Centrale Casablanca",
+  "latitude": "33.4795351",
+  "longitude": "-7.62235150000004",
+  "country": "morocco",
+  "field": null
+}, {
+  "id": 73,
+  "name": "Junior Entreprise EHG",
+  "latitude": "46.2268784",
+  "longitude": "6.138153",
+  "country": "switzerland",
+  "field": null
+}, {
+  "id": 2,
+  "name": "Junior Entreprise EHL",
+  "latitude": "46.5606274",
+  "longitude": "6.6825351",
+  "country": "switzerland",
+  "field": null
+}, {
+  "id": 493,
+  "name": "Junior Entreprise ENSPY",
+  "latitude": "3.8625778",
+  "longitude": "11.5001221",
+  "country": "cameroon",
+  "field": null
+}, {
+  "id": 1,
+  "name": "Junior Entreprise EPFL",
+  "latitude": "46.5199371",
+  "longitude": "6.5652458",
+  "country": "switzerland",
+  "field": null
+}, {
+  "id": 496,
+  "name": "Junior Entreprise ESSEC Projets",
+  "latitude": "4.0555966",
+  "longitude": "9.73426119999999",
+  "country": "cameroon",
+  "field": null
+}, {
+  "id": 90,
+  "name": "Junior Entreprise Florence",
+  "latitude": "43.77768650000001",
+  "longitude": "11.2586425",
+  "country": "italy",
+  "field": null
+}, {
+  "id": 9,
+  "name": "Junior Entreprise Fribourg",
+  "latitude": "46.7939003",
+  "longitude": "7.1594799",
+  "country": "switzerland",
+  "field": null
+}, {
+  "id": 7,
+  "name": "Junior Entreprise Gen\u00e8ve",
+  "latitude": "46.1949525",
+  "longitude": "6.1399431",
+  "country": "switzerland",
+  "field": null
+}, {
+  "id": 4,
+  "name": "Junior Entreprise HEC Lausanne",
+  "latitude": "46.52246299999999",
+  "longitude": "6.584383",
+  "country": "switzerland",
+  "field": null
+}, {
+  "id": 6,
+  "name": "Junior Entreprise HEG",
+  "latitude": "46.1757046",
+  "longitude": "6.1390892",
+  "country": "switzerland",
+  "field": null
+}, {
+  "id": 10,
+  "name": "Junior Entreprise HEGT",
+  "latitude": "46.293094",
+  "longitude": "7.536819",
+  "country": "switzerland",
+  "field": null
+}, {
+  "id": 8,
+  "name": "Junior Entreprise Hepia",
+  "latitude": "46.2098003",
+  "longitude": "6.135632699999999",
+  "country": "switzerland",
+  "field": null
+}, {
+  "id": 18,
+  "name": "Junior Entreprise Namur Consult",
+  "latitude": "50.46615449999999",
+  "longitude": "4.857152699999999",
+  "country": "belgium",
+  "field": null
+}, {
+  "id": 63,
+  "name": "Junior Entreprise Parma",
+  "latitude": "44.8045967",
+  "longitude": "10.3168818",
+  "country": "italy",
+  "field": null
+}, {
+  "id": 499,
+  "name": "Junior Entreprise SUP DE CO",
+  "latitude": "3.7938386",
+  "longitude": "11.6192152",
+  "country": "cameroon",
+  "field": null
+}, {
+  "id": 67,
+  "name": "Junior Entreprise Trento",
+  "latitude": "46.0706632",
+  "longitude": "11.1223388",
+  "country": "italy",
+  "field": null
+}, {
+  "id": 495,
+  "name": "Junior Entreprise UDM\u00a0",
+  "latitude": "5.1307823",
+  "longitude": "10.5243659",
+  "country": "cameroon",
+  "field": null
+}, {
+  "id": 11,
+  "name": "Junior Entreprise Vatel",
+  "latitude": "46.109333",
+  "longitude": "7.084613",
+  "country": "switzerland",
+  "field": null
+}, {
+  "id": 599,
+  "name": "Junior ESIEE",
+  "latitude": "48.83803839999999",
+  "longitude": "2.5835746",
+  "country": "france",
+  "field": null
+}, {
+  "id": 654,
+  "name": "Junior ESSEC Conseil",
+  "latitude": "49.034154",
+  "longitude": "2.07802500000003",
+  "country": "france",
+  "field": null
+}, {
+  "id": 596,
+  "name": "Junior ESTACA",
+  "latitude": "48.787711",
+  "longitude": "2.04221000000007",
+  "country": "france",
+  "field": null
+}, {
+  "id": 574,
+  "name": "Junior ESTP",
+  "latitude": "48.794231",
+  "longitude": "2.32740100000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 665,
+  "name": "Junior Etudes IAE Consultants",
+  "latitude": "46.588046",
+  "longitude": "0.344564999999989",
+  "country": "france",
+  "field": null
+}, {
+  "id": 652,
+  "name": "Junior Ewebbi",
+  "latitude": "45.7208795",
+  "longitude": "4.91707539999993",
+  "country": "france",
+  "field": null
+}, {
+  "id": 650,
+  "name": "Junior Experts Sciences Po Aix",
+  "latitude": "43.531622",
+  "longitude": "5.44666230000007",
+  "country": "france",
+  "field": null
+}, {
+  "id": 293,
+  "name": "Junior FEI",
+  "latitude": "-23.725415",
+  "longitude": "-46.580893",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 669,
+  "name": "Junior IAE Paris",
+  "latitude": "48.827313",
+  "longitude": "2.38179430000002",
+  "country": "france",
+  "field": null
+}, {
+  "id": 614,
+  "name": "Junior Informatique Nancy",
+  "latitude": "48.6972913",
+  "longitude": "6.17127749999997",
+  "country": "france",
+  "field": null
+}, {
+  "id": 591,
+  "name": "Junior INSA Services",
+  "latitude": "43.5713169",
+  "longitude": "1.46894369999995",
+  "country": "france",
+  "field": null
+}, {
+  "id": 585,
+  "name": "Junior ISEN-Toulon",
+  "latitude": "43.1206686",
+  "longitude": "5.93912090000003",
+  "country": "france",
+  "field": null
+}, {
+  "id": 603,
+  "name": "Junior ISEP",
+  "latitude": "48.8453849",
+  "longitude": "2.32813490000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 678,
+  "name": "Junior ISIT",
+  "latitude": "48.8499105",
+  "longitude": "2.33071329999996",
+  "country": "france",
+  "field": null
+}, {
+  "id": 687,
+  "name": "Junior Management Spektrum",
+  "latitude": "48.3339959",
+  "longitude": "10.8989059",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 573,
+  "name": "Junior MIAGE Concept",
+  "latitude": "43.6169438",
+  "longitude": "7.06454550000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 568,
+  "name": "Junior MIAGE Concept Aix-Marseille",
+  "latitude": "43.524649",
+  "longitude": "5.45654200000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 598,
+  "name": "Junior MIAGE Concept Paris La D\u00e9fense",
+  "latitude": "48.903399",
+  "longitude": "2.211274",
+  "country": "france",
+  "field": null
+}, {
+  "id": 564,
+  "name": "Junior Phelma",
+  "latitude": "45.1950263",
+  "longitude": "5.710105",
+  "country": "france",
+  "field": null
+}, {
+  "id": 651,
+  "name": "Junior Riviera Conseil",
+  "latitude": "43.6165233",
+  "longitude": "7.06412590000002",
+  "country": "france",
+  "field": null
+}, {
+  "id": 608,
+  "name": "Junior UPMC Conseil",
+  "latitude": "48.8492061",
+  "longitude": "2.38384250000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 20,
+  "name": "Junitec",
+  "latitude": "38.7372864",
+  "longitude": "-9.1378757",
+  "country": "portugal",
+  "field": null
+}, {
+  "id": 420,
+  "name": "Konvex Consultoria",
+  "latitude": "-26.2530735",
+  "longitude": "-48.8542111",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 711,
+  "name": "KREAKTIV",
+  "latitude": "51.9683023",
+  "longitude": "7.59567249999998",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 717,
+  "name": "kreaktiv",
+  "latitude": "51.9683231",
+  "longitude": "7.5953971",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 583,
+  "name": "KSI Centrale Marseille",
+  "latitude": "43.3425025",
+  "longitude": "5.43715220000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 425,
+  "name": "Labotur",
+  "latitude": "-2.5522108",
+  "longitude": "-44.3055036",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 438,
+  "name": "Lamparina Design",
+  "latitude": "-15.762436",
+  "longitude": "-47.870233",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 815,
+  "name": "Laur\u00e9at Junior Entreprise",
+  "latitude": "36.8772637",
+  "longitude": "10.2646922",
+  "country": "tunisia",
+  "field": "Business"
+}, {
+  "id": 411,
+  "name": "Level 5 Junior",
+  "latitude": "-16.603683",
+  "longitude": "-49.2656887",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 286,
+  "name": "LIFE Jr. Laborat\u00f3rio de Inova\u00e7\u00f5es",
+  "latitude": "-14.7975856",
+  "longitude": "-39.1724731",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 740,
+  "name": "Liga Studen\u021bilor din Facultatea de Automatic\u0103 \u0219i Calculatoare",
+  "latitude": "44.4357327",
+  "longitude": "26.0477521",
+  "country": "romania",
+  "field": null
+}, {
+  "id": 741,
+  "name": "Liga Studen\u021bilor Electroni\u0219ti LSE",
+  "latitude": "44.4337844",
+  "longitude": "26.057596",
+  "country": "romania",
+  "field": null
+}, {
+  "id": 471,
+  "name": "Linked Empresa J\u00fanior",
+  "latitude": "-21.106159",
+  "longitude": "-44.2496134",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 25,
+  "name": "Lisbon PH",
+  "latitude": "38.7496069",
+  "longitude": "-9.1571689",
+  "country": "portugal",
+  "field": null
+}, {
+  "id": 42,
+  "name": "LLN Juris Club",
+  "latitude": "50.6669754",
+  "longitude": "4.6102906",
+  "country": "belgium",
+  "field": null
+}, {
+  "id": 464,
+  "name": "Locus Iuris",
+  "latitude": "-27.5984055",
+  "longitude": "-48.5222706",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 820,
+  "name": "LOGISTIC SOLUTIONS Junior Entreprise",
+  "latitude": "35.8106905",
+  "longitude": "10.5930631",
+  "country": "tunisia",
+  "field": "Logistic"
+}, {
+  "id": 515,
+  "name": "Loire Concept",
+  "latitude": "47.2749009",
+  "longitude": "-1.50701809999998",
+  "country": "france",
+  "field": null
+}, {
+  "id": 15,
+  "name": "LSM Conseil",
+  "latitude": "50.668369",
+  "longitude": "4.612541",
+  "country": "belgium",
+  "field": null
+}, {
+  "id": 44,
+  "name": "Lumnus Consulting",
+  "latitude": "32.8824069",
+  "longitude": "-117.2348172",
+  "country": "usa",
+  "field": null
+}, {
+  "id": 216,
+  "name": "Lumus Engenharia - UFRN",
+  "latitude": "-5.8423639",
+  "longitude": "-35.1970702",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 576,
+  "name": "M-GaTE",
+  "latitude": "43.44594",
+  "longitude": "5.48019199999999",
+  "country": "france",
+  "field": null
+}, {
+  "id": 756,
+  "name": "Magna SIS",
+  "latitude": "43.307203",
+  "longitude": "-2.01084200000003",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 179,
+  "name": "Mais Consultoria",
+  "latitude": "-21.778321",
+  "longitude": "-43.372563",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 765,
+  "name": "M\u00e1lagacom",
+  "latitude": "36.7180856",
+  "longitude": "-4.47568550000005",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 656,
+  "name": "Management Consulting M\u00e9diterran\u00e9e",
+  "latitude": "42.2989986",
+  "longitude": "9.1528366",
+  "country": "france",
+  "field": null
+}, {
+  "id": 202,
+  "name": "Mandala",
+  "latitude": "-30.0324289",
+  "longitude": "-51.2222649",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 117,
+  "name": "Marketing J\u00fanior USP",
+  "latitude": "-23.48344",
+  "longitude": "-46.5007496",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 661,
+  "name": "Marketing Mediterranee",
+  "latitude": "43.2318786",
+  "longitude": "5.43326520000005",
+  "country": "france",
+  "field": null
+}, {
+  "id": 291,
+  "name": "MASCI Consultoria Jr.",
+  "latitude": "-21.76058",
+  "longitude": "-43.353471",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 435,
+  "name": "Matriz Comunica\u00e7\u00e3o",
+  "latitude": "-15.8649166",
+  "longitude": "-48.029563",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 209,
+  "name": "Matriz Engenharia de Energia",
+  "latitude": "-15.9880989",
+  "longitude": "-48.0435368",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 123,
+  "name": "Mau\u00e1 Jr.",
+  "latitude": "-23.6488195",
+  "longitude": "-46.5741795",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 507,
+  "name": "MCCC",
+  "latitude": "45.497602",
+  "longitude": "-73.5791026",
+  "country": "canada",
+  "field": null
+}, {
+  "id": 220,
+  "name": "MECAJUN - Mecatr\u00f4nica J\u00fanior de Bras\u00edlia",
+  "latitude": "-15.7635351",
+  "longitude": "-47.8727611",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 281,
+  "name": "Mecatron",
+  "latitude": "-22.8191846",
+  "longitude": "-47.065487",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 681,
+  "name": "Med'Advice",
+  "latitude": "48.530155",
+  "longitude": "7.73498399999994",
+  "country": "france",
+  "field": null
+}, {
+  "id": 778,
+  "name": "MELKART Junior Entreprise",
+  "latitude": "36.8529199",
+  "longitude": "10.3217245",
+  "country": "tunisia",
+  "field": "Engineering"
+}, {
+  "id": 264,
+  "name": "Meta",
+  "latitude": "-18.9196383",
+  "longitude": "-48.2595572",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 175,
+  "name": "Meta Consultoria",
+  "latitude": "-22.904915",
+  "longitude": "-43.131301",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 163,
+  "name": "Metal Solu\u00e7\u00f5es J\u00fanior",
+  "latitude": "-3.7584061",
+  "longitude": "-38.5716667",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 288,
+  "name": "Midas Consultoria J\u00fanior",
+  "latitude": "-21.7552598",
+  "longitude": "-41.3306791",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 182,
+  "name": "Minas J\u00fanior Consultoria Mineral",
+  "latitude": "-19.8725404",
+  "longitude": "-43.9650998",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 513,
+  "name": "MiND",
+  "latitude": "47.2811319",
+  "longitude": "-1.52053860000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 586,
+  "name": "Mind-Up",
+  "latitude": "50.4350531",
+  "longitude": "2.82351389999997",
+  "country": "france",
+  "field": null
+}, {
+  "id": 193,
+  "name": "Minera Consultoria Jr.",
+  "latitude": "-8.0525536",
+  "longitude": "-34.9454096",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 578,
+  "name": "Mines Etudes et Projets",
+  "latitude": "45.422881",
+  "longitude": "4.408008",
+  "country": "france",
+  "field": null
+}, {
+  "id": 581,
+  "name": "Mines Services",
+  "latitude": "48.6753167",
+  "longitude": "6.16775580000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 55,
+  "name": "MMT Junior Entreprise",
+  "latitude": "36.8603493",
+  "longitude": "10.3368495",
+  "country": "tunisia",
+  "field": "Business"
+}, {
+  "id": 675,
+  "name": "MOMA Junior Conseil",
+  "latitude": "43.6042308",
+  "longitude": "3.89880330000005",
+  "country": "france",
+  "field": null
+}, {
+  "id": 468,
+  "name": "Mosaico Communication Jr.",
+  "latitude": "-21.1035852",
+  "longitude": "-44.2508943",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 772,
+  "name": "Motivawork",
+  "latitude": "35.8905951",
+  "longitude": "-5.29887819999999",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 282,
+  "name": "Motriz Empresa J\u00fanior",
+  "latitude": "-22.819433",
+  "longitude": "-47.065944",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 694,
+  "name": "move - Studentische Unternehmensberatung e. V.",
+  "latitude": "51.9618403",
+  "longitude": "7.619726699999998",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 572,
+  "name": "MuConseil",
+  "latitude": "47.2504891",
+  "longitude": "5.99304029999996",
+  "country": "france",
+  "field": null
+}, {
+  "id": 185,
+  "name": "Mult Jr - Consultoria e Projetos",
+  "latitude": "-19.8726769",
+  "longitude": "-43.9644688",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 348,
+  "name": "MultiConsultoria",
+  "latitude": "-22.7684765",
+  "longitude": "-43.6850354",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 37,
+  "name": "N-HiTec",
+  "latitude": "50.5834146",
+  "longitude": "5.5609589",
+  "country": "belgium",
+  "field": null
+}, {
+  "id": 592,
+  "name": "N7 Consulting",
+  "latitude": "43.6018224",
+  "longitude": "1.45610690000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 86,
+  "name": "NEXT Junior Enterprise",
+  "latitude": "45.8267895",
+  "longitude": "15.998354",
+  "country": "croatia",
+  "field": null
+}, {
+  "id": 392,
+  "name": "No Bugs - Empresa J\u00fanior de Inform\u00e1tica",
+  "latitude": "-20.7629505",
+  "longitude": "-42.8670152",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 109,
+  "name": "Nodos Empresa Junior",
+  "latitude": "-31.44225",
+  "longitude": "-64.1931658",
+  "country": "argentina",
+  "field": null
+}, {
+  "id": 653,
+  "name": "Normandie Junior Conseil Caen",
+  "latitude": "49.2106199",
+  "longitude": "-0.356661000000031",
+  "country": "france",
+  "field": null
+}, {
+  "id": 22,
+  "name": "Nova Junior Consulting",
+  "latitude": "38.7326497",
+  "longitude": "-9.1614917",
+  "country": "portugal",
+  "field": null
+}, {
+  "id": 424,
+  "name": "Novamente",
+  "latitude": "-2.552511",
+  "longitude": "-44.3056806",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 670,
+  "name": "Novancia Junior Conseil",
+  "latitude": "48.8421504",
+  "longitude": "2.31795599999998",
+  "country": "france",
+  "field": null
+}, {
+  "id": 46,
+  "name": "Novus Junior Enterprise",
+  "latitude": "38.5398745",
+  "longitude": "-121.7548688",
+  "country": "usa",
+  "field": null
+}, {
+  "id": 579,
+  "name": "NSIGMA Junior-Entreprise",
+  "latitude": "45.193409",
+  "longitude": "5.76829399999997",
+  "country": "france",
+  "field": null
+}, {
+  "id": 224,
+  "name": "N\u00facleo Consultoria",
+  "latitude": "-22.771559",
+  "longitude": "-43.6880685",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 218,
+  "name": "NUTEQ",
+  "latitude": "-5.8428223",
+  "longitude": "-35.1990429",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 466,
+  "name": "Nutri Jr.",
+  "latitude": "-27.6007127",
+  "longitude": "-48.5210019",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 448,
+  "name": "Nutrir",
+  "latitude": "-15.7688204",
+  "longitude": "-47.866937",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 440,
+  "name": "Ol\u00e9 J\u00fanior",
+  "latitude": "-15.7632679",
+  "longitude": "-47.8605227",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 260,
+  "name": "\u00d4mega",
+  "latitude": "-21.1409973",
+  "longitude": "-44.2618775",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 300,
+  "name": "Op\u00e7\u00e3o Consultoria",
+  "latitude": "-22.8984516",
+  "longitude": "-43.1330269",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 800,
+  "name": "OPTIMA Junior Entreprise",
+  "latitude": "36.8064948",
+  "longitude": "10.1815316",
+  "country": "tunisia",
+  "field": "Engineering"
+}, {
+  "id": 147,
+  "name": "Optimus Engenharia Junior",
+  "latitude": "-14.799098",
+  "longitude": "-39.170135",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 151,
+  "name": "Optimus JR - Empresa J\u00fanior de Eng. de Controle e Automa\u00e7\u00e3o - UFBA",
+  "latitude": "-12.999424",
+  "longitude": "-38.510084",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 600,
+  "name": "Opto Services",
+  "latitude": "48.71374",
+  "longitude": "2.20349269999997",
+  "country": "france",
+  "field": null
+}, {
+  "id": 157,
+  "name": "Otimiza Consultoria Jr",
+  "latitude": "-12.9996958",
+  "longitude": "-38.5104059",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 590,
+  "name": "Ouest INSA",
+  "latitude": "48.1248075",
+  "longitude": "-1.633625",
+  "country": "france",
+  "field": null
+}, {
+  "id": 569,
+  "name": "Ouest Services Etudes Recherches",
+  "latitude": "47.4587249",
+  "longitude": "-0.544958800000018",
+  "country": "france",
+  "field": null
+}, {
+  "id": 70,
+  "name": "Outside the Box LLN",
+  "latitude": "50.66968749999999",
+  "longitude": "4.6155909",
+  "country": "belgium",
+  "field": null
+}, {
+  "id": 124,
+  "name": "P&Q Engenharia Jr.",
+  "latitude": "-22.904224",
+  "longitude": "-43.130623",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 301,
+  "name": "Pacto Consultoria Jr.",
+  "latitude": "-22.8974521",
+  "longitude": "-43.1249105",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 137,
+  "name": "Parthenon",
+  "latitude": "-23.7796954",
+  "longitude": "-53.3249686",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 700,
+  "name": "PAUL Consultants",
+  "latitude": "51.03367170000001",
+  "longitude": "13.7273052",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 368,
+  "name": "Paulista Jr. Projetos & Consultoria",
+  "latitude": "-21.813222",
+  "longitude": "-48.199238",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 38,
+  "name": "PBDA Consulting",
+  "latitude": "52.4258529",
+  "longitude": "16.924357",
+  "country": "poland",
+  "field": null
+}, {
+  "id": 127,
+  "name": "PCP Jr - Consultoria PUC",
+  "latitude": "-19.9770993",
+  "longitude": "-44.025644",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 470,
+  "name": "Perfil Consultoria Jr.",
+  "latitude": "-21.1228734",
+  "longitude": "-44.2506098",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 571,
+  "name": "Performer",
+  "latitude": "49.459923",
+  "longitude": "2.06791799999996",
+  "country": "france",
+  "field": null
+}, {
+  "id": 487,
+  "name": "Pharmaceutica Jr.",
+  "latitude": "-22.820622",
+  "longitude": "-47.068176",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 774,
+  "name": "Pharmaceutical",
+  "latitude": "39.5095121",
+  "longitude": "-0.42023979999999",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 444,
+  "name": "Phygeo",
+  "latitude": "-15.7637808",
+  "longitude": "-47.8690755",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 580,
+  "name": "Physique Strasbourg Ing\u00e9nierie",
+  "latitude": "48.525671",
+  "longitude": "7.73772199999996",
+  "country": "france",
+  "field": null
+}, {
+  "id": 604,
+  "name": "Physique-Chimie Avenir",
+  "latitude": "48.841427",
+  "longitude": "2.347206",
+  "country": "france",
+  "field": null
+}, {
+  "id": 289,
+  "name": "Physis Jr.",
+  "latitude": "-21.9841994",
+  "longitude": "-47.8835651",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 183,
+  "name": "PJ Consultoria & Assessoria",
+  "latitude": "-19.8727486",
+  "longitude": "-43.9647933",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 454,
+  "name": "Polaris Jr.",
+  "latitude": "-15.769571",
+  "longitude": "-47.8702962",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 236,
+  "name": "Poli JR Engineering",
+  "latitude": "-8.0440603",
+  "longitude": "-34.8861167",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 234,
+  "name": "Poli J\u00fanior",
+  "latitude": "-23.5536901",
+  "longitude": "-46.7301863",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 588,
+  "name": "Polytech'Expertise",
+  "latitude": "47.8442611",
+  "longitude": "1.93895929999996",
+  "country": "france",
+  "field": null
+}, {
+  "id": 712,
+  "name": "Ponte Consult",
+  "latitude": "48.3803578",
+  "longitude": "10.0089131",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 407,
+  "name": "Ponto Comunica\u00e7\u00e3o Empresa Jr.",
+  "latitude": "-16.603887",
+  "longitude": "-49.26324",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 595,
+  "name": "Ponts Etudes Projets",
+  "latitude": "48.841111",
+  "longitude": "2.58854099999996",
+  "country": "france",
+  "field": null
+}, {
+  "id": 180,
+  "name": "Porte Empresa Jr.",
+  "latitude": "-21.778075",
+  "longitude": "-43.372392",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 449,
+  "name": "Praxis",
+  "latitude": "-15.7643696",
+  "longitude": "-47.8682542",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 285,
+  "name": "Praxis - Empresa Jr.",
+  "latitude": "-13.0119967",
+  "longitude": "-38.4889474",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 492,
+  "name": "Pr\u00e9pavogt Junior Consulting",
+  "latitude": "3.841399",
+  "longitude": "11.4996654",
+  "country": "cameroon",
+  "field": null
+}, {
+  "id": 422,
+  "name": "Preserva J\u00fanior",
+  "latitude": "-21.228979",
+  "longitude": "-44.975104",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 48,
+  "name": "Prime Incubator",
+  "latitude": "33.7712891",
+  "longitude": "-84.3929836",
+  "country": "usa",
+  "field": null
+}, {
+  "id": 358,
+  "name": "Primus Consultoria",
+  "latitude": "-12.981609",
+  "longitude": "-38.451131",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 154,
+  "name": "Prisma - Empresa J\u00fanior de Engenharia Qu\u00edmica da UFBA",
+  "latitude": "-12.9995343",
+  "longitude": "-38.5101156",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 486,
+  "name": "Pro Jr",
+  "latitude": "-22.3483088",
+  "longitude": "-49.0307156",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 162,
+  "name": "Proativa Jr",
+  "latitude": "-3.7441122",
+  "longitude": "-38.5760236",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 582,
+  "name": "PROCEDEC",
+  "latitude": "48.699548",
+  "longitude": "6.1791346",
+  "country": "france",
+  "field": null
+}, {
+  "id": 497,
+  "name": "PRODEV Junior Entreprise",
+  "latitude": "3.843718",
+  "longitude": "11.520898",
+  "country": "cameroon",
+  "field": null
+}, {
+  "id": 254,
+  "name": "Produ\u00e7\u00e3o Jr.",
+  "latitude": "-21.9837076",
+  "longitude": "-47.9130278",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 215,
+  "name": "Produtiva J\u00fanior",
+  "latitude": "-5.84289",
+  "longitude": "-35.197349",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 394,
+  "name": "Produtora J\u00fanior - UFBA",
+  "latitude": "-13.001599",
+  "longitude": "-38.510288",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 587,
+  "name": "ProG'HEI",
+  "latitude": "50.6337259",
+  "longitude": "3.04510400000004",
+  "country": "france",
+  "field": null
+}, {
+  "id": 174,
+  "name": "Projagro",
+  "latitude": "-18.6758348",
+  "longitude": "-39.8623881",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 169,
+  "name": "PROJECT JR - Empresa J\u00fanior do Curso de Engenharia de Produ\u00e7\u00e3o",
+  "latitude": "-5.2065008",
+  "longitude": "-37.323022",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 393,
+  "name": "Projecta Arquitetura e Urbanismo",
+  "latitude": "-12.9976721",
+  "longitude": "-38.5082362",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 191,
+  "name": "Projet",
+  "latitude": "-20.3972093",
+  "longitude": "-43.5097646",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 133,
+  "name": "Projeta",
+  "latitude": "-27.792084",
+  "longitude": "-50.3051401",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 447,
+  "name": "Projetos Consultoria Integrada",
+  "latitude": "-15.7994781",
+  "longitude": "-47.8871056",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 233,
+  "name": "PROJr",
+  "latitude": "-26.19663",
+  "longitude": "-52.689376",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 283,
+  "name": "Propeq - Projeto e Pesquisa em Engenharia Qu\u00edmica",
+  "latitude": "-22.820997",
+  "longitude": "-47.064751",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 327,
+  "name": "Prospect",
+  "latitude": "-7.217167",
+  "longitude": "-35.909003",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 149,
+  "name": "PROTEQ Jr",
+  "latitude": "-9.5518907",
+  "longitude": "-35.7752801",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 683,
+  "name": "ProV\u00e9to Junior Conseil",
+  "latitude": "48.8118735",
+  "longitude": "2.42750109999997",
+  "country": "france",
+  "field": null
+}, {
+  "id": 344,
+  "name": "PS J\u00fanior",
+  "latitude": "-30.0370213",
+  "longitude": "-51.2315792",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 396,
+  "name": "Psicojunior",
+  "latitude": "-13.0024602",
+  "longitude": "-38.5089752",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 387,
+  "name": "Psique Consultoria",
+  "latitude": "-23.4087066",
+  "longitude": "-51.9379675",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 685,
+  "name": "PsyInsight",
+  "latitude": "48.8442332",
+  "longitude": "2.32745550000004",
+  "country": "france",
+  "field": null
+}, {
+  "id": 304,
+  "name": "PUC Consultoria Jr.",
+  "latitude": "-19.9228677",
+  "longitude": "-43.9912809",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 351,
+  "name": "Pulso Consultoria Jr.em Administra\u00e7\u00e3o e Engenharia",
+  "latitude": "-22.5158806",
+  "longitude": "-44.104702",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 437,
+  "name": "Pupila Audiovisual",
+  "latitude": "-15.7607395",
+  "longitude": "-47.8702367",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 611,
+  "name": "Purpan Junior",
+  "latitude": "43.6014229",
+  "longitude": "1.400305",
+  "country": "france",
+  "field": null
+}, {
+  "id": 456,
+  "name": "Qualimentos Jr.",
+  "latitude": "-21.9590415",
+  "longitude": "-47.467296",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 228,
+  "name": "Quanttum",
+  "latitude": "-25.0511598",
+  "longitude": "-50.1316188",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 328,
+  "name": "Quatro Elementos",
+  "latitude": "-5.2034692",
+  "longitude": "-37.3249976",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 484,
+  "name": "Qu\u00edmica Junior",
+  "latitude": "-21.8074291",
+  "longitude": "-48.1921265",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 768,
+  "name": "Rain Studios",
+  "latitude": "38.0249672",
+  "longitude": "-1.17572530000007",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 401,
+  "name": "Rastro Ag\u00eancia Jr.",
+  "latitude": "-3.7414511",
+  "longitude": "-38.5393604",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 350,
+  "name": "Rating Consultoria Econ\u00f4mica",
+  "latitude": "-10.9257881",
+  "longitude": "-37.1026207",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 746,
+  "name": "Red del Sur",
+  "latitude": "37.1943493",
+  "longitude": "-3.5985111",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 659,
+  "name": "Reims Junior Conseil",
+  "latitude": "49.2389453",
+  "longitude": "4.00319639999998",
+  "country": "france",
+  "field": null
+}, {
+  "id": 459,
+  "name": "Reina",
+  "latitude": "-10.9259972",
+  "longitude": "-37.1023059",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 165,
+  "name": "RetecJr",
+  "latitude": "-3.7450679",
+  "longitude": "-38.5766641",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 429,
+  "name": "RH Consultoria J\u00fanior - UFMG",
+  "latitude": "-19.8559785",
+  "longitude": "-43.9555987",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 682,
+  "name": "Rhizome \u00c9cole d'Architecture",
+  "latitude": "43.579404",
+  "longitude": "1.39690010000004",
+  "country": "france",
+  "field": null
+}, {
+  "id": 485,
+  "name": "RPjr.",
+  "latitude": "-22.3493509",
+  "longitude": "-49.0318172",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 663,
+  "name": "Sciences Po Lille Junior Conseil",
+  "latitude": "50.6224351",
+  "longitude": "3.07744920000005",
+  "country": "france",
+  "field": null
+}, {
+  "id": 666,
+  "name": "Sciences Po Rennes Junior Conseil",
+  "latitude": "48.1215266",
+  "longitude": "-1.66760180000006",
+  "country": "france",
+  "field": null
+}, {
+  "id": 660,
+  "name": "Sciences Po Strasbourg Consulting",
+  "latitude": "48.5841575",
+  "longitude": "7.77079140000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 210,
+  "name": "SEA Jr",
+  "latitude": "-5.8430847",
+  "longitude": "-35.1980229",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 478,
+  "name": "SEC Jr. Consultoria",
+  "latitude": "-20.7593819",
+  "longitude": "-42.8682855",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 655,
+  "name": "SEGMA",
+  "latitude": "45.7783811",
+  "longitude": "3.09042290000002",
+  "country": "france",
+  "field": null
+}, {
+  "id": 570,
+  "name": "SEIO",
+  "latitude": "47.494336",
+  "longitude": "-0.552036000000044",
+  "country": "france",
+  "field": null
+}, {
+  "id": 331,
+  "name": "Sem Fronteiras",
+  "latitude": "-27.1023564",
+  "longitude": "-52.6205366",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 144,
+  "name": "S\u00eanior",
+  "latitude": "-19.8175145",
+  "longitude": "-43.1528056",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 607,
+  "name": "SEPEFREI",
+  "latitude": "48.7902806",
+  "longitude": "2.36397109999996",
+  "country": "france",
+  "field": null
+}, {
+  "id": 292,
+  "name": "Sete J\u00fanior",
+  "latitude": "-12.570461",
+  "longitude": "-38.970052",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 461,
+  "name": "Simbiosis Empresa J\u00fanior de Ci\u00eancias Biol\u00f3gicas",
+  "latitude": "-27.5977953",
+  "longitude": "-48.5151124",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 267,
+  "name": "SINERGIA",
+  "latitude": "-20.7643707",
+  "longitude": "-42.8676442",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 664,
+  "name": "Skema Conseil Lille",
+  "latitude": "50.636655",
+  "longitude": "3.07356700000003",
+  "country": "france",
+  "field": null
+}, {
+  "id": 662,
+  "name": "Skema Conseil Nice Sophia-Antipolis",
+  "latitude": "43.6130762",
+  "longitude": "7.05631419999997",
+  "country": "france",
+  "field": null
+}, {
+  "id": 673,
+  "name": "Skema Conseil Paris",
+  "latitude": "48.9008079",
+  "longitude": "2.2553567",
+  "country": "france",
+  "field": null
+}, {
+  "id": 804,
+  "name": "SMA Junior Entreprise",
+  "latitude": "36.8132516",
+  "longitude": "10.1339164",
+  "country": "tunisia",
+  "field": "Business"
+}, {
+  "id": 134,
+  "name": "Smart Consultoria J\u00fanior",
+  "latitude": "-26.2527865",
+  "longitude": "-48.8547939",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 432,
+  "name": "Socius",
+  "latitude": "-15.7572545",
+  "longitude": "-47.8731987",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 243,
+  "name": "SofTeam - Empresa J\u00fanior de Computa\u00e7\u00e3o da UFS",
+  "latitude": "-10.922908",
+  "longitude": "-37.101425",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 272,
+  "name": "Solu\u00e7\u00f5es Consultoria",
+  "latitude": "-20.760885",
+  "longitude": "-42.865146",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 230,
+  "name": "Solumax",
+  "latitude": "-25.0513931",
+  "longitude": "-50.1295696",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 43,
+  "name": "Solvay Student Consulting Club",
+  "latitude": "50.8119483",
+  "longitude": "4.382616899999999",
+  "country": "belgium",
+  "field": null
+}, {
+  "id": 671,
+  "name": "Sorbonne Junior Conseil",
+  "latitude": "48.8469373",
+  "longitude": "2.34446800000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 657,
+  "name": "Sprint",
+  "latitude": "48.6246883",
+  "longitude": "2.4432511",
+  "country": "france",
+  "field": null
+}, {
+  "id": 231,
+  "name": "Staff",
+  "latitude": "-25.300893",
+  "longitude": "-54.1143348",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 667,
+  "name": "Stratejic",
+  "latitude": "44.795412",
+  "longitude": "-0.616317999999978",
+  "country": "france",
+  "field": null
+}, {
+  "id": 716,
+  "name": "Study & Consult",
+  "latitude": "50.9064387",
+  "longitude": "8.02855950000003",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 698,
+  "name": "STUNT",
+  "latitude": "52.0381187",
+  "longitude": "8.49458819999995",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 781,
+  "name": "Sup'COM Junior Entreprise",
+  "latitude": "37.0758838",
+  "longitude": "9.536755",
+  "country": "tunisia",
+  "field": "Engineering"
+}, {
+  "id": 593,
+  "name": "SUPAERO Junior Conseil",
+  "latitude": "43.5664556",
+  "longitude": "1.47509730000002",
+  "country": "france",
+  "field": null
+}, {
+  "id": 606,
+  "name": "Supm\u00e9ca Junior Etudes",
+  "latitude": "48.9196702",
+  "longitude": "2.33323900000005",
+  "country": "france",
+  "field": null
+}, {
+  "id": 597,
+  "name": "Synerg'hetic",
+  "latitude": "48.8517793",
+  "longitude": "2.42047149999996",
+  "country": "france",
+  "field": null
+}, {
+  "id": 806,
+  "name": "TBS Junior Entreprise",
+  "latitude": "36.713434",
+  "longitude": "10.2095525",
+  "country": "tunisia",
+  "field": "Business"
+}, {
+  "id": 135,
+  "name": "Tcp Engenharia Civil",
+  "latitude": "-23.3228994",
+  "longitude": "-51.1971915",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 601,
+  "name": "Techniques Avanc\u00e9es Etudes et Projets",
+  "latitude": "48.714509",
+  "longitude": "2.245748",
+  "country": "france",
+  "field": null
+}, {
+  "id": 219,
+  "name": "TECMEC Empresa J\u00fanior de Engenharia Mec\u00e2nica",
+  "latitude": "-15.762334",
+  "longitude": "-47.873628",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 164,
+  "name": "Tecsys Jr.",
+  "latitude": "-3.7446029",
+  "longitude": "-38.5757738",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 821,
+  "name": "TEK-UP Junior Entreprise",
+  "latitude": "36.8525207",
+  "longitude": "10.1971403",
+  "country": "tunisia",
+  "field": "Engineering"
+}, {
+  "id": 605,
+  "name": "Telecom Etude",
+  "latitude": "48.8262943",
+  "longitude": "2.34641880000004",
+  "country": "france",
+  "field": null
+}, {
+  "id": 385,
+  "name": "Te\u00f3filos Empresa J\u00fanior de Consultoria e Assessoria Farmac\u00eautica",
+  "latitude": "-23.4079667",
+  "longitude": "-51.9389052",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 382,
+  "name": "TerGeo Consultoria Socioambiental",
+  "latitude": "-23.323313",
+  "longitude": "-51.207817",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 412,
+  "name": "Terra F\u00e9rtil",
+  "latitude": "-22.216722",
+  "longitude": "-54.8153592",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 419,
+  "name": "Terra J\u00fanior",
+  "latitude": "-21.226438",
+  "longitude": "-44.973367",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 232,
+  "name": "Tetris Empresa J\u00fanior de Constru\u00e7\u00e3o Civil",
+  "latitude": "-25.44321",
+  "longitude": "-49.3534",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 856,
+  "name": "The Consulting Academy",
+  "latitude": "-26.2041028",
+  "longitude": "28.0473051",
+  "country": "south_africa",
+  "field": null
+}, {
+  "id": 840,
+  "name": "The Consulting Academy Cape Town",
+  "latitude": "-33.9657883",
+  "longitude": "18.48102",
+  "country": "south_africa",
+  "field": null
+}, {
+  "id": 839,
+  "name": "The Consulting Academy Johannesburg",
+  "latitude": "-26.18263",
+  "longitude": "28.00397",
+  "country": "south_africa",
+  "field": null
+}, {
+  "id": 841,
+  "name": "The Consulting Academy Nairobi",
+  "latitude": "-1.2809926",
+  "longitude": "36.8167078",
+  "country": "kenya",
+  "field": null
+}, {
+  "id": 743,
+  "name": "Theory and Practice Consult TPC ",
+  "latitude": "46.7730533",
+  "longitude": "23.6206826",
+  "country": "romania",
+  "field": null
+}, {
+  "id": 131,
+  "name": "Titanus Solu\u00e7\u00f5es Sustent\u00e1veis",
+  "latitude": "-22.91093",
+  "longitude": "-43.234317",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 158,
+  "name": "TM Jr.",
+  "latitude": "-12.999362",
+  "longitude": "-38.509762",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 693,
+  "name": "TriRhena",
+  "latitude": "48.001639",
+  "longitude": "7.84582079999996",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 302,
+  "name": "Tr\u00f3picos Empresa Junior",
+  "latitude": "-5.0592381",
+  "longitude": "-42.7952822",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 668,
+  "name": "TSE Junior Etudes",
+  "latitude": "43.6053604",
+  "longitude": "1.4311596",
+  "country": "france",
+  "field": null
+}, {
+  "id": 814,
+  "name": "TYM Junior Entreprise",
+  "latitude": "36.8093284",
+  "longitude": "10.0863269",
+  "country": "tunisia",
+  "field": "Business"
+}, {
+  "id": 336,
+  "name": "UCJ - UFMG Consultoria J\u00fanior",
+  "latitude": "-19.866194",
+  "longitude": "-43.962438",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 312,
+  "name": "UEZO Jr. Consultoria - Solu\u00e7\u00f5es Empresariais - RJ",
+  "latitude": "-22.8990689",
+  "longitude": "-43.5785892",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 334,
+  "name": "UFLA J\u00fanior Consultoria Administrativa",
+  "latitude": "-21.227722",
+  "longitude": "-44.979718",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 381,
+  "name": "UFMG Inform\u00e1tica J\u00fanior",
+  "latitude": "-19.869369",
+  "longitude": "-43.964933",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 463,
+  "name": "Uipi",
+  "latitude": "-27.6002754",
+  "longitude": "-48.5182339",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 750,
+  "name": "Uname",
+  "latitude": "38.9777478",
+  "longitude": "-1.85426469999993",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 708,
+  "name": "UNICONSULT",
+  "latitude": "54.3418864",
+  "longitude": "10.1220288",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 242,
+  "name": "UNIFEI JR",
+  "latitude": "-22.4129924",
+  "longitude": "-45.4497105",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 112,
+  "name": "uniforce Consulting GmbH",
+  "latitude": "48.2081743",
+  "longitude": "16.3738189",
+  "country": "austria",
+  "field": null
+}, {
+  "id": 103,
+  "name": "UniPartners",
+  "latitude": "51.4499304",
+  "longitude": "5.4972078",
+  "country": "netherlands",
+  "field": null
+}, {
+  "id": 731,
+  "name": "UniPartners Amsterdam",
+  "latitude": "52.3329403",
+  "longitude": "4.867082799999999",
+  "country": "netherlands",
+  "field": null
+}, {
+  "id": 729,
+  "name": "UniPartners Delft",
+  "latitude": "52.0070726",
+  "longitude": "4.36950130000002",
+  "country": "netherlands",
+  "field": null
+}, {
+  "id": 730,
+  "name": "Unipartners Eindhoven",
+  "latitude": "51.4484256",
+  "longitude": "5.491671800000001",
+  "country": "netherlands",
+  "field": null
+}, {
+  "id": 733,
+  "name": "UniPartners Groningen",
+  "latitude": "53.2209126",
+  "longitude": "6.56345759999999",
+  "country": "netherlands",
+  "field": null
+}, {
+  "id": 734,
+  "name": "UniPartners Leiden",
+  "latitude": "52.1636961",
+  "longitude": "4.49205489999997",
+  "country": "netherlands",
+  "field": null
+}, {
+  "id": 735,
+  "name": "UniPartners Maastricht",
+  "latitude": "50.8458793",
+  "longitude": "5.68747110000004",
+  "country": "netherlands",
+  "field": null
+}, {
+  "id": 728,
+  "name": "UniPartners Nijmegen",
+  "latitude": "51.8191982",
+  "longitude": "5.8635147",
+  "country": "netherlands",
+  "field": null
+}, {
+  "id": 736,
+  "name": "UniPartners Rotterdam",
+  "latitude": "51.917788",
+  "longitude": "4.52771600000005",
+  "country": "netherlands",
+  "field": null
+}, {
+  "id": 737,
+  "name": "UniPartners Tilburg",
+  "latitude": "51.5627868",
+  "longitude": "5.04225270000006",
+  "country": "netherlands",
+  "field": null
+}, {
+  "id": 732,
+  "name": "Unipartners Twente",
+  "latitude": "52.2403446",
+  "longitude": "6.8514468",
+  "country": "netherlands",
+  "field": null
+}, {
+  "id": 738,
+  "name": "UniPartners Utrecht",
+  "latitude": "52.0909372",
+  "longitude": "5.12353299999995",
+  "country": "netherlands",
+  "field": null
+}, {
+  "id": 739,
+  "name": "UniPartners Wageningen",
+  "latitude": "51.9849652",
+  "longitude": "5.668538799999999",
+  "country": "netherlands",
+  "field": null
+}, {
+  "id": 372,
+  "name": "UniSigma Consultoria IFPB",
+  "latitude": "-7.1350324",
+  "longitude": "-34.8740756",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 575,
+  "name": "Universit\u00e9 Services Etudes et Conseils",
+  "latitude": "49.415307",
+  "longitude": "2.81893700000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 445,
+  "name": "UNIVERSITUR",
+  "latitude": "-5.8383486",
+  "longitude": "-35.197532",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 45,
+  "name": "Unovator Junior Enterprise",
+  "latitude": "34.0971192",
+  "longitude": "-117.7131911",
+  "country": "usa",
+  "field": null
+}, {
+  "id": 160,
+  "name": "UP",
+  "latitude": "-19.6734323",
+  "longitude": "-43.211283",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 594,
+  "name": "UPSILON",
+  "latitude": "43.5603781",
+  "longitude": "1.46885850000001",
+  "country": "france",
+  "field": null
+}, {
+  "id": 35,
+  "name": "UTAD Solutions Consulting",
+  "latitude": "41.2873865",
+  "longitude": "-7.738985899999999",
+  "country": "portugal",
+  "field": null
+}, {
+  "id": 505,
+  "name": "UWMCC",
+  "latitude": "43.4709686",
+  "longitude": "-80.5393132",
+  "country": "canada",
+  "field": null
+}, {
+  "id": 47,
+  "name": "Vector Media",
+  "latitude": "28.0672632",
+  "longitude": "-82.4120689",
+  "country": "usa",
+  "field": null
+}, {
+  "id": 479,
+  "name": "Verde Empresa Jr.",
+  "latitude": "-12.1778086",
+  "longitude": "-38.4133796",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 430,
+  "name": "Vet jr.",
+  "latitude": "-19.8702008",
+  "longitude": "-43.9712763",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 727,
+  "name": "VETO",
+  "latitude": "31.791702",
+  "longitude": "-7.092619999999999",
+  "country": "morocco",
+  "field": null
+}, {
+  "id": 824,
+  "name": "VGU Management Consulting Club",
+  "latitude": "10.8675151",
+  "longitude": "106.7940562",
+  "country": "vietnam",
+  "field": "Business"
+}, {
+  "id": 692,
+  "name": "VIA",
+  "latitude": "51.5135872",
+  "longitude": "7.465298100000001",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 262,
+  "name": "VIA Jr.",
+  "latitude": "-19.717318",
+  "longitude": "-47.9598946",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 114,
+  "name": "Vienna Law Clinics",
+  "latitude": "48.16891",
+  "longitude": "16.346903",
+  "country": "austria",
+  "field": null
+}, {
+  "id": 589,
+  "name": "View Up",
+  "latitude": "47.747672",
+  "longitude": "-3.39650699999993",
+  "country": "france",
+  "field": null
+}, {
+  "id": 684,
+  "name": "Ville Inventive",
+  "latitude": "48.8528119",
+  "longitude": "2.33533080000007",
+  "country": "france",
+  "field": null
+}, {
+  "id": 111,
+  "name": "V\u00ednculos Empresa Junior - Consultor\u00eda Empresarial",
+  "latitude": "-32.882398",
+  "longitude": "-68.878097",
+  "country": "argentina",
+  "field": null
+}, {
+  "id": 229,
+  "name": "Vulcano",
+  "latitude": "-25.0510237",
+  "longitude": "-50.1309322",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 23,
+  "name": "Westminster Business Consultants",
+  "latitude": "51.5175754",
+  "longitude": "-0.1381075",
+  "country": "england",
+  "field": null
+}, {
+  "id": 699,
+  "name": "Wissenschaft in der Praxis",
+  "latitude": "51.427203",
+  "longitude": "6.79918499999997",
+  "country": "germany",
+  "field": null
+}, {
+  "id": 377,
+  "name": "XPORT Jr.",
+  "latitude": "-22.7682746",
+  "longitude": "-43.6827899",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 602,
+  "name": "XProjets",
+  "latitude": "48.7142971",
+  "longitude": "2.21129169999995",
+  "country": "france",
+  "field": null
+}, {
+  "id": 41,
+  "name": "YEP'tech Mons",
+  "latitude": "50.45221770000001",
+  "longitude": "3.953123199999999",
+  "country": "belgium",
+  "field": null
+}, {
+  "id": 816,
+  "name": "YMC Junior Entreprise",
+  "latitude": "36.8415402",
+  "longitude": "10.2747633",
+  "country": "tunisia",
+  "field": "Business"
+}, {
+  "id": 36,
+  "name": "Young Minho Enterprise",
+  "latitude": "41.5622351",
+  "longitude": "-8.3933857",
+  "country": "portugal",
+  "field": null
+}, {
+  "id": 775,
+  "name": "Youngnity",
+  "latitude": "39.4784",
+  "longitude": "-0.359769799999981",
+  "country": "spain",
+  "field": null
+}, {
+  "id": 672,
+  "name": "YOUR",
+  "latitude": "48.8926657",
+  "longitude": "2.30117229999996",
+  "country": "france",
+  "field": null
+}, {
+  "id": 39,
+  "name": "YPI Consulting",
+  "latitude": "50.06910010000001",
+  "longitude": "19.9534317",
+  "country": "poland",
+  "field": null
+}, {
+  "id": 206,
+  "name": "Zenit Aerospace",
+  "latitude": "-15.9898098",
+  "longitude": "-48.0457572",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 170,
+  "name": "Zetta Jr.",
+  "latitude": "-18.674883",
+  "longitude": "-39.861375",
+  "country": "brazil",
+  "field": null
+}, {
+  "id": 389,
+  "name": "Zoo Jr.",
+  "latitude": "-23.4031412",
+  "longitude": "-51.943064",
+  "country": "brazil",
+  "field": null
+}]

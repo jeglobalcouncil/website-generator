@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Standards -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- SEO -->
+    <title>Contact - Junior Enterprise Worldwide</title>
+    <!-- CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="/assets/styles.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,400i,700" rel="stylesheet">
+    <!-- Scripts -->
+    <script defer src="/assets/scripts.js"></script>
+    <script async defer src="https://www.google.com/recaptcha/api.js"></script>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <div class="navbar" id="navigation">
+      <a href="/" class="navbar-logo"><img src="/assets/logos/juniorenterprises.svg" alt="Junior Enterprises Logo"></a>
+      <nav class="navbar-main">
+        <a href="/">Home</a>
+        <div class="dropdown">
+          <a href="#" onkeyup="openDropdown(event, 'who-we-are-menu');">Who we are</a>
+          <div class="dropdown-content" id="who-we-are-menu">
+            <a href="/global-council">Global Council</a>
+            <a href="/partners">Partners</a>
+            <!-- <a href="/opportunities">Opportunities</a> -->
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#" onkeyup="openDropdown(event, 'network-menu');">Network</a>
+          <div class="dropdown-content" id="network-menu">
+            <a href="/concept">The JE Concept</a>
+            <a href="/confederations">Confederations</a>
+            <a href="/insights">Insights</a>
+          </div>
+        </div>
+        <a href="/contact">Contact</a>
+      </nav>
+      <nav class="navbar-highlights">
+        <div class="dropdown">
+          <a href="#" onkeyup="openDropdown(event, 'map-menu');">JE Map</a>
+          <div class="dropdown-content" id="map-menu">
+            <a href="/map">Find a JE</a>
+            <a href="/map/edit-info">Add or edit my JE</a>
+          </div>
+        </div>
+        <a href="/start-a-je" class="highlight purple-hover">Start a JE</a>
+        <div class="navbar-social">
+          <span>Follow us:</span>
+          <a href="https://www.facebook.com/jeglobalcouncil/">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/junior-enterprise-global-council/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="u-white u-center bg-image">
+      <img src="/assets/images/jewc-16-crowd.jpeg">
+      <h1>Contact</h1>
+    </section>
+
+    <!-- Page Content -->
+    <div class="bg-white">
+      <div class="container">
+        <section>
+          <h3>Get in touch</h3>
+          <p>Have any questions or suggestions for us? Want to talk about partnerships, creating a JE or any other subject?</p>
+          <p>Then don't hesitate to contact us!</p>
+          <p>Send us an e-mail to <a href="mailto:contact@juniorenterprise.net">contact@juniorenterprise.net</a> or use the form below:</p>
+        </section>
+      </div>
+    </div>
+
+    <section class="u-center bg-image bg-gradient-1">
+      <img src="/assets/images/jewc-16-keynote.jpeg">
+      <div class="container">
+        <form accept-charset="UTF-8" action="https://usebasin.com/f/7923bbb4b05a" enctype="multipart/form-data" method="POST">
+          <div class="row">
+            <input class="card" type="text" id="name" name="name" placeholder="Name" required>
+          </div>
+          <div class="row">
+            <input class="card" type="email" id="email" name="email" placeholder="Email Address" required>
+          </div>
+          <div class="row">
+            <textarea class="card" rows="4" name="comment" placeholder="Message" required></textarea>
+          </div>
+          <div class="row">
+            <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
+          </div>
+          <button class="button" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section id="footer" class="bg-gray">
+      <div class="container">
+        <div class="row">
+          <div class="three-quarters column u-center u-750-left">
+            <img src="/assets/logos/jegc-logo.png" alt="Junior Enterprise Global Council Logo">
+            <nav>
+              <a href="/">Home</a>
+              <a href="/map">Map</a>
+              <a href="/partners">Partners</a>
+              <a href="/contact">Contact</a>
+            </nav>
+          </div>
+          <div class="one-quarter column u-center u-750-right">
+            <nav>
+              <a href="https://www.facebook.com/jeglobalcouncil/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.linkedin.com/company/junior-enterprise-global-council/"><i class="fab fa-linkedin-in"></i></a>
+            </nav>
+          </div>
+        </div>
+        <div class="row u-tiny-text">
+          <div class="one-half column u-center u-750-left">
+            <p>© 2018 Junior Enterprise Global Council</p>
+          </div>
+          <div class="one-half column u-center u-750-right">
+            <p>Questions? contact@juniorenterprise.net | <span tabindex="0" class="u-button" onclick="smoothScroll('navigation');">Scroll to top <i class="fa fa-caret-up"></i></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Standards -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="db/manifest.json">
+    <!-- SEO -->
+    <title>JE Map - Junior Enterprise Worldwide</title>
+    <!-- CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="/assets/map-styles.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <!-- Scripts -->
+    <script src="/assets/map-scripts.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTHGNgA3nZ9AY5dSIhjOdiU-vS7k_iUkw&callback=initMap"></script>
+    <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.0.4/fuse.min.js"></script>
+  </head>
+  <body>
+    <!-- Welcome Modal -->
+    <div id="modal" style="font-family: 'Open Sans', sans-serif; display: table; width: 100%; height: 100%; position: fixed; z-index: 9; background-color: #323232; background-color: rgba(0,0,0,0.6)">
+      <div id="modal-area" style="display: table-cell; vertical-align: middle;">
+        <div style="width: 80%; max-width: 360px; height: 80%; max-height: 480px; margin: 0 auto; position: relative; overflow: hidden; box-sizing: border-box; border-radius: 6px; background-color: #f2f2f2; box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.7);">
+          <button style="font-size: 38px; position: absolute; top: 3px; right: 10px; color: #757575; background-color: transparent; border: none; z-index: 9" onclick="document.getElementById('modal').style.display = 'none';">×</button>
+          <div style="overflow-y: auto; position: absolute; height: 100%; width: 100%; box-sizing: border-box; padding: 42px 24px 84px 24px;">
+            <center><svg id="i-location" viewBox="-8 0 48 41" width="96" height="82" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+              <circle cx="16" cy="11" r="4" stroke="#24a1c8"/>
+              <path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15" stroke="#24a1c8"/>
+              <path d="M16 40 27 36 38 40 32 24 24 22 27 36 M16 40 5 36 -6 40 0 24 8 22 5 36 M16 40 16 34"/>
+            </svg></center>
+            <h2>Welcome!</h2>
+            <p>Junior Enterprises ("JEs") are companies run entirely by university students.</p>
+            <p>They offer services in their fields of study to other companies, institutions, entrepreneurs and society as a whole.</p>
+            <p>To learn more about the JE concept worldwide, check out the menu at the bottom of the map!</p>
+          </div>
+          <label style="position: absolute; bottom: 50px; padding: 12px 0; box-sizing: border-box; width: 100%; text-align: center; background-color: inherit;">
+            <input type="checkbox" id="dont-show" onkeyup="if(event.keyCode===13){this.click();}">
+            Don't show this again
+          </label>
+          <a href="#" class="modal-btn" style="position: absolute; width: 100%; text-decoration: none; padding: 12px 18px; box-sizing: border-box; font-size: 20px; bottom: 0; left: 0; text-align: center;" onclick="document.getElementById('modal').style.display = 'none'; setCookie('dont-show');">Go to map</a>
+        </div>
+      </div>
+      <script>
+        window.onclick = function(event) {
+          if (event.target == document.getElementById('modal-area')) {
+            document.getElementById('modal').style.display = "none";
+          }
+        }
+        function checkCookie(cname) {
+          var name = cname + "=";
+          var ca = document.cookie.split(';');
+          for(var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+              c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+              document.getElementById("modal").innerHTML = "";
+              document.getElementById("modal").style.display = "none";
+            }
+          }
+        }
+        checkCookie("dont-show");
+      </script>
+    </div>
+    <!-- Navigation -->
+    <div class="navbar">
+      <a href="#">
+        <div class="navbar-logo">
+          <img id="grayscale" src="/assets/logos/juniorenterprises-grayscale.svg" alt="Junior Enterprises Logo">
+          <img id="colored" src="/assets/logos/juniorenterprises.svg">
+        </div>
+      </a>
+      <nav class="navbar-main">
+        <div class="dropdown">
+          <a href="#" class="dropbtn" onkeyup="openDropdown(event, 'about');">
+            Who are we
+            <i class="fa fa-caret-up"></i>
+          </a>
+          <div class="dropdown-content" id="about">
+            <a href="#">The JE Concept</a>
+            <a href="#">Global Council</a>
+            <a href="#">Confederations</a>
+          </div>
+        </div>
+        <a href="#">Insights</a>
+        <div class="dropdown">
+          <a href="#" class="dropbtn" onkeyup="openDropdown(event, 'opp');">
+            Opportunities
+            <i class="fa fa-caret-up"></i>
+          </a>
+          <div class="dropdown-content" id="opp">
+            <a href="#">Exchange Program</a>
+            <a href="#">Promotion Program</a>
+            <a href="#">Events</a>
+            <a href="#">Global Benchmarkings</a>
+            <a href="#">Global Team</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#" class="dropbtn" onkeyup="openDropdown(event, 'mapmenu');">
+            Map
+            <i class="fa fa-caret-up"></i>
+          </a>
+          <div class="dropdown-content" id="mapmenu">
+            <a href="#">View map</a>
+            <a href="#">Add or edit my JE</a>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar-highlights">
+        <a href="#">Start a JE</a>
+        <span>Follow us:</span>
+        <a href="https://www.facebook.com/jeglobalcouncil/">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.facebook.com/jeglobalcouncil/">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </nav>
+      <div class="navbar-mobile">
+        <button id="openbtn" onclick="openMenu()">
+          Menu
+          <i class="fa fa-caret-up"></i>
+        </button>
+        <nav id="mobile-menu">
+          <p>Who are we</p>
+          <a href="#">The JE Concept</a>
+          <a href="#">Global Council</a>
+          <a href="#">Confederations</a>
+          <p>Global Insights</p>
+          <a href="#">Insights</a>
+          <p>Opportunities</p>
+          <a href="#">Exchange Program</a>
+          <a href="#">Promotion Program</a>
+          <a href="#">Events</a>
+          <a href="#">Global Benchmarkings</a>
+          <a href="#">Global Team</a>
+          <p>Map</p>
+          <a href="#">View map</a>
+          <a href="#">Add or edit your JE</a>
+        </nav>
+        <button href="#" id="closebtn" onclick="closeMenu()">
+          Close Menu
+          <i class="fa fa-caret-down"></i>
+        </button>
+      </div>
+    </div>
+    <div id="dark-bg" onclick="closeMenu()"></div>
+    <!-- Search Box -->
+    <div class="search-container" id="search">
+      <div class="search">
+        <input type="search" placeholder="Find a Junior Enterprise..." id="search-box" onfocusin="openSearchPanel()">
+        <i class="fa fa-search" id="searchIcon" onclick="openSearchPanel()"></i>
+        <button id="clearSearch-btn" onclick="clearSearch()">×</button>
+        <div class="search-border"></div>
+        <!-- Start of Search Panel -->
+        <div id="search-panel">
+          <div class="search-filters">
+            <!-- Select Filters -->
+            <div class="grid-container">
+              <div class="grid-item">
+                <p>Filter by field of work:</p>
+                <select id="field-filter" onclick="colorIfSelected(this);">
+                  <option value="">-- Any field --</option>
+                  <option value="agro">Agronomy, Agroindustry or Zootechny</option>
+                  <option value="biz">Business, Market or International Relations</option>
+                  <option value="chem">Chemistry or Pharmacy</option>
+                  <option value="civ">Civil or Architecture</option>
+                  <option value="comm">Communication or Journalism</option>
+                  <option value="comp">Computing or Information Technology</option>
+                  <option value="des">Design</option>
+                  <option value="elec">Electrical, Electronics, Automation or Energy</option>
+                  <option value="env">Environmental, Ecology, Biology or Aquaculture</option>
+                  <option value="fin">Finance or Accounting</option>
+                  <option value="food">Food or Nutrition</option>
+                  <option value="geo">Geology, Geography or Geophysics</option>
+                  <option value="hr">Human Resources or Psychology</option>
+                  <option value="law">Law</option>
+                  <option value="mgmt">Management (Internal or Production)</option>
+                  <option value="mkt">Marketing</option>
+                  <option value="mech">Mechanics, Materials, Naval or Aerospace</option>
+                  <option value="med">Medicine or Hospital Management</option>
+                  <option value="min">Mining, Oil or Gas</option>
+                  <option value="phys">Physical Education</option>
+                  <option value="pub">Public Management or Political/Social Sciences</option>
+                  <option value="stat">Statistics or Mathematics</option>
+                  <option value="tour">Tourism or Translations</option>
+                  <option value="vid">Video Production or Cinema</option>
+                </select>
+              </div>
+              <div class="grid-item">
+                <p>Filter by location:</p>
+                <select id="country-filter" onclick="colorIfSelected(this);">
+                  <option value="">-- Any country --</option>
+                  <option value="argentina">Argentina</option>
+                  <option value="austria">Austria</option>
+                  <option value="belgium">Belgium</option>
+                  <option value="brazil">Brazil</option>
+                  <option value="canada">Canada</option>
+                  <option value="cameroon">Cameroon</option>
+                  <option value="chile">Chile</option>
+                  <option value="colombia">Colombia</option>
+                  <option value="croatia">Croatia</option>
+                  <option value="danemark">Denmark</option>
+                  <option value="ecuador">Ecuador</option>
+                  <option value="england">England</option>
+                  <option value="france">France</option>
+                  <option value="germany">Germany</option>
+                  <option value="italia">Italy</option>
+                  <option value="morocco">Morocco</option>
+                  <option value="netherlands">Netherlands</option>
+                  <option value="poland">Poland</option>
+                  <option value="portugal">Portugal</option>
+                  <option value="spain">Spain</option>
+                  <option value="romania">Romania</option>
+                  <option value="sweden">Sweden</option>
+                  <option value="switzerland">Switzerland</option>
+                  <option value="tunisia">Tunisia</option>
+                  <option value="usa">United States</option>
+                  <option value="vietnam">Vietnam</option>
+                </select>
+              </div>
+            </div>
+            <!-- Checkbox Filters -->
+            <p class="last">Filter by recognition:</p>
+            <div class="checkbox-container">
+              <label>
+                <input type="checkbox" id="natl-award" onkeyup="if(event.keyCode===13){this.click();}">
+                <div class="tooltip">Nationally awarded
+                  <span class="tooltiptext">JEs recognized with a confederation-level award in the last 3 years</span>
+                </div>
+              </label>
+              <label>
+                <input type="checkbox" id="growth-award" onkeyup="if(event.keyCode===13){this.click();}">
+                <div class="tooltip">High-growth
+                  <span class="tooltiptext">JEs that surpassed their revenue & number of projects high-growth goals (20%, on average) in the current or previous year</span>
+                </div>
+              </label>
+              <label>
+                <input type="checkbox" id="story-award" onkeyup="if(event.keyCode===13){this.click();}">
+                <div class="tooltip">Success story
+                  <span class="tooltiptext">JEs with a success story published in a confederation blog in the last 3 years</span>
+                </div>
+              </label>
+            </div>
+          </div>
+          <!-- Search Button -->
+          <div style="position: relative;">
+            <a href="#" id="search-btn" onclick="runSearch()">
+              Search
+              <i class="fa fa-search"></i>
+            </a>
+          </div>
+        </div>
+        <!-- End of Search Panel -->
+        <!-- Start of Search Results -->
+        <div id="search-results">
+          <a href="#" id="see-btn" onclick="seeResults()">
+            <span class="left" id="counter"></span>
+            <span class="right">
+              See results
+              <i class="fa fa-caret-down"></i>
+            </span>
+          </a>
+          <a href="#" id="hide-btn" onclick="hideResults()">
+            <span class="left" id="counter2"></span>
+            <span class="right">
+              Hide results
+              <i class="fa fa-caret-up"></i>
+            </span>
+          </a>
+          <div id="search-results-panel"></div>
+        </div>
+      </div>
+    </div>
+    <!-- JE Info Window -->
+    <div id="je-info" onscroll="colorNav()">
+      <div id="je-info-nav">
+        <button id="closeInfo-btn" onclick="closeInfo()">×</button>
+      </div>
+      <div style="background-color: #fcfcfc;">
+        <div id="je-cover"></div>
+        <div id="je-logo"></div>
+        <div class="je-content">
+          <div id="je-name"></div>
+          <div id="je-location"></div>
+          <h3 class="je-subtitle" id="uni-subtitle"></h3>
+          <div id="je-uni"></div>
+          <h3 class="je-subtitle" id="field-subtitle"></h3>
+          <div id="je-field"></div>
+          <h3 class="je-subtitle" id="parent-subtitle"></h3>
+          <div id="je-parent"></div>
+          <h3 class="je-subtitle" id="awards-subtitle"></h3>
+          <div id="je-awards"></div>
+          <h3 class="je-subtitle" id="stats-subtitle"></h3>
+          <div id="je-stats"></div>
+          <h3 class="je-subtitle" id="services-subtitle"></h3>
+          <div id="je-services"></div>
+          <h3 class="je-subtitle" id="contact-subtitle"></h3>
+          <div id="je-contact"></div>
+          <h3 class="je-subtitle" id="social-subtitle"></h3>
+          <div id="je-social"></div>
+        </div>
+      </div>
+      <div class="je-benchmarking">
+        <div id="je-benchmarking-contact"></div>
+        <div class="powered-by">JE info powered by <a href="https://junior-connect.com/"><img src="assets/juniorconnect.png"> JuniorConnect</a></div>
+      </div>
+    </div>
+    <!-- Map -->
+    <div id="map" onclick="closePanels()"></div>
+  </body>
+</html>
