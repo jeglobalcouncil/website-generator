@@ -156,6 +156,7 @@ function setMarkers(map) {
     }
   };
   xhttp.open("GET", "https://jeglobalcouncil.netlify.com/api/globalcouncil/map", true);
+  xhttp.setRequestHeader("Authorization", "Basic " + btoa("globalcouncil:GC_map_2018"));
   xhttp.send();
 }
 
@@ -568,6 +569,7 @@ function openInfo(je) {
   };
   console.log(je);
   xhttp.open("GET", "https://jeglobalcouncil.netlify.com/api/globalcouncil/" + je, true);
+  xhttp.setRequestHeader("Authorization", "Basic " + btoa("globalcouncil:GC_map_2018"));
   xhttp.send();
   // Display info
   document.getElementById('je-info').style.display = 'block';
