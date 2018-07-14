@@ -1,5 +1,6 @@
 ---
 title: Home
-layout: index
-featured_image:
+featured_image: none
 ---
+
+Hi
