@@ -1,5 +1,5 @@
 ---
 title: Home
-template: index
+layout: index
 featured_image:
 ---
