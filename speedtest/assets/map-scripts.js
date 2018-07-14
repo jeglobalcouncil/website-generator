@@ -568,7 +568,7 @@ function openInfo(je) {
     }
   };
   console.log(je);
-  xhttp.open("GET", "https://juniorenterprise.tk/api/globalcouncil/" + je, true);
+  xhttp.open("GET", "https://jeglobalcouncil.netlify.com/api/globalcouncil/" + je, true);
   xhttp.setRequestHeader("Authorization", "Basic " + btoa("globalcouncil:GC_map_2018"));
   xhttp.send();
   // Display info
