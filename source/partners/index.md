@@ -1,3 +1,3 @@
 ---
-title: partners
+title: Partners
 ---
