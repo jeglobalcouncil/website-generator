@@ -1,6 +1,0 @@
-[[redirects]]
-  from = "/api"
-  to = "https://junior-connect.com/api"
-  status = 200
-  force = true
-  headers = {Authorization = "JC_AUTH_KEY"}
