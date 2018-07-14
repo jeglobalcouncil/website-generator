@@ -17,7 +17,7 @@
         <meta name="author" content="<%- page.author %>">
       <% } %>
     <!-- Open Graph -->
-      <% if( page.featured-image ){ %>
+      <% if( page.featured_image ){ %>
         <%- open_graph({ type: 'article', image: page.featured_image }) %>
       <% } else { %>
         <%- open_graph({ type: 'article' }) %>
