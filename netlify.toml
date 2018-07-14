@@ -8,3 +8,7 @@ ID = "https://jeglobalcouncil.netlify.com"
   force = true
   [redirects.headers]
     Authorization = "JC_PLACEHOLDER"
+
+[[redirects]]
+  from = "/map"
+  to = "/contact"
