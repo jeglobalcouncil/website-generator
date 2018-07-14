@@ -1,7 +1,7 @@
 ---
 title: Home
 description: Bla bla bla
-featured-image:
+featured_image:
 ---
 
 <!-- Hero Section -->
