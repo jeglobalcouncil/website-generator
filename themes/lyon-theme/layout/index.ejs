@@ -1,9 +1,1 @@
-This is the index.ejs file
-
-<% site.posts.forEach(function(post){ %>
-  <a href="<%- post.path %>"><%- post.title %></a>
-  <br>
-<% }) %>
-
-<%- paginator(options) %>
-<%- open_graph([options]) %>
+<%- page.content %>

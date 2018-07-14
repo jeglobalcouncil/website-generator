@@ -2,229 +2,44 @@
 <html lang="en">
   <head>
     <!-- Standards -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- SEO -->
-    <title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Basic SEO -->
       <% if( page.title == 'Home' ){ %>
-        <%- config.title %> - <%- page.title %>
+        <title><%- config.title %> - <%- page.title %></title>
+        <link rel="canonical" href="<%- url %>">
       <% } else { %>
-        <%- page.title %> - <%- config.title %>
+        <title><%- page.title %> - <%- config.title %></title>
       <% } %>
-    </title>
-    <meta name="description" content="<%- page.description %>">
+      <meta name="description" content="<%- config.description %>">
+      <% if( page.layout == 'post' ){ %>
+        <meta name="author" content="<%- page.author %>">
+      <% } %>
+    <!-- Open Graph -->
+      <% if( page.featured-image ){ %>
+        <%- open_graph({ type: 'article', image: page.featured-image }) %>
+      <% } else { %>
+        <%- open_graph({ type: 'article' }) %>
+      <% } %>
     <!-- CSS Styles -->
-    <link rel="stylesheet" type="text/css" href="/assets/styles.css">
-    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,400i,700" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="/assets/styles.css">
+      <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,400i,700" rel="stylesheet">
     <!-- Scripts -->
-    <script defer src="/assets/scripts.js"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+      <script defer src="/assets/scripts.js"></script>
+      <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#2d89ef">
-    <meta name="theme-color" content="#ffffff">
+      <%- partial('partial/favicon')%>
+    <!-- End of Head -->
   </head>
   <body>
-    <!-- Navigation -->
-    <div class="navbar" id="navigation">
-      <a href="/" class="navbar-logo"><img src="/assets/logos/juniorenterprises.svg" alt="Junior Enterprises Logo"></a>
-      <nav class="navbar-main">
-        <a href="/">Home</a>
-        <div class="dropdown">
-          <a href="#" onkeyup="openDropdown(event, 'who-we-are-menu');">Who we are</a>
-          <div class="dropdown-content" id="who-we-are-menu">
-            <a href="/global-council">Global Council</a>
-            <a href="/partners">Partners</a>
-            <!-- <a href="/opportunities">Opportunities</a> -->
-          </div>
-        </div>
-        <div class="dropdown">
-          <a href="#" onkeyup="openDropdown(event, 'network-menu');">Network</a>
-          <div class="dropdown-content" id="network-menu">
-            <a href="/concept">The JE Concept</a>
-            <a href="/confederations">Confederations</a>
-            <a href="/insights">Insights</a>
-          </div>
-        </div>
-        <a href="/contact">Contact</a>
-      </nav>
-      <nav class="navbar-highlights">
-        <div class="dropdown">
-          <a href="#" onkeyup="openDropdown(event, 'map-menu');">JE Map</a>
-          <div class="dropdown-content" id="map-menu">
-            <a href="/map">Find a JE</a>
-            <a href="/map/edit-info">Add or edit my JE</a>
-          </div>
-        </div>
-        <a href="/start-a-je" class="highlight purple-hover">Start a JE</a>
-        <div class="navbar-social">
-          <span>Follow us:</span>
-          <a href="https://www.facebook.com/jeglobalcouncil/">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="https://www.linkedin.com/company/junior-enterprise-global-council/">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-        </div>
-      </nav>
-    </div>
-    <!-- Hero Section -->
-    <section id="big-hero" class="u-white bg-image bg-gradient-2-light">
-      <img src="/assets/images/cnh-2017.jpeg">
-      <video autoplay loop muted>
-        <source src="/assets/videos/hero-video.webm" type="video/webm">
-        <source src="/assets/videos/hero-video.mp4" type="video/mp4">
-	    </video>
-      <div class="container">
-        <h1>
-          <span class="pretyped">Students delivering</span>
-          <span class="typewriter" data-period="2000" data-type='["growth.","results.","projects.","change.","future."]'>growth.</span><span class="blinking"></span>
-        </h1>
-        <h2>Worldwide. Since 1967.</h2>
-      </div>
-      <div tabindex="0" class="learn-more u-button" onclick="smoothScroll('h-concept');">
-        Learn more<br>
-        <svg viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-          <path d="M30 12 L16 24 2 12" />
-        </svg>
-      </div>
-    </section>
-    <section id="h-numbers" class="bg-gray">
-      <div class="u-full-width container">
-        <div class="row">
-          <div class="three columns u-transparent u-button">
-            <span class="number">44</span>
-            <br>Countries
-          </div>
-          <div class="three columns u-transparent u-button">
-            <span class="number">1026</span>
-            <br>Junior Enterprises
-          </div>
-          <div class="three columns u-transparent u-button">
-            <span class="number">46</span>
-            <span class="symbol">K</span>
-            <br>Junior Entrepreneurs
-          </div>
-          <div class="three columns u-transparent u-button">
-            <span class="number">14</span>
-            <span class="symbol">K</span>
-            <br>Projects in 2017
-          </div>
-        </div>
-        <div class="row">
-          <div class="five columns u-transparent u-button">
-            <span class="small symbol">US$</span>
-            <span class="number">22.5</span>
-            <span class="symbol">M</span>
-            <br>Turnover in 2017
-          </div>
-          <div class="seven columns u-transparent u-button">
-            <span class="symbol">#1</span>
-            <br>Youth entrepreneurship movement <span class="u-inline-block">in the world</span>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- Website Header -->
+      <%- partial('partial/navigation')%>
     <!-- Page Content -->
-    <div class="bg-white"><div class="container">
-      <section id="h-concept">
-        <h3>The JE Concept</h3>
-        <p>Junior Enterprises (JEs) are non-profit companies run entirely by university students. They provide services, in their fields of study, to other companies, entrepreneurs and society as a whole.</p>
-        <p>The projects executed by JEs allow Junior Entrepreneurs to positively impact their clients while applying their knowledge on real problems of the market.</p>
-        <div class="primary link"><a href="/concept">Find out more</a></div>
-        <div class="primary link"><a href="/start-a-je">Start a JE</a></div>
-      </section>
-      <section id="h-network">
-        <h3>A Global Movement</h3>
-        <div class="row">
-          <div class="one-half column">
-            <canvas id="bubbleChart" class="bg-map-2"></canvas>
-          </div>
-          <div class="one-half column">
-            <p>Junior Enterprises collaborate worldwide as a network. With support from their national confederations, JEs share knowledge and use common strategies to grow year after year.</p>
-            <p>Wherever you are, you are likely to find a JE near you specialized in solving the problems you need to solve.</p>
-            <div class="primary link"><a href="/confederations">Discover the network</a></div>
-            <div class="primary link"><a href="/map">Hire a JE</a></div>
-          </div>
-        </div>
-      </section>
-    </div></div>
-    <section id="h-global-council" class="bg-image bg-gradient-1-light">
-      <img src="/assets/images/jewc-16-keynote.jpeg">
-      <div class="container row">
-        <div class="u-750-vcenter one-third column">
-          <img src="/assets/logos/jegc-logo-dark-bg.png" alt="Junior Enterprise Global Council Logo">
-        </div>
-        <div class="offset-by-one-third two-thirds column card">
-          <section>
-            <h3>The Global Council</h3>
-            <p>Created in 2016, the Junior Enterprise Global Council works to make JEs a truly global and connected movement.</p>
-            <p>We are responsible for the global enlargement of the JE movement and for projects like JEWD, the Exchange Program and the Global Report.</p>
-            <div class="primary link"><a href="/global-council">Learn more</a></div>
-            <div class="primary link"><a href="/partners">Become a partner</a></div>
-          </section>
-        </div>
-      </div>
-    </section>
-    <div class="bg-white"><div class="container">
-      <section id="h-insights">
-        <h3>Insights</h3>
-        <p>Sorry, there are no blog posts right now. Come back soon!</p>
-        <div class="primary link">
-          <a href="/insights">View all posts</a>
-        </div>
-      </section>
-      <!-- <section id="h-opportunities">
-        <h3>Opportunities</h3>
-        <p>Sorry, there are no opportunities right now. Come back soon!</p>
-        <div class="primary link">
-          <a href="/opportunities">View all opportunities</a>
-        </div>
-      </section> -->
-    </div></div>
-    <!-- Footer Section -->
-    <section id="cta" class="u-center u-white bg-image bg-gradient-2">
-      <img src="/assets/images/global-forum-16-signing.jpeg">
-      <div class="container">
-        <p>Want to receive opportunities from the Global Council and partners in your inbox?</p>
-        <a class="button" href="/mailchimp" target="_blank">Sign-up to our newsletter!</a>
-      </div>
-    </section>
-    <section id="footer" class="bg-gray">
-      <div class="container">
-        <div class="row">
-          <div class="three-quarters column u-center u-750-left">
-            <img src="/assets/logos/jegc-logo.png" alt="Junior Enterprise Global Council Logo">
-            <nav>
-              <a href="/">Home</a>
-              <a href="/map">Map</a>
-              <a href="/partners">Partners</a>
-              <a href="/contact">Contact</a>
-            </nav>
-          </div>
-          <div class="one-quarter column u-center u-750-right">
-            <nav>
-              <a href="https://www.facebook.com/jeglobalcouncil/"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://www.linkedin.com/company/junior-enterprise-global-council/"><i class="fab fa-linkedin-in"></i></a>
-            </nav>
-          </div>
-        </div>
-        <div class="row u-tiny-text">
-          <div class="one-half column u-center u-750-left">
-            <p>© 2018 Junior Enterprise Global Council</p>
-          </div>
-          <div class="one-half column u-center u-750-right">
-            <p>Questions? contact@juniorenterprise.net | <span tabindex="0" class="u-button" onclick="smoothScroll('navigation');">Scroll to top <i class="fa fa-caret-up"></i></span></p>
-          </div>
-        </div>
-      </div>
-    </section>
+      <%- body %>
+    <!-- Website Footer -->
+      <%- partial('partial/footer')%>
   </body>
 </html>

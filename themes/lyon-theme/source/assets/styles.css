@@ -558,30 +558,30 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
 /* Home Numbers Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-#h-numbers {
+#network-numbers {
   text-align: center;
   font-size: 14px;
   text-transform: uppercase;
 }
-#h-numbers .number, #h-numbers .symbol {
+#network-numbers .number, #network-numbers .symbol {
   font-size: 2.5rem;
   font-family: 'Montserrat';
   font-weight: bold;
   line-height: 1.4;
 }
-#h-numbers .small.symbol { font-size: 1.5rem; }
-@media (min-width: 750px) { #h-numbers.u-full-width.container { width: 80%; } }
+#network-numbers .small.symbol { font-size: 1.5rem; }
+@media (min-width: 750px) { #network-numbers.u-full-width.container { width: 80%; } }
 
 /* Home Network Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-#h-network canvas { width: 100%; margin: 1rem 0; }
+#network canvas { width: 100%; margin: 1rem 0; }
 
 /* Home Global Council Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 @media (min-width: 750px) {
-  #h-global-council .card { right: -3.5rem; padding: 0 3.5rem; }
+  #global-council .card { right: -3.5rem; padding: 0 3.5rem; }
 }
 
 /* Global Council Page Our Team Section
