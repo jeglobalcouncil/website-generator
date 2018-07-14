@@ -1,5 +1,5 @@
 [Settings]
-ID = "Your_Site_ID"
+ID = "https://jeglobalcouncil.netlify.com"
 
 [[redirects]]
   from = "/api/*"
