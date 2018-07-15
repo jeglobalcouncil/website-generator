@@ -1,1 +1,5 @@
-Content
+<% site.posts.forEach(function(post){ %>
+  <% if(post.type=='blog'){ %>
+    <%- post.title %>
+  <% } %>
+<% }) %>
