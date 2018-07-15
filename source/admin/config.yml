@@ -13,7 +13,7 @@ public_folder: "/assets/uploads"
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "_posts/insights"
+    folder: "source/_posts/insights"
     create: true
     slug: "{{slug}}"
     fields:
@@ -26,7 +26,7 @@ collections:
       - {label: "Blog Post Content", name: "body", widget: "markdown"}
   - name: "authors"
     label: "Authors"
-    folder: "_posts/authors"
+    folder: "source/_posts/authors"
     create: true
     slug: "{{slug}}"
     fields:
@@ -36,7 +36,7 @@ collections:
       - {label: "Profile Image", name: "image", widget: "image"}
   - name: "media-publications"
     label: "Media Publications"
-    folder: "_posts/media"
+    folder: "source/_posts/media"
     create: true
     slug: "{{slug}}"
     fields:
@@ -49,7 +49,7 @@ collections:
       - {label: "Publish Date (Used for ordering)", name: "date", widget: "date"}
   - name: "partners"
     label: "Partners"
-    folder: "_posts/partners"
+    folder: "source/_posts/partners"
     create: true
     slug: "{{slug}}"
     fields:
