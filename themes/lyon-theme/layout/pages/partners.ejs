@@ -54,7 +54,7 @@
   <section>
     <h3>In the media</h3>
     <div class="deck">
-      <% site.posts.sort('date').forEach(function(publication){ %>
+      <% site.posts.sort('date', -1).forEach(function(publication){ %>
         <% if(publication.type=='media-publication'){ %>
           <%- partial('partial/media-publication-card', { publication: publication }) %>
         <% } %>
