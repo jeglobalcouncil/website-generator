@@ -25,9 +25,11 @@
       <% site.posts.forEach(function(partner){ %>
         <% if(partner.type=='partner'){ %>
           <% if(partner.premium==true){ %>
-            <%- partial('partial/partner-card', {partner: partner}) %>
+            premium
+            <%- partial('partial/partner-card') %>
           <% } %>
           <% if(partner.premium==false){ %>
+            non premium
             <%- partial('partial/partner-card', {partner: partner}) %>
           <% } %>
         <% } %>
