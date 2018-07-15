@@ -21,8 +21,10 @@
   </section>
   <section>
     Post.Partners
-    <% site.posts.partners.forEach(function(partner){ %>
-      <%- partner.name %>
+    <% site.posts.forEach(function(partner){ %>
+      <% if(partner.name){ %>
+        <%- partner.name %>
+      <% } %>
     <% }) %>
     <h3>Our partners</h3>
     <div class="deck">
