@@ -8,11 +8,10 @@
     <!-- Basic SEO -->
       <% if( page.title == 'Home' ){ %>
         <title><%- config.title %> - <%- page.title %></title>
-        <link rel="canonical" href="<%- url %>">
+        <link rel="canonical" href="<%- url.replace('/index.html', '') %>">
       <% } else { %>
         <title><%- page.title %> - <%- config.title %></title>
       <% } %>
-      <meta name="description" content="<%- config.description %>">
       <% if( page.layout == 'post' ){ %>
         <meta name="author" content="<%- page.author %>">
       <% } %>
