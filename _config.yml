@@ -13,8 +13,8 @@ timezone: UTC
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://juniorenterprise.tk/staging
-root: /staging/
+url: https://jeglobalcouncil.netlify.com/
+root: /
 permalink: /insights/:post_title/
 permalink_defaults:
 
@@ -22,16 +22,12 @@ permalink_defaults:
 source_dir: source
 public_dir: public
 tag_dir: tags
-archive_dir: archives
+archive_dir: insights
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-  - "admin/index.html"
-  - "admin/config.yml"
-  - "_posts/confederations/**"
-  - "_posts/media/**"
-  - "_posts/partners/**"
+  - "admin/**"
 
 # Writing
 new_post_name: :title.md # File name of new posts
