@@ -533,8 +533,8 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
 /* Footer Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-#footer { padding: 0.75rem 0; }
-#footer img { height: 60px; }
+#footer, #premium-partners { padding: 0.75rem 0; }
+#footer img, #premium-partners img { height: 60px; }
 #footer a { width: 100%; color: inherit; padding-top: 0.5rem; }
 #footer a:hover, #footer a:focus { color: #24a1c8; text-decoration: none; }
 #footer nav a { display: inline-block; }
