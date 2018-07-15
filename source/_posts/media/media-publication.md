@@ -1,4 +1,5 @@
 ---
+type: media-publication
 title: Title of the external post
 source: Name of the media outlet
 language: English

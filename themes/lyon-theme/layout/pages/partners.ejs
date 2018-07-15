@@ -20,22 +20,18 @@
     </blockquote>
   </section>
   <section>
-    Post.Partners
-    <% site.posts.forEach(function(partner){ %>
-      <% if(partner.name){ %>
-        <%- partner.name %>
-      <% } %>
-    <% }) %>
     <h3>Our partners</h3>
     <div class="deck">
-      <a href="https://eureca.me/" class="horizontal card">
-        <div class="five columns">
-          <img src="/assets/logos/eureca.svg" alt="Eureca Logo">
-        </div>
-        <div class="seven columns">
-          Youth-centric development, recruitment and branding programmes. Founded by ex-juniors who believe in our movement.
-        </div>
-      </a>
+      <% site.posts.forEach(function(partner){ %>
+        <% if(partner.type=='partner'){ %>
+          <% if(partner.premium==true){ %>
+            <%- partial('partial/partner-card', {partner: partner}) %>
+          <% } %>
+          <% if(partner.premium==false){ %>
+            <%- partial('partial/partner-card', {partner: partner}) %>
+          <% } %>
+        <% } %>
+      <% }) %>
       <div class="horizontal card bg-map-1">
         <div class="twelve columns" style="text-align: center;">
           <h4>More coming soon!</h4>

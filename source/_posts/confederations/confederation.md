@@ -1,4 +1,5 @@
 ---
+type: confederation
 name: Confederation Name
 logo: /assets/logos/confederation.png
 affiliation: global_council, jade or jade_consultative_member
