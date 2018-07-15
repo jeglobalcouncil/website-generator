@@ -20,6 +20,14 @@
     </blockquote>
   </section>
   <section>
+    Partners
+    <% site.partners.forEach(function(partner){ %>
+      <%- partner.name %>
+    <% }) %>
+    Post.Partners
+    <% site.posts.partners.forEach(function(partner){ %>
+      <%- partner.name %>
+    <% }) %>
     <h3>Our partners</h3>
     <div class="deck">
       <a href="https://eureca.me/" class="horizontal card">
