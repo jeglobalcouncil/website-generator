@@ -1,5 +1,17 @@
-<% site.posts.forEach(function(post){ %>
-  <% if(post.type=='blog'){ %>
-    <%- post.title %>
-  <% } %>
-<% }) %>
+<!-- Hero Section -->
+<section id="hero" class="u-white u-center bg-image">
+  <img src="https://images.unsplash.com/photo-1520881363902-a0ff4e722963?q=75&amp;fm=jpg&amp;w=1000&amp;fit=max">
+  <h1>Insights</h1>
+</section>
+
+<!-- Page Content -->
+<div class="deck">
+  <% site.posts.sort('date', -1).forEach(function(post){ %>
+    <% if(post.type=='blog'){ %>
+      <%- partial('partial/blog-post-card', { post: post }) %>
+    <% } %>
+  <% }) %>
+</div>
+
+<!-- Call-to-Action -->
+<%- partial('partial/newsletter-cta') %>
