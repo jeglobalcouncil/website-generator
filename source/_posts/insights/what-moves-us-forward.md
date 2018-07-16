@@ -1,7 +1,7 @@
 ---
 type: blog
 title: What moves us forward
-author: Junior Enterprise Global Council
+author: Lucas Mantovani
 date: 2018-07-11T00:00:00.000Z
 featured_image: /assets/uploads/32287728_952268118288661_2787257844653621248_n.jpg
 topic: Network
