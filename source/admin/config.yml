@@ -24,6 +24,7 @@ collections:
       - {label: "Featured Image", name: "featured_image", widget: "image"}
       - {label: "Category", name: "topic", widget: "select", options: ["People", "Sales", "Projects", "Network", "Enlargement"] }
       - {label: "Blog Post Content", name: "body", widget: "markdown"}
+
   - name: "authors"
     label: "Authors"
     folder: "source/_posts/authors"
@@ -34,6 +35,7 @@ collections:
       - {label: "Author Name", name: "name", widget: "string"}
       - {label: "Author Description", name: "description", widget: "string"}
       - {label: "Profile Image", name: "image", widget: "image"}
+
   - name: "media-publications"
     label: "Media Publications"
     folder: "source/_posts/media"
@@ -47,6 +49,7 @@ collections:
       - {label: "Link to Publication", name: "link", widget: "string"}
       - {label: "Cover Image", name: "cover", widget: "image"}
       - {label: "Publish Date (Used for ordering)", name: "date", widget: "date"}
+      
   - name: "partners"
     label: "Partners"
     folder: "source/_posts/partners"
