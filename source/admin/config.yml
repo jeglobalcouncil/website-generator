@@ -25,8 +25,8 @@ collections:
       - {label: "Category", name: "topic", widget: "select", options: ["People", "Sales", "Projects", "Network", "Enlargement"] }
       - {label: "Blog Post Content", name: "body", widget: "markdown"}
 
-  - name: "authors"
-    label: "Authors"
+  - name: "post-authors"
+    label: "Post Authors"
     folder: "source/_posts/authors"
     create: true
     slug: "{{slug}}"
@@ -50,8 +50,8 @@ collections:
       - {label: "Cover Image", name: "cover", widget: "image"}
       - {label: "Publish Date (Used for ordering)", name: "date", widget: "date"}
 
-  - name: "partners"
-    label: "Partners"
+  - name: "gc-partners"
+    label: "GC Partners"
     folder: "source/_posts/partners"
     create: true
     slug: "{{slug}}"
