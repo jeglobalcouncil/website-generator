@@ -1,13 +1,31 @@
-<h1><%- page.title %></h1>
-<p><%- page.date %></p>
+<!-- Hero Section -->
+<section id="hero" class="u-white u-center bg-image">
+  <img src="<%- page.featured_image %>">
+  <h1><%- page.title %></h1>
+  <p class="cite" style="margin-bottom:1.5rem"><%- date(page.date, 'YYYY/M/D') %></p>
+</section>
 
-<%- page.content %>
+<section id="author" class="bg-gray"><div class="container">
+  <% site.posts.forEach(function(author){ %>
+    <% if(author.type=='author'){ %>
+      <% if(author.title==page.author){ %>
+        <div class="two columns u-pull-right">
+          <img src="<%- author.image %>" alt="<%- author.title %> Profile Image">
+        </div>
+        <div class="ten columns">
+          <h5><%- author.title %></h5>
+          <p><%- author.description %></p>
+        </div>
+      <% } %>
+    <% } %>
+  <% }) %>
+</div></section>
 
-<% if(page.author) { %>
-  We have an author
-<% } else { %>
-  No author
-<% } %>
+<!-- Page Content -->
+<div class="bg-white"><div class="container">
+  <%- partial('partial/topic-tag', { post: page }) %>
+  <%- page.content %>
+</div></div>
 
 <!-- Call-to-Action -->
 <%- partial('partial/newsletter-cta') %>

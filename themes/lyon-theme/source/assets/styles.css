@@ -549,19 +549,19 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .tag { background: #24a1c8; color: #fff; border-radius: 6px; padding: 2px 6px; }
-.tag:focus, .tag:hover { background-color: #4abbde; text-decoration: none; }
+/* .tag:focus, .tag:hover { background-color: #4abbde; text-decoration: none; } */
 
 .Enlargement.tag { background: #6161a8 }
-.Enlargement.tag:focus, .Enlargement.tag:hover { #7676b2 }
+/* .Enlargement.tag:focus, .Enlargement.tag:hover { background: #7676b2 } */
 
 .Sales.tag { background: #9b5050 }
-.Sales.tag:focus, .Sales.tag:hover { #ab5f5f }
+/* .Sales.tag:focus, .Sales.tag:hover { background: #ab5f5f } */
 
 .People.tag { background: #d2852d }
-.People.tag:focus, .People.tag:hover { #d79447 }
+/* .People.tag:focus, .People.tag:hover { background: #d79447 } */
 
 .Projects.tag { background: #4c944f }
-.Projects.tag:focus, .Projects.tag:hover { #58a75b }
+/* .Projects.tag:focus, .Projects.tag:hover { background: #58a75b } */
 
 
 /*                   	  END OF COMMON PAGE STYLES
@@ -638,6 +638,12 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
 
 .small-image { max-width: 270px; margin: 0.5rem 0; }
 .large-image { max-width: 400px; margin: 0.5rem 0; }
+
+/* Blog Post Author Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#author { font-size: 14px; }
+#author img { height: 40px; border-radius: 20px ; }
 
 /*                   	  END OF HOME (h-) PAGE STYLES
 VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */

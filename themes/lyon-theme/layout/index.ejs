@@ -1,16 +1,18 @@
 <!-- Hero Section -->
 <section id="hero" class="u-white u-center bg-image">
-  <img src="https://images.unsplash.com/photo-1520881363902-a0ff4e722963?q=75&amp;fm=jpg&amp;w=1000&amp;fit=max">
+  <img src="https://images.unsplash.com/photo-1446776877081-d282a0f896e2?q=75&amp;fm=jpg&amp;w=1000&amp;fit=max">
   <h1>Insights</h1>
 </section>
 
 <!-- Page Content -->
-<div class="deck">
-  <% site.posts.sort('date', -1).forEach(function(post){ %>
-    <% if(post.type=='blog'){ %>
-      <%- partial('partial/blog-post-card', { post: post }) %>
-    <% } %>
-  <% }) %>
+<div class="bg-white"><div class="container">
+  <div class="deck">
+    <% site.posts.sort('date', -1).forEach(function(post){ %>
+      <% if(post.type=='blog'){ %>
+        <%- partial('partial/blog-post-card', { post: post }) %>
+      <% } %>
+    <% }) %>
+  </div>
 </div>
 
 <!-- Call-to-Action -->
