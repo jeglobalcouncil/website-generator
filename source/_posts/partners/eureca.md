@@ -1,6 +1,6 @@
 ---
 type: partner
-name: Eureca
+partner_name: Eureca
 description: Youth-centric development, recruitment and branding programmes. Founded by ex-juniors who believe in our movement.
 premium: false
 link: https://eureca.me/
