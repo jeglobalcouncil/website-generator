@@ -1,6 +1,6 @@
 ---
 type: partner
-partner_name: GPjr
+title: GPjr
 description: Initiative of PMI chapters in Brazil and around the world to bring Project Management knowledge to Junior Entrepreneurs.
 premium: true
 link: http://www.gpjr.com.br/
