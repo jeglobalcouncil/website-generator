@@ -639,11 +639,19 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
 .small-image { max-width: 270px; margin: 0.5rem 0; }
 .large-image { max-width: 400px; margin: 0.5rem 0; }
 
-/* Blog Post Author Section
+/* Blog Posts
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #author { font-size: 14px; }
-#author img { height: 40px; border-radius: 20px ; }
+#author img { height: 46px; border-radius: 23px; margin: 0 auto 0.75rem auto; }
+@media (min-width: 550px) {
+  #author img { margin: 0 0 0 auto; }
+  #author .ten.columns { margin-left: -2%; }
+}
+
+
+#content cite { margin-top: 1.5rem; }
+#content *:last-child { margin-bottom: 1.5rem; }
 
 /*                   	  END OF HOME (h-) PAGE STYLES
 VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
