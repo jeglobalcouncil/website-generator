@@ -1,8 +1,9 @@
 <!-- Hero Section -->
 <section id="hero" class="u-white u-center bg-image">
   <img src="<%- page.featured_image %>">
+  <%- partial('partial/topic-tag', { post: page }) %>
   <h1><%- page.title %></h1>
-  <p class="cite" style="margin-bottom:1.5rem"><%- date(page.date, 'D - M - YYYY') %></p>
+  <p class="cite"><%- date(page.date, 'D - M - YYYY') %></p>
 </section>
 
 <section id="author" class="bg-gray"><div class="container">
@@ -23,7 +24,6 @@
 
 <!-- Page Content -->
 <section id="content" class="bg-white"><div class="container">
-  <%- partial('partial/topic-tag', { post: page }) %>
   <%- page.content %>
 </div></section>
 
