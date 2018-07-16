@@ -649,8 +649,7 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
   #author .ten.columns { margin-left: -2%; }
 }
 
-
-#content cite { margin-top: 1.5rem; }
+#content .cite { margin-top: 1.5rem; }
 #content *:last-child { margin-bottom: 1.5rem; }
 
 /*                   	  END OF HOME (h-) PAGE STYLES
