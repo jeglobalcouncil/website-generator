@@ -1,5 +1,9 @@
-<a class="vertical card with-cover" href="<%- post.path.replace('index.html','') %>">
-  <div class="cover" style="background-image: url(<%- post.featured_image %>)"></div>
-  <h4><%- post.title %></h4>
-  <p class="cite">#<%- post.topic %></p>
-</a>
+<div class="vertical card with-cover">
+  <a href="<%- post.path.replace('index.html','') %>">
+    <div class="cover" style="background-image: url(<%- post.featured_image %>)"></div>
+  </a>
+  <a href="<%- post.path.replace('index.html','') %>">
+    <h4><%- post.title %></h4>
+  </a>
+  <p class="cite"><a class="<%- post.topic %> tag">#<%- post.topic %></a></p>
+</div>
