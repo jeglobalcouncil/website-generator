@@ -3,7 +3,7 @@ type: blog
 title: What moves us forward
 author: Lucas Mantovani
 date: 2018-07-11T00:00:00.000Z
-featured_image: /assets/uploads/32287728_952268118288661_2787257844653621248_n.jpg
+featured_image: /assets/uploads/untitled-jewc.jpg
 topic: Network
 ---
 **In 1967, the first Junior Enterprise was born in France.** Aiming to learn beyond what was seen in class, a student-run non profit organization was created to solve real market problems, through projects for clients that varied from big companies to solo entrepreneurs.
