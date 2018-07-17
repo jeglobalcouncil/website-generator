@@ -1,0 +1,27 @@
+<div class="horizontal card">
+      <div class="five columns">
+        <img src="<%- confederation.logo %>" alt="<%- confederation.title %> Logo">
+      </div>
+      <div class="seven columns u-center">
+        <h5><%- confederation.title %></h5>
+        <% if ( confederation.type == 'consultative-member' ) { %>
+          <p>Consultative Member</p>
+        <% } else { %>
+          <p><%- confederation.no_of_JEs %>+ JEs</p>
+        <% } %>
+        <% if ( confederation.short_url && confederation.full_url ) { %>
+          <p><a href="<%- confederation.full_url %>"><%- confederation.short_url %></a></p>
+        <% } %>
+        <p>
+          <% if ( confederation.facebook ) { %>
+            <a class="social-link" href="<%- confederation.facebook %>"><i class="fab fa-facebook-f"></i></a>
+          <% } %>
+          <% if ( confederation.instagram ) { %>
+            <a class="social-link" href="<%- confederation.instagram %>"><i class="fab fa-instagram"></i></a>
+          <% } %>
+          <% if ( confederation.instagram ) { %>
+            <a class="social-link" href="<%- confederation.twitter %>"><i class="fab fa-twitter"></i></a>
+          <% } %>
+        </p>
+      </div>
+</div>
