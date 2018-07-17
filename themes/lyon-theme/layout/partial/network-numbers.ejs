@@ -1,3 +1,21 @@
+<% var jes = 0; %>
+<% var jeurs = 0; %>
+<% var projects = 0; %>
+<% var turnover = 0; %>
+<% site.posts.forEach(function(confederation){ %>
+  <% if(confederation.type=='confederation'){ %>
+    <% if(confederation.skip==false){ %>
+      <% jes += confederation.no_of_JEs %>
+      <% jeurs += confederation.no_of_JEurs %>
+      <% projects += confederation.no_of_projects %>
+      <% turnover += confederation.turnover*confederation.conversion_rate %>
+    <% } %>
+  <% } %>
+<% }) %>
+<% var thousand_jeurs = Math.round(jeurs/1000) %>
+<% var thousand_projects = projects/1000 %>
+<% var turnover_millions = turnover/1000000 %>
+
 <section id="network-numbers" class="bg-gray">
   <div class="u-full-width container">
     <div class="row">
@@ -6,48 +24,16 @@
         <br>Countries
       </div>
       <div class="three columns u-transparent u-button">
-        <span class="number">
-          <% var jes = 0; %>
-          <% site.posts.forEach(function(confederation){ %>
-            <% if(confederation.type=='confederation'){ %>
-              <% if(confederation.skip==false){ %>
-                <% jes += confederation.no_of_JEs %>
-              <% } %>
-            <% } %>
-          <% }) %>
-          <%- number_format(jes, {precision: 0}) %>
-        </span>
+        <span class="number"><%- number_format(jes, {precision: 0, delimiter: ''}) %></span>
         <br>Junior Enterprises
       </div>
       <div class="three columns u-transparent u-button">
-        <span class="number">
-          <% var jeurs = 0; %>
-          <% site.posts.forEach(function(confederation){ %>
-            <% if(confederation.type=='confederation'){ %>
-              <% if(confederation.skip==false){ %>
-                <% jeurs += confederation.no_of_JEurs %>
-              <% } %>
-            <% } %>
-          <% }) %>
-          <% var thousand_jeurs = Math.round(jeurs/1000) %>
-          <%- number_format(thousand_jeurs, {precision: 0}) %>
-        </span>
+        <span class="number"><%- number_format(thousand_jeurs, {precision: 0}) %></span>
         <span class="symbol">K</span>
         <br>Junior Entrepreneurs
       </div>
       <div class="three columns u-transparent u-button">
-        <span class="number">
-          <% var projects = 0; %>
-          <% site.posts.forEach(function(confederation){ %>
-            <% if(confederation.type=='confederation'){ %>
-              <% if(confederation.skip==false){ %>
-                <% projects += confederation.no_of_projects %>
-              <% } %>
-            <% } %>
-          <% }) %>
-          <% var thousand_projects = projects/1000 %>
-          <%- number_format(thousand_projects, {precision: 1}) %>
-        </span>
+        <span class="number"><%- number_format(thousand_projects, {precision: 1}) %></span>
         <span class="symbol">K</span>
         <br>Projects in 2017
       </div>
@@ -55,18 +41,7 @@
     <div class="row">
       <div class="five columns u-transparent u-button">
         <span class="small symbol">US$</span>
-        <span class="number">
-          <% var turnover = 0; %>
-          <% site.posts.forEach(function(confederation){ %>
-            <% if(confederation.type=='confederation'){ %>
-              <% if(confederation.skip==false){ %>
-                <% turnover += confederation.turnover * confederation.conversion_rate %>
-              <% } %>
-            <% } %>
-          <% }) %>
-          <% var turnover_millions = projects/1000000 %>
-          <%- number_format(turnover_millions, {precision: 1}) %>
-        </span>
+        <span class="number"><%- number_format(turnover_millions, {precision: 1}) %></span>
         <span class="symbol">M</span>
         <br>Turnover in 2017
       </div>
