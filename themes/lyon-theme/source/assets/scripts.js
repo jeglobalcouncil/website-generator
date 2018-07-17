@@ -35,12 +35,12 @@ function closeModal() {
   modal.style.display = 'none';
 }
 
-function openNav() {
+function openMobileNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("main").style.marginRight = "250px";
 }
 
-function closeNav() {
+function closeMobileNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginRight = "0";
 }
