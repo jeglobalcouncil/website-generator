@@ -1,8 +1,16 @@
+<% var networkNumbers %>
+<% site.posts.forEach(function(data){ %>
+  <% if(data.type=='data'){ %>
+    <% if(data.title=='network-numbers'){ %>
+      <% networkNumbers = data %>
+    <% } %>
+  <% } %>
+<% }) %>
 <section id="network-numbers" class="bg-gray">
   <div class="u-full-width container">
     <div class="row">
       <div class="three columns u-transparent u-button">
-        <span class="number"><%- site.data.numbers.no_of_countries %></span>
+        <span class="number"><%- networkNumbers.no_of_countries %></span>
         <br>Countries
       </div>
       <div class="three columns u-transparent u-button">
@@ -49,7 +57,7 @@
           <%- number_format(thousand_projects, {precision: 1}) %>
         </span>
         <span class="symbol">K</span>
-        <br>Projects in 2017
+        <br>Projects in <%- networkNumbers.last_year %>
       </div>
     </div>
     <div class="row">
@@ -68,7 +76,7 @@
           <%- number_format(turnover_millions, {precision: 1}) %>
         </span>
         <span class="symbol">M</span>
-        <br>Turnover in 2017
+        <br>Turnover in <%- networkNumbers.last_year %>
       </div>
       <div class="seven columns u-transparent u-button">
         <span class="symbol">#1</span>
