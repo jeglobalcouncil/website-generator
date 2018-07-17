@@ -39,11 +39,14 @@
     <!-- End of Head -->
   </head>
   <body>
-    <!-- Website Header -->
-      <%- partial('partial/navigation')%>
-    <!-- Page Content -->
-      <%- body %>
-    <!-- Website Footer -->
-      <%- partial('partial/footer')%>
+    <%- partial('partial/mobile-navigation')%>
+    <div class="main">
+      <!-- Website Header -->
+        <%- partial('partial/navigation')%>
+      <!-- Page Content -->
+        <%- body %>
+      <!-- Website Footer -->
+        <%- partial('partial/footer')%>
+    </div>
   </body>
 </html>

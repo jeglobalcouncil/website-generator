@@ -473,11 +473,24 @@ a.purple-hover:hover, a.purple-hover:focus {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .navbar-main, .navbar-highlights, .navbar-social { display: none; }
-@media (min-width: 750px) { .navbar-main, .navbar-highlights { display: block; } .menu.button { display: none; } }
+@media (min-width: 750px) { .navbar-main, .navbar-highlights { display: block; } .menu.button, #mobileNav { display: none; } }
 @media (min-width: 1000px) { .navbar-social { display: block; } }
 
-.menu.button { float: left; margin: 7px 0; padding: 10px; }
+.menu.button { position: absolute; right: 0; margin: 7px 0; padding: 10px; }
 .menu.button::after { content: " \f0c9"; font-family: 'Font Awesome 5 Free'; }
+
+#mobileNav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  right: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
 
 /* Immersive/Hotsite Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
