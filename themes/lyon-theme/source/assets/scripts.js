@@ -35,14 +35,18 @@ function closeModal() {
   modal.style.display = 'none';
 }
 
-function openMobileNav() {
-    document.getElementById("mobileNav").style.width = "250px";
-    document.getElementById("main").style.marginRight = "250px";
+function toggleMobileNav() {
+  if (document.getElementById("mobileNav").style.right == "-250px") {
+    document.getElementById("mobileNav").style.right = "0px";
+    document.getElementById("main").style.transform = "translateX(-250px)";
+  } else {
+    closeMobileNav();
+  }
 }
 
 function closeMobileNav() {
-    document.getElementById("mobileNav").style.width = "0";
-    document.getElementById("main").style.marginRight = "0";
+    document.getElementById("mobileNav").style.right = "-250px";
+    document.getElementById("main").style.transform = "translateX(-250px)";
 }
 
 // ------------------- //

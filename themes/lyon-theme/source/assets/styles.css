@@ -383,6 +383,7 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
   font-size: 14px;
   height: 56px;
   box-shadow: inset 0px -6px #e2e2e2;
+  position: relative;
 }
 .navbar a {
   float: left;
@@ -476,21 +477,29 @@ a.purple-hover:hover, a.purple-hover:focus {
 @media (min-width: 750px) { .navbar-main, .navbar-highlights { display: block; } .menu.button, #mobileNav { display: none; } }
 @media (min-width: 1000px) { .navbar-social { display: block; } }
 
-.menu.button { position: absolute; right: 0; margin: 7px 0; padding: 10px; }
+.menu.button { position: absolute; right: 0; margin: 7px 14px; padding: 10px; }
 .menu.button::after { content: " \f0c9"; font-family: 'Font Awesome 5 Free'; }
 
 #mobileNav {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 5;
   top: 0;
-  right: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  right: -250px;
+  background-color: #323232;
+  color: #fff;
+  overflow-x: hidden;
+  transition: .5s ease-in right;
+  font-size: 18px;
 }
+
+#mobileNav a, #mobileNav p { width: 100%; margin: none; padding: 18px; }
+#mobileNav a { transition: 0.15s ease-in all; font-weight: bold; }
+#mobileNav p { color: #f2f2f2; text-align: center; }
+#mobileNav a:focus, #mobileNav a:hover { color: #24a1c8; background-color: #fff; text-decoration: none; }
+
+#main { transform: translateX(0); transition: .5s ease-in translateX; }
 
 /* Immersive/Hotsite Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
