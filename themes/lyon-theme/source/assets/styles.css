@@ -491,11 +491,11 @@ a.purple-hover:hover, a.purple-hover:focus {
   color: #fff;
   overflow-x: hidden;
   transition: .3s ease-in right;
-  font-size: 18px;
+  font-size: 14px;
 }
 #main { transform: translateX(0); transition: .3s ease-in transform; }
 
-.mobile-nav p { text-align: center; }
+#mobileNav p { text-align: center; padding: 9px; }
 .mobile-nav a { color: #fff; transition: 0.15s ease-in all; font-weight: bold; display: block; padding: 18px; }
 .mobile-nav a:focus, .mobile-nav a:hover { color: #24a1c8; background-color: #fff; text-decoration: none; }
 .mobile-nav a, .mobile-nav p { width: 100%; margin: 0; box-sizing: border-box; }

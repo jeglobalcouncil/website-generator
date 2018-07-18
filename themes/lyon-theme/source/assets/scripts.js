@@ -36,7 +36,7 @@ function closeModal() {
 }
 
 function toggleMobileNav() {
-  if (document.getElementById("mobileNav").style.right =! "0px") {
+  if (document.getElementById("mobileNav").style.right != "0px") {
     document.getElementById("mobileNav").style.right = "0px";
     document.getElementById("main").style.transform = "translateX(-250px)";
   } else {
