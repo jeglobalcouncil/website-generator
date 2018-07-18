@@ -398,8 +398,8 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
 }
 .topnav.navbar { box-shadow: inset 0px -6px #e2e2e2; }
 .bottomnav.navbar { position: absolute; bottom: 0; box-shadow: inset 0px 6px #e2e2e2; }
-.topnav.navbar a { border-bottom: 6px solid #e2e2e2; }
-.bottomnav.navbar a { border-top: 6px solid #e2e2e2; }
+.topnav a { border-bottom: 6px solid #e2e2e2; }
+.bottomnav a { border-top: 6px solid #e2e2e2; }
 
 .navbar a:hover, .navbar a:focus, .navbar a.active,
 .dropdown:hover > a {
@@ -446,7 +446,7 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
   border-bottom: 6px solid #24a1c8;
 }
 .dropdown:hover .dropdown-content { display: block; }
-.dropdown-content a { float: none; border: none; }
+.dropdown-content a { float: none; border: none!important; }
 
 
 /* Highlights
