@@ -474,7 +474,11 @@ a.purple-hover:hover, a.purple-hover:focus {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .navbar-main, .navbar-highlights, .navbar-social { display: none; }
-@media (min-width: 750px) { .navbar-main, .navbar-highlights { display: block; } .menu.button, #mobileNav { display: none; } }
+@media (min-width: 750px) {
+  .navbar-main, .navbar-highlights { display: block; }
+  .menu.button, #mobileNav { display: none; }
+  #main { transform: translateX(0)!important }
+}
 @media (min-width: 1000px) { .navbar-social { display: block; } }
 
 .menu.button { position: absolute; right: 0; margin: 7px 14px; padding: 10px; }
