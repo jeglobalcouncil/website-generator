@@ -422,17 +422,19 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .dropdown { position: relative; }
-.dropdown > a::after { content: " \f0d7"; font-family: 'Font Awesome 5 Free'; }
+.topnav .dropdown > a::after { content: " \f0d7"; font-family: 'Font Awesome 5 Free'; }
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 100%;
   z-index: 5;
   box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.4);
   min-width: 150px;
+  background-color: #f2f2f2;
+}
+.topnav .dropdown-content {
+  top: 100%;
   margin-top: -6px;
   border-top: 6px solid #24a1c8;
-  background-color: #f2f2f2;
 }
 .dropdown:hover .dropdown-content { display: block; }
 .dropdown-content a { float: none; border: none; }
@@ -497,7 +499,7 @@ a.purple-hover:hover, a.purple-hover:focus {
   transition: .3s ease-out right;
   font-size: 14px;
 }
-#main { transform: translateX(0); transition: .3s ease-out transform; }
+#main { transform: translateX(0); transition: .3s ease-out transform; width: 100%; height: 100%; }
 
 #mobileNav p { text-align: center; padding: 9px; }
 #mobileNav .button { margin-bottom: 18px; }
@@ -520,6 +522,27 @@ a.purple-hover:hover, a.purple-hover:focus {
 .immersive.navbar a.highlight { background: none; color: #323232; }
 .immersive.navbar a.highlight:hover, .immersive.navbar a.highlight:focus { background-color: #fff; color: #24a1c8; border-color: #24a1c8; }
 .immersive.navbar .dropdown-content { margin-top: 0; }
+
+/* Map Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.bottomnav.navbar {
+  position: absolute;
+  bottom: 0;
+  box-shadow: inset 0px -6px #e2e2e2;
+}
+.bottomnav.navbar a {
+  border-bottom: none;
+  border-top: 6px solid #e2e2e2;
+}
+.bottomnav.navbar .menu.button { top: 5px; }
+.bottomnav.navbar .navbar-social>span { top: 17px; }
+.bottomnav .dropdown-content {
+  bottom: 100%;
+  margin-bottom: -6px;
+  border-bottom: 6px solid #24a1c8;
+}
+.bottomnav .dropdown > a::after { content: " \f0d8"; font-family: 'Font Awesome 5 Free'; }
 
 /*                   	   END OF NAVIGATION STYLES
 VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
