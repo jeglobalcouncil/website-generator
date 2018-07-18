@@ -53,7 +53,9 @@
       <!-- Page Content -->
         <%- body %>
       <!-- Website Footer -->
-        <%- partial('partial/footer')%>
+        <% if( page.title != 'Map' ){ %>
+          <%- partial('partial/footer')%>
+        <% } %>
     </div>
   </body>
 </html>
