@@ -382,7 +382,6 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
   width: 100%;
   font-size: 14px;
   height: 56px;
-  box-shadow: inset 0px -6px #e2e2e2;
   position: relative;
 }
 .navbar a {
@@ -395,9 +394,13 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
   font-size: 14px;
   line-height: 1;
   border: none;
-  border-bottom: 6px solid #e2e2e2;
   background-color: inherit;
 }
+.topnav.navbar { box-shadow: inset 0px -6px #e2e2e2; }
+.bottomnav.navbar { position: absolute; bottom: 0; box-shadow: inset 0px 6px #e2e2e2; }
+.topnav.navbar a { border-bottom: 6px solid #e2e2e2; }
+.bottomnav.navbar a { border-top: 6px solid #e2e2e2; }
+
 .navbar a:hover, .navbar a:focus, .navbar a.active,
 .dropdown:hover > a {
   background-color: #fff;
@@ -459,9 +462,8 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
   line-height: 1;
   /* border-left: 1px solid #e2e2e2; */
 }
-.navbar-highlights .dropdown-content {
-  right: 0;
-}
+.bottomnav.navbar .navbar-social>span { top: 17px; }
+.navbar-highlights .dropdown-content { right: 0; }
 
 a.highlight {
   color: #fff;
@@ -490,6 +492,7 @@ a.purple-hover:hover, a.purple-hover:focus {
 @media (min-width: 1000px) { .navbar-social { display: block; } }
 
 .menu.button { position: absolute; right: 0; margin: 7px 14px; padding: 10px; }
+.bottomnav.navbar .menu.button { top: 5px; }
 .menu.button::after { content: " \f0c9"; font-family: 'Font Awesome 5 Free'; }
 
 #mobileNav {
@@ -528,21 +531,6 @@ a.purple-hover:hover, a.purple-hover:focus {
 .immersive.navbar a.highlight { background: none; color: #323232; }
 .immersive.navbar a.highlight:hover, .immersive.navbar a.highlight:focus { background-color: #fff; color: #24a1c8; border-color: #24a1c8; }
 .immersive.navbar .dropdown-content { margin-top: 0; }
-
-/* Map Navigation
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.bottomnav.navbar {
-  position: absolute;
-  bottom: 0;
-  box-shadow: inset 0px -6px #e2e2e2;
-}
-.bottomnav.navbar a {
-  border-bottom: none;
-  border-top: 6px solid #e2e2e2;
-}
-.bottomnav.navbar .menu.button { top: 5px; }
-.bottomnav.navbar .navbar-social>span { top: 17px; }
 
 /*                   	   END OF NAVIGATION STYLES
 VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
