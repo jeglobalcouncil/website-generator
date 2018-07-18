@@ -38,6 +38,8 @@
       <% if( page.title == 'Map' ){ %>
         <link rel="stylesheet" type="text/css" href="/assets/map-styles.css">
         <script defer src="/assets/map-scripts.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTHGNgA3nZ9AY5dSIhjOdiU-vS7k_iUkw&callback=initMap"></script>
+        <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.0.4/fuse.min.js"></script>
       <% } %>
     <!-- Favicon -->
       <%- partial('partial/favicon')%>
