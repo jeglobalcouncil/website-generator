@@ -490,16 +490,16 @@ a.purple-hover:hover, a.purple-hover:focus {
   background-color: #323232;
   color: #fff;
   overflow-x: hidden;
-  transition: .5s ease-in right;
+  transition: .3s ease-in right;
   font-size: 18px;
 }
+#main { transform: translateX(0); transition: .3s ease-in transform; }
 
-#mobileNav a, #mobileNav p { width: 100%; margin: none; padding: 18px; }
-#mobileNav a { transition: 0.15s ease-in all; font-weight: bold; }
-#mobileNav p { color: #f2f2f2; text-align: center; }
-#mobileNav a:focus, #mobileNav a:hover { color: #24a1c8; background-color: #fff; text-decoration: none; }
-
-#main { transform: translateX(0); transition: .5s ease-in transform; }
+.mobile-nav p { text-align: center; }
+.mobile-nav a { color: #fff; transition: 0.15s ease-in all; font-weight: bold; display: block; padding: 18px; }
+.mobile-nav a:focus, .mobile-nav a:hover { color: #24a1c8; background-color: #fff; text-decoration: none; }
+.mobile-nav a, .mobile-nav p { width: 100%; margin: 0; box-sizing: border-box; }
+.mobile-nav .cite { color: #e2e2e2; background-color: #444; }
 
 /* Immersive/Hotsite Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
