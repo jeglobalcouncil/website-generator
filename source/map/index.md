@@ -1,3 +1,4 @@
 ---
 title: Map
+bottomnav: true
 ---
