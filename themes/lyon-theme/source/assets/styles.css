@@ -423,6 +423,7 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
 
 .dropdown { position: relative; }
 .topnav .dropdown > a::after { content: " \f0d7"; font-family: 'Font Awesome 5 Free'; }
+.bottomnav .dropdown > a::after { content: " \f0d8"; font-family: 'Font Awesome 5 Free'; }
 .dropdown-content {
   display: none;
   position: absolute;
@@ -435,6 +436,11 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
   top: 100%;
   margin-top: -6px;
   border-top: 6px solid #24a1c8;
+}
+.bottomnav .dropdown-content {
+  bottom: 100%;
+  margin-bottom: -6px;
+  border-bottom: 6px solid #24a1c8;
 }
 .dropdown:hover .dropdown-content { display: block; }
 .dropdown-content a { float: none; border: none; }
@@ -537,12 +543,6 @@ a.purple-hover:hover, a.purple-hover:focus {
 }
 .bottomnav.navbar .menu.button { top: 5px; }
 .bottomnav.navbar .navbar-social>span { top: 17px; }
-.bottomnav .dropdown-content {
-  bottom: 100%;
-  margin-bottom: -6px;
-  border-bottom: 6px solid #24a1c8;
-}
-.bottomnav .dropdown > a::after { content: " \f0d8"; font-family: 'Font Awesome 5 Free'; }
 
 /*                   	   END OF NAVIGATION STYLES
 VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
