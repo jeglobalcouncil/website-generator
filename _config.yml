@@ -81,3 +81,6 @@ theme: lyon-theme
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+include:
+  - _redirects
