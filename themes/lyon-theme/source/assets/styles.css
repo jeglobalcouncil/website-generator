@@ -499,7 +499,7 @@ a.purple-hover:hover, a.purple-hover:focus {
 #mobileNav p { color: #f2f2f2; text-align: center; }
 #mobileNav a:focus, #mobileNav a:hover { color: #24a1c8; background-color: #fff; text-decoration: none; }
 
-#main { transform: translateX(0); transition: .5s ease-in translateX; }
+#main { transform: translateX(0); transition: .5s ease-in transform; }
 
 /* Immersive/Hotsite Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

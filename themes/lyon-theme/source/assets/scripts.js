@@ -46,7 +46,7 @@ function toggleMobileNav() {
 
 function closeMobileNav() {
     document.getElementById("mobileNav").style.right = "-250px";
-    document.getElementById("main").style.transform = "translateX(-250px)";
+    document.getElementById("main").style.transform = "translateX(0px)";
 }
 
 // ------------------- //
