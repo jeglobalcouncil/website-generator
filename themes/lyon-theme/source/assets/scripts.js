@@ -110,6 +110,15 @@ window.onload = function() {
     }
   }
   bubbleGraph();
+  var uButtons = document.getElementsByClassName("example");
+  for (var i = 0; i < uButtons.length; i++) {
+    uButtons[i].addEventListener("keyup", function(event) {
+      event.preventDefault();
+      if (event.keyCode === 13) {
+        uButtons[i].click();
+      }
+    });
+  }
 };
 
 // -------------------- //
