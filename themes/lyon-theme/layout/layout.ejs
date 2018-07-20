@@ -46,7 +46,6 @@
     <!-- End of Head -->
   </head>
   <body>
-    <%- partial('partial/mobile-navigation')%>
     <div id="main">
       <!-- Website Header -->
         <%- partial('partial/navigation')%>
@@ -57,6 +56,7 @@
           <%- partial('partial/footer')%>
         <% } %>
     </div>
+    <%- partial('partial/mobile-navigation')%>
 
     <!-- Modals -->
     <% if( page.title == 'Start a JE' ){ %>
