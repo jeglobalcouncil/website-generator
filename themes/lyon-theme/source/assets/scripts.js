@@ -55,10 +55,11 @@ function closeMobileNav() {
 
 var uButtons = document.getElementsByClassName('u-button');
 for (var i = 0; i < uButtons.length; i++) {
+  uButtons[i].id = 'u-button-' + i;
   uButtons[i].addEventListener('keyup', function(event) {
     event.preventDefault();
     if (event.keyCode === 13) {
-      uButtons[i].click();
+      document.getElementById('u-button-'+i).click();
     }
   });
 }
