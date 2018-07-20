@@ -23,6 +23,8 @@ function openVideoModal(videoId,maxWidth,reqHeight) {
   modalIframe.style.width = '100%';
   modalIframe.style.height = reqHeight;
   modal.style.display = 'block';
+  var closeButton = document.querySelectorAll('#video-modal button.close')
+  closeButton[1].focus();
   window.onclick = function(event) {
       if (event.target == modal) {
           modal.style.display = 'none';
@@ -33,6 +35,8 @@ function openVideoModal(videoId,maxWidth,reqHeight) {
 function openFormModal(form) {
   var modal = document.getElementById(form);
   modal.style.display = 'block';
+  var closeButton = document.querySelectorAll('#'+form+' button.close');
+  closeButton[1].focus();
 }
 
 function closeModal(modal) {
@@ -43,6 +47,8 @@ function toggleMobileNav() {
   if (document.getElementById("mobileNav").style.right != "0px") {
     document.getElementById("mobileNav").style.right = "0px";
     document.getElementById("main").style.transform = "translateX(-250px)";
+    var closeButton = document.querySelectorAll('#mobileNav button.close');
+    closeButton[1].focus();
   } else {
     closeMobileNav();
   }
