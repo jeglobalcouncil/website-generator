@@ -53,17 +53,6 @@ function closeMobileNav() {
     document.getElementById("main").style.transform = "translateX(0px)";
 }
 
-var uButtons = document.getElementsByClassName('u-button');
-for (var i = 0; i < uButtons.length; i++) {
-  uButtons[i].id = 'u-button-' + i;
-  uButtons[i].addEventListener('keyup', function(event) {
-    event.preventDefault();
-    if (event.keyCode === 13) {
-      document.getElementById('u-button-'+i).click();
-    }
-  });
-}
-
 // ------------------- //
 //  Typewriter effect  //
 // ------------------- //
