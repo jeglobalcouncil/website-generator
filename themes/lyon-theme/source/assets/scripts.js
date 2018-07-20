@@ -53,6 +53,16 @@ function closeMobileNav() {
     document.getElementById("main").style.transform = "translateX(0px)";
 }
 
+var uButtons = document.getElementsByClassName('u-button');
+for (var i = 0; i < uButtons.length; i++) {
+  uButtons[i].addEventListener('keyup', function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+      uButtons[i].click();
+    }
+  });
+}
+
 // ------------------- //
 //  Typewriter effect  //
 // ------------------- //
@@ -110,15 +120,6 @@ window.onload = function() {
     }
   }
   bubbleGraph();
-  var uButtons = document.getElementsByClassName('u-button');
-  for (var i = 0; i < uButtons.length; i++) {
-    uButtons[i].addEventListener('keyup', function(event) {
-      event.preventDefault();
-      if (event.keyCode === 13) {
-        uButtons[i].click();
-      }
-    });
-  }
 };
 
 // -------------------- //
