@@ -31,7 +31,7 @@
         <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
       <% } %>
-      <% if( page.title == 'Contact' ){ %>
+      <% if( page.title == 'Contact' || page.title == 'Start a JE' ){ %>
         <script defer src="https://www.google.com/recaptcha/api.js"></script>
       <% } %>
     <!-- Map -->
@@ -74,7 +74,7 @@
           <p>Hello there!</p>
           <p>Whether you're an university student, faculty or staff member, we're excited to have you interested in creating a JE in your institution of higher education.</p>
           <p>Fill this form to be contacted by one of our Enlargement Managers, who will help you in founding a JE!</p>
-          <form target="_blank" accept-charset="UTF-8" action="https://usebasin.com/f/7923bbb4b05a" enctype="multipart/form-data" method="POST">
+          <div class="container"><form target="_blank" accept-charset="UTF-8" action="https://usebasin.com/f/7923bbb4b05a" enctype="multipart/form-data" method="POST">
             <div class="row">
               <input class="card" type="text" id="name" name="name" placeholder="Name" required>
             </div>
@@ -88,7 +88,7 @@
               <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
             </div>
             <button class="button" type="submit">Submit</button>
-          </form>
+          </form></div>
         </div>
       </div>
 
@@ -98,7 +98,7 @@
           <p>Hello there!</p>
           <p>We are excited to partner with your organization. Together, we can write the next chapters of the Junior Enterprise Network.</p>
           <p>Fill this form to be contacted by one of our Managers to schedule a meeting.</p>
-          <form target="_blank" accept-charset="UTF-8" action="https://usebasin.com/f/7923bbb4b05a" enctype="multipart/form-data" method="POST">
+          <div class="container"><form target="_blank" accept-charset="UTF-8" action="https://usebasin.com/f/7923bbb4b05a" enctype="multipart/form-data" method="POST">
             <div class="row">
               <input class="card" type="text" id="name" name="name" placeholder="Name" required>
             </div>
@@ -112,11 +112,11 @@
               <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
             </div>
             <button class="button" type="submit">Submit</button>
-          </form>
+          </form></div>
         </div>
       </div>
 
     <% } %>
-    
+
   </body>
 </html>
