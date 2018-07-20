@@ -1,18 +1,27 @@
-#map {
-  height: 100%;
-  height: calc(100% - 56px);
-  z-index: 0;
-}
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  color: #323232;
-}
+/* Base Font
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-/* Search */
+html { font: 14px/1.6 'Open Sans', sans-serif; }
+
+
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body { height: 100%; margin: 0; padding: 0; color: #222; overflow-x: hidden; }
+
+button { color: inherit; font: inherit; background: none; border: none; padding: 0; margin: 0; }
+
+a { color: #1492b8; text-decoration: none; word-wrap: break-word; transition: all .15s ease-in; }
+a:hover, a:focus { text-decoration: underline; }
+
+#map { height: 100%; height: calc(100% - 56px); z-index: 0; }
+
+
+
+/* Search
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 .search-container {
   width: 100%;
   position: absolute;
@@ -274,7 +283,11 @@ label {
 ::-ms-clear { width : 0; height: 0; }
 ::-webkit-search-cancel-button { display: none; }
 
-/* JE Info Window */
+
+
+/* JE Info Panel
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 #je-info {
   display: none;
   position: absolute;
@@ -491,7 +504,11 @@ label {
   padding: 8px 24px 24px 24px;
 }
 
-/* Media Queries */
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 @media(min-width:840px){
   .navbar-main,
   .navbar-main .dropdown {

@@ -1,3 +1,36 @@
+// ------------------- //
+//   General Scripts   //
+// ------------------- //
+
+function openDropdown(event, id) {
+  if (event.keyCode == 13 || event.which == 13) {
+    if (document.getElementById(id).style.display == 'none'){
+      document.getElementById(id).style.display = 'block';
+    } else {
+      document.getElementById(id).style.display = 'none';
+    }
+  }
+}
+
+function toggleMobileNav() {
+  if (document.getElementById("mobileNav").style.right != "0px") {
+    document.getElementById("mobileNav").style.right = "0px";
+    document.getElementById("main").style.transform = "translateX(-250px)";
+    document.getElementById('mobileNav-tab-anchor').focus();
+  } else {
+    closeMobileNav();
+  }
+}
+
+function closeMobileNav() {
+    document.getElementById("mobileNav").style.right = "-250px";
+    document.getElementById("main").style.transform = "translateX(0px)";
+}
+
+// ------------------- //
+//     Map Scripts     //
+// ------------------- //
+
 // Declare database as global variable
 var map;
 var mapdb = [];

@@ -42,9 +42,9 @@ html { font: 14px/1.6 'Open Sans', sans-serif; }
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-button { color: inherit; font: inherit; background: none; border: none; padding: 0; margin: 0; }
-
 body { height: 100%; margin: 0; padding: 0; color: #222; overflow-x: hidden; }
+
+button { color: inherit; font: inherit; background: none; border: none; padding: 0; margin: 0; }
 
 a { color: #1492b8; text-decoration: none; word-wrap: break-word; transition: all .15s ease-in; }
 a:hover, a:focus { text-decoration: underline; }
