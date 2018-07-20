@@ -57,5 +57,66 @@
           <%- partial('partial/footer')%>
         <% } %>
     </div>
+
+    <!-- Modals -->
+    <% if( page.title == 'Start a JE' ){ %>
+
+      <div id="video-modal" class="modal u-center">
+        <div class="container">
+          <p class="close" onclick="closeModal('video-modal');">&times;</p>
+          <div id="modal-content"></div>
+        </div>
+      </div>
+
+      <div id="students-form" class="modal u-center">
+        <div class="container">
+          <p class="close" onclick="closeModal('students-form');">&times;</p>
+          <p>Hello there!</p>
+          <p>Whether you're an university student, faculty or staff member, we're excited to have you interested in creating a JE in your institution of higher education.</p>
+          <p>Fill this form to be contacted by one of our Enlargement Managers, who will help you in founding a JE!</p>
+          <form target="_blank" accept-charset="UTF-8" action="https://usebasin.com/f/7923bbb4b05a" enctype="multipart/form-data" method="POST">
+            <div class="row">
+              <input class="card" type="text" id="name" name="name" placeholder="Name" required>
+            </div>
+            <div class="row">
+              <input class="card" type="email" id="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="row">
+              <textarea class="card" rows="4" name="comment" placeholder="Tell us a little about yourself. What's your university? Your role? Your field of study?" required></textarea>
+            </div>
+            <div class="row">
+              <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
+            </div>
+            <button class="button" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <div id="orgs-form" class="modal u-center">
+        <div class="container">
+          <p class="close" onclick="closeModal('orgs-form');">&times;</p>
+          <p>Hello there!</p>
+          <p>We are excited to partner with your organization. Together, we can write the next chapters of the Junior Enterprise Network.</p>
+          <p>Fill this form to be contacted by one of our Managers to schedule a meeting.</p>
+          <form target="_blank" accept-charset="UTF-8" action="https://usebasin.com/f/7923bbb4b05a" enctype="multipart/form-data" method="POST">
+            <div class="row">
+              <input class="card" type="text" id="name" name="name" placeholder="Name" required>
+            </div>
+            <div class="row">
+              <input class="card" type="email" id="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="row">
+              <textarea class="card" rows="4" name="comment" placeholder="Tell us a little about your organization. What's it called? What is your role? And what are you looking for in a partnership?" required></textarea>
+            </div>
+            <div class="row">
+              <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
+            </div>
+            <button class="button" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+
+    <% } %>
+    
   </body>
 </html>

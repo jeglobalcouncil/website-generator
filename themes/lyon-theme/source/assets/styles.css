@@ -589,7 +589,7 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
 /* Blog Post Cards
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.tag { background: #24a1c8; color: #fff; border-radius: 6px; padding: 2px 6px; }
+.tag { background: #24a1c8; color: #fff; border-radius: 6px; padding: 1px 6px; }
 /* .tag:focus, .tag:hover { background-color: #4abbde; text-decoration: none; } */
 
 .Enlargement.tag { background: #6161a8 }
@@ -603,6 +603,9 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
 
 .Projects.tag { background: #4c944f }
 /* .Projects.tag:focus, .Projects.tag:hover { background: #58a75b } */
+
+.vertical.card p.cite:last-child { margin-bottom: 3.6rem; }
+.vertical.card p.cite:last-child .tag { position: absolute; bottom: 1.5rem; }
 
 
 /*                   	  END OF COMMON PAGE STYLES

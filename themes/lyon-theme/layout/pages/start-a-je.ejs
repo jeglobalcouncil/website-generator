@@ -1,11 +1,3 @@
-<!-- Modals -->
-<div id="modal" class="modal u-center">
-  <div class="container">
-    <p class="close" onclick="closeModal();">&times;</p>
-    <div id="modal-content"></div>
-  </div>
-</div>
-
 <!-- Hero Section -->
 <section id="big-hero" class="u-white u-center bg-image bg-gradient-purple-1">
   <img src="/assets/images/enej-2017-jeurs.jpeg">
@@ -18,7 +10,7 @@
     <span class="extra-larger">And go on a Journey</span>
     <span class="larger"><br>of Growth & Impact</span>
   </h3>
-  <div tabindex="0" class="learn-more u-button" onclick="smoothScroll('why');">
+  <div tabindex="0" class="learn-more u-button" onclick="smoothScroll('top-cta');">
     Learn More<br>
     <svg viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
       <path d="M30 12 L16 24 2 12" />
@@ -27,20 +19,18 @@
 </section>
 
 <!-- Page Content -->
-<div class="bg-white"><div class="container">
+<section id="top-cta" class="bg-white"><div class="container">
   <div class="deck">
     <div class="one-half column cta container bg-gray">
       <p>Are you a student or university staff member that wants to create a JE? We can help you!</p>
-      <a href="https://goo.gl/forms/OkGFtputtWOZp4Nl1" class="purple button" target="_blank">Start your JE today</a>
+      <div tabindex="0" onclick="openFormModal('students-form');" class="purple button" target="_blank">Start your JE today</div>
     </div>
     <div class="one-half column cta container bg-gray">
       <p>Are you an organization that wants to stimulate the creation of JEs in a certain country or region?</p>
-      <div class="purple-shadow">
-        <a href="https://goo.gl/forms/7sazuE1uYr2Q2fmY2" class="purple button" target="_blank">Partner with us</a>
-      </div>
+      <div tabindex="0" onclick="openFormModal('orgs-form');" class="purple button" target="_blank">Partner with us</div>
     </div>
   </div>
-</div></div>
+</div></section>
 
 <div class="bg-gray"><div class="container">
   <section id="why">
@@ -54,24 +44,18 @@
   <section>
     <div class="deck">
       <div class="one-third column">
-        <div class="purple-shadow">
-          <div tabindex="0" onclick="openModal('976376269211179','476px','476px');" class="purple button u-p12 u-center small-image">
-            <img src="/assets/images/video-je-usa.jpeg" alt="">
-          </div>
+        <div tabindex="0" onclick="openVideoModal('976376269211179','476px','476px');" class="purple button u-p12 u-center small-image">
+          <img src="/assets/images/video-je-usa.jpeg" alt="Create a JE Video - USA">
         </div>
       </div>
       <div class="one-third column">
-        <div class="purple-shadow">
-          <div tabindex="0" onclick="openModal('1006070099575129','476px','476px');" class="purple button u-p12 u-center small-image">
-            <img src="/assets/images/video-brasil-junior.jpeg" alt="">
-          </div>
+        <div tabindex="0" onclick="openVideoModal('1006070099575129','476px','476px');" class="purple button u-p12 u-center small-image">
+          <img src="/assets/images/video-brasil-junior.jpeg" alt="Create a JE Video - Brasil">
         </div>
       </div>
       <div class="one-third column">
-        <div class="purple-shadow">
-          <div tabindex="0" onclick="" class="purple button u-p12 u-center small-image">
-            <img src="/assets/images/coming-soon.jpeg" alt="">
-          </div>
+        <div tabindex="0" onclick="" class="purple button u-p12 u-center small-image">
+          <img src="/assets/images/coming-soon.jpeg" alt="">
         </div>
       </div>
     </div>
@@ -94,18 +78,14 @@
     <h3 class="u-mt0">How to create a JE</h3>
     <div class="deck">
       <div class="one-half column">
-        <div class="purple-shadow">
-          <div tabindex="0" onclick="openModal('968390363343103','476px','476px');" class="purple button u-p12 u-center large-image">
-            <img src="/assets/images/imm-video.jpeg" alt="">
-          </div>
+        <div tabindex="0" onclick="openVideoModal('968390363343103','476px','476px');" class="purple button u-p12 u-center large-image">
+          <img src="/assets/images/imm-video.jpeg" alt="">
         </div>
       </div>
       <div class="one-half column">
-        <div class="purple-shadow">
-          <a class="purple button u-p12 u-center large-image" target="_blank" href="https://drive.google.com/file/d/0B8ruiONvrBgsUVA5cGFJUzVsdVQ2M183dDdTUHJBa19rbHlB/view">
-            <img src="/assets/images/international-maturity-model.jpeg" alt="">
-          </a>
-        </div>
+        <a class="purple button u-p12 u-center large-image" target="_blank" href="https://drive.google.com/file/d/0B8ruiONvrBgsUVA5cGFJUzVsdVQ2M183dDdTUHJBa19rbHlB/view">
+          <img src="/assets/images/international-maturity-model.jpeg" alt="">
+        </a>
       </div>
     </div>
   </div>
@@ -117,13 +97,11 @@
     <div class="deck">
       <div class="one-half column cta container bg-gray">
         <p>Students and university staff</p>
-        <a href="https://goo.gl/forms/OkGFtputtWOZp4Nl1" class="purple button" target="_blank">Start your JE today</a>
+        <div tabindex="0" onclick="openFormModal('students-form');" class="purple button" target="_blank">Start your JE today</div>
       </div>
       <div class="one-half column cta container bg-gray">
-        <p>Companies and organizations</p>
-        <div class="purple-shadow">
-          <a href="https://goo.gl/forms/7sazuE1uYr2Q2fmY2" class="purple button" target="_blank">Partner with us</a>
-        </div>
+        <p>Companies and organizations</p>=
+        <div tabindex="0" onclick="openFormModal('orgs-form');" class="purple button" target="_blank">Partner with us</div>
       </div>
     </div>
   </section>

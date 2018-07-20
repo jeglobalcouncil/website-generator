@@ -11,11 +11,11 @@ function openDropdown(event, id) {
 
 function smoothScroll(id) {
   var element = document.getElementById(id);
-  element.scrollIntoView({ behavior:'smooth' });
+  element.scrollIntoView({behavior:"smooth",block:"start",inline:"nearest"});
 }
 
-function openModal(videoId,maxWidth,reqHeight) {
-  var modal = document.getElementById('modal');
+function openVideoModal(videoId,maxWidth,reqHeight) {
+  var modal = document.getElementById('video-modal');
   var modalContent = document.getElementById('modal-content');
   modalContent.innerHTML = '<iframe id="modal-iframe" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fjeglobalcouncil%2Fvideos%2F' + videoId + '%2F&show_text=0" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>';
   var modalIframe = document.getElementById('modal-iframe');
@@ -30,9 +30,18 @@ function openModal(videoId,maxWidth,reqHeight) {
   }
 }
 
-function closeModal() {
-  var modal = document.getElementById('modal');
-  modal.style.display = 'none';
+function openFormModal(form) {
+  var modal = document.getElementById('form');
+  modal.style.display = 'block';
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = 'none';
+      }
+  }
+}
+
+function closeModal(modal) {
+  document.getElementById(modal).style.display = 'none';
 }
 
 function toggleMobileNav() {
