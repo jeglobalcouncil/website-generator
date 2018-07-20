@@ -31,7 +31,7 @@ function openVideoModal(videoId,maxWidth,reqHeight) {
 }
 
 function openFormModal(form) {
-  var modal = document.getElementById('form');
+  var modal = document.getElementById(form);
   modal.style.display = 'block';
   window.onclick = function(event) {
       if (event.target == modal) {
