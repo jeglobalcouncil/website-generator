@@ -110,9 +110,9 @@ window.onload = function() {
     }
   }
   bubbleGraph();
-  var uButtons = document.getElementsByClassName("example");
+  var uButtons = document.getElementsByClassName('u-button');
   for (var i = 0; i < uButtons.length; i++) {
-    uButtons[i].addEventListener("keyup", function(event) {
+    uButtons[i].addEventListener('keyup', function(event) {
       event.preventDefault();
       if (event.keyCode === 13) {
         uButtons[i].click();
