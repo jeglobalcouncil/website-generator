@@ -1,12 +1,7 @@
-/* Base Font
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-html { font: 14px/1.6 'Open Sans', sans-serif; }
-
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-body { height: 100%; margin: 0; padding: 0; color: #222; overflow-x: hidden; }
+html, body { height: 100%; margin: 0; padding: 0; color: #222; overflow-x: hidden; font: 14px/1.6 'Open Sans', sans-serif; }
 
 button { color: inherit; font: inherit; background: none; border: none; padding: 0; margin: 0; }
 
@@ -14,6 +9,40 @@ a { color: #1492b8; text-decoration: none; word-wrap: break-word; transition: al
 a:hover, a:focus { text-decoration: underline; }
 
 #map { height: 100%; height: calc(100% - 56px); z-index: 0; }
+
+.button {
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 0.5rem;
+  line-height: 16px;
+  box-sizing: border-box;
+  border: none;
+  font-size: 14px;
+  padding: 12px 1.5rem;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  background-color: #24a1c8;
+  border-color: #1f8cad;
+  transition: all .15s ease-in;
+}
+.button:hover, .button:focus {
+  background-color: #4abbde;
+  border-color: #24a1c;
+  text-decoration: none;
+}
+
+a.purple-hover:hover, a.purple-hover:focus {
+  background-color: #6161a8;
+  border-color: #525298;
+}
+
+.cite { text-transform: uppercase; letter-spacing: 1px; font-size: 14px; }
+
+.close { color: #fff; font-size: 3rem; font-weight: bold; }
+.close:hover, .close:focus { color: #24a1c8; text-decoration: none; cursor: pointer; }
 
 /*                   	        JE MAP STYLES
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
@@ -54,11 +83,12 @@ a:hover, a:focus { text-decoration: underline; }
   display: none;
   font-size: 38px;
   position: absolute;
-  top: 3px;
+  top: -6px;
   right: 10px;
   color: #757575;
   background-color: transparent;
   border: none;
+  font-weight: bold;
 }
 .search .fa-search#searchIcon {
   font-size: 20px;

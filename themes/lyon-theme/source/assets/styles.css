@@ -97,6 +97,7 @@ th:last-child, td:last-child { padding-right: 0; }
   letter-spacing: 1px;
   font-weight: bold;
   background-color: #24a1c8;
+  border-color: #
   transition: all .15s ease-in;
 }
 .button:hover, .button:focus {
