@@ -467,17 +467,11 @@ function hideMarkers() {
   for (i in jemarkers) {
     jemarkers[i].setMap(null);
   }
-  // for (i in confmarkers) {
-  //   confmarkers[i].setMap(null);
-  // }
 }
 
 function showMarkers() {
   for (i in jemarkers) {
     jemarkers[i].setMap(map);
-  }
-  for (i in confmarkers) {
-    confmarkers[i].setMap(map);
   }
 }
 
@@ -660,11 +654,6 @@ function openInfo(je) {
   for (var i = 0; i < jemarkers.length; i++) {
     if (jemarkers[i].id == je) {
       bounds.extend(jemarkers[i].position);
-    }
-  }
-  for (var i = 0; i < confmarkers.length; i++) {
-    if (confmarkers[i].id == je) {
-      bounds.extend(confmarkers[i].position);
     }
   }
   var extendPoint1 = new google.maps.LatLng(bounds.getNorthEast().lat() + 0.01, bounds.getNorthEast().lng() + 0.01);
