@@ -286,9 +286,8 @@ function clearSearch() {
   document.getElementById('field-filter').style.background = '#f2f2f2';
   document.getElementById('country-filter').value = '';
   document.getElementById('country-filter').style.background = '#f2f2f2';
-  document.getElementById('natl-award').checked = false;
-  document.getElementById('growth-award').checked = false;
-  document.getElementById('story-award').checked = false;
+  document.getElementById('type-je').checked = true;
+  document.getElementById('type-conf').checked = false;
   for (i in searchmarkers) {
     searchmarkers[i].setMap(null);
   }
@@ -339,17 +338,20 @@ function runSearch() {
       if (country == '' || mapdb[i].country == country) {
         if (field == '') {
           shortlist.push(mapdb[i]);
+          console.log(mapdb[i]);
         } else {
           var l = mapdb[i].fields_id.length;
           for (var j = 0; j < l; j++) {
             if (mapdb[i].fields_id[j] == field) {
               shortlist.push(mapdb[i]);
+              console.log(mapdb[i]);
             }
           }
         }
       }
     }
   }
+  console.log(shortlist);
   // Run search using fuse.js as long as search-box is not empty
   var query = document.getElementById('search-box').value;
   if (query != '') {
@@ -382,6 +384,7 @@ function runSearch() {
     }
     var result = NaiveShuffle(shortlist);
   }
+  console.log(result);
   // Count results
   if (result.length == 1) {
     var text = ' JE found'
@@ -391,7 +394,7 @@ function runSearch() {
   document.getElementById('counter').innerHTML = result.length + text;
   document.getElementById('counter2').innerHTML = result.length + text;
   // Fill html object with results
-  var html = result.map(function(je) {
+  var resultsHTML = result.map(function(je) {
     // Name
     var h = '<button class="result-container" onclick="openInfo(&quot;' + je.id + '&quot;)"><div class="result">' +
               '<div class="je-name">' + je.name + '</div>';
@@ -401,12 +404,15 @@ function runSearch() {
     } else {
       var f = '';
       var le = je.fields_id.length;
+      console.log(le);
       for (var i = 0; i < le; i++) {
         if (je.field_id[i] != null) {
           f += fieldsLookup[je.field_id[i]].name + ' &bull; ';
+          console.log(je.field_id[i]].name);
         }
       }
       f = f.slice(0, -8);
+      console.log(f);
     }
     h +=      '<div style="clear:both;"></div>' +
               '<div class="je-field">' + f + '</div>' +
@@ -415,7 +421,7 @@ function runSearch() {
     return h;
   }).join('');
   // Insert html
-  document.getElementById('search-results-panel').innerHTML = html;
+  document.getElementById('search-results-panel').innerHTML = resultsHTML;
   // Replace markers
   hideMarkers();
   var jepin = {
