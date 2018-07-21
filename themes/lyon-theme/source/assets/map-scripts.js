@@ -335,7 +335,7 @@ function runSearch() {
   // Add JEs that satisfy filters to a shortlist
   var shortlist = [];
   for (var i = 0; i < mapdb.length; i++) {
-    if ( (mapdb[i].confederation == 0 && listJEs) || (mapdb[i].confederation == 1 && listConfs) {
+    if ((mapdb[i].confederation == 0 && listJEs)||(mapdb[i].confederation == 1 && listConfs)) {
       if (country == '' || mapdb[i].country == country) {
         if (field == '') {
           shortlist.push(mapdb[i]);
