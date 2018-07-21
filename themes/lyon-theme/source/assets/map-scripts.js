@@ -170,7 +170,7 @@ function getFields() {
       fields = JSON.parse(xhttp.responseText);
     }
   };
-  xhttp.open("GET", "/api/globalcouncil/locations", true);
+  xhttp.open("GET", "/api/globalcouncil/fields", true);
   xhttp.setRequestHeader("Authorization", "Basic " + btoa("globalcouncil:GC_map_2018"));
   xhttp.send();
 }
