@@ -168,6 +168,16 @@ function getFields() {
     if (this.readyState == 4 && this.status == 200) {
       // Save server response
       fields = JSON.parse(xhttp.responseText);
+      // Update fields list
+      var html = '<option value="">-- Any field --</option>';
+      var length = fields.length;
+      console.log(length);
+      for (var i = 0; i < length; i++) {
+        html += '<option value="' + fields[i].name + '">' + fields[i].name + '</option>';
+        console.log(fields[i].name);
+      }
+      console.log(html);
+      document.getElementById('field-filter').innerHTML = html;
     }
   };
   xhttp.open("GET", "/api/globalcouncil/fields", true);
@@ -186,6 +196,16 @@ function getCountries() {
       for (var i = 0; i < countries.length; i++) {
         countries[i] = countries[i].replace('danemark','denmark').replace('-union','').replace('usa','united-states').replace('_',' ').replace('-',' ');
       }
+      // Update countries list
+      var html = '<option value="">-- Any country --</option>';
+      var length = countries.length;
+      console.log(length);
+      for (var i = 0; i < length; i++) {
+        html += '<option value="' + countries[i] + '">' + countries[i] + '</option>';
+        console.log(countries[i].name);
+      }
+      console.log(html);
+      document.getElementById('country-filter').innerHTML = html;
     }
   };
   xhttp.open("GET", "/api/globalcouncil/locations", true);
@@ -246,31 +266,6 @@ function setMarkers(map) {
   xhttp.open("GET", "/api/globalcouncil/map", true);
   xhttp.setRequestHeader("Authorization", "Basic " + btoa("globalcouncil:GC_map_2018"));
   xhttp.send();
-}
-
-// Make Field and Country lists show up on search panel
-function updateFields() {
-  var html = '<option value="">-- Any field --</option>';
-  var length = fields.length;
-  console.log(length);
-  for (var i = 0; i < length; i++) {
-    html += '<option value="' + fields[i].name + '">' + fields[i].name + '</option>';
-    console.log(fields[i].name);
-  }
-  console.log(html);
-  document.getElementById('field-filter').innerHTML = html;
-}
-
-function updateCountries() {
-  var html = '<option value="">-- Any country --</option>';
-  var length = countries.length;
-  console.log(length);
-  for (var i = 0; i < length; i++) {
-    html += '<option value="' + countries[i] + '">' + countries[i] + '</option>';
-    console.log(countries[i].name);
-  }
-  console.log(html);
-  document.getElementById('country-filter').innerHTML = html;
 }
 
 function openSearchPanel() {
