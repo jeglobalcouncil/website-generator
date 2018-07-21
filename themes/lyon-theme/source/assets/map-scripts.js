@@ -539,6 +539,8 @@ function openInfo(je) {
         if (jeinfo.domains.length == 1) {
           if (jeinfo.domains[0].field != null) {
             document.getElementById('je-field').innerHTML = '<h3 class="je-subtitle">FIELD</h3>' + jeinfo.domains[0].field;
+          } else {
+            document.getElementById('je-field').innerHTML = '';
           }
         } else {
           var a = '<h3 class="je-subtitle">FIELDS</h3>';
