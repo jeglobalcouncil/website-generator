@@ -224,13 +224,16 @@ function setMarkers(map) {
         // Pick pin type
         if (je.confederation == 0) {
           var pin = jepin;
+          var z: 10;
         } else {
           var pin = confpin;
+          var z: 1000;
         }
         // Create Marker
         jemarkers[i] = new google.maps.Marker({
           position: {lat: +je.latitude, lng: +je.longitude},
           icon: pin,
+          zIndex: z,
           title: je.name,
           id: je.id,
           map: map
