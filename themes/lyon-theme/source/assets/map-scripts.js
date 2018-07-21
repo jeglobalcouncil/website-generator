@@ -399,12 +399,16 @@ function runSearch() {
       var f = 'Confederation';
     } else {
       var f = '';
-      var le = je.fields_id.length;
+      if (je.fields_id !== null && typeof je.fields_id === 'object') {
+        var fieldsArray = Object.values(je.fields_id);
+      } else {
+        var fieldsArray = je.fields_id;
+      }
+      var le = fieldsArray.length;
       console.log(le);
       for (var i = 0; i < le; i++) {
-        if (je.fields_id[i] != null) {
-          f += fieldsLookup[je.fields_id[i]].name + ' &bull; ';
-          console.log(je.fields_id[i].name);
+        if (fieldsArray[i] != null) {
+          f += fieldsLookup[fieldsArray[i]].name + ' &bull; ';
         }
       }
       f = f.slice(0, -8);
