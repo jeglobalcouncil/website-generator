@@ -398,11 +398,7 @@ label {
   width: 90%;
   width: calc(100% - 24px);
 }
-#je-awards a,
-.powered-by a {
-  text-decoration: none;
-  color: #176982;
-}
+.powered-by p { margin-bottom: none; }
 .powered-by img {
   display: inline-block;
   width: 24px;
@@ -411,8 +407,8 @@ label {
   margin-bottom: -10px;
 }
 .powered-by {
-  text-align: right;
-  margin-top: 16px;
+  text-align: center;
+  margin-top: 24px;
 }
 .card, .hire-btn {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -529,7 +525,10 @@ label {
   position: relative;
 }
 .je-benchmarking {
-  padding: 8px 24px 24px 24px;
+  padding: 24px;
+}
+.je-benchmarking .je-subtitle:first-child {
+    margin-top: 0;
 }
 
 
