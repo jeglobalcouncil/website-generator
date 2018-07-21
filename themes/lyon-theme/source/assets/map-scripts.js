@@ -338,20 +338,17 @@ function runSearch() {
       if (country == '' || mapdb[i].country == country) {
         if (field == '') {
           shortlist.push(mapdb[i]);
-          console.log(mapdb[i]);
         } else {
           var l = mapdb[i].fields_id.length;
           for (var j = 0; j < l; j++) {
             if (mapdb[i].fields_id[j] == field) {
               shortlist.push(mapdb[i]);
-              console.log(mapdb[i]);
             }
           }
         }
       }
     }
   }
-  console.log(shortlist);
   // Run search using fuse.js as long as search-box is not empty
   var query = document.getElementById('search-box').value;
   if (query != '') {
@@ -384,7 +381,6 @@ function runSearch() {
     }
     var result = NaiveShuffle(shortlist);
   }
-  console.log(result);
   // Count results
   if (result.length == 1) {
     var text = ' JE found'
@@ -406,9 +402,9 @@ function runSearch() {
       var le = je.fields_id.length;
       console.log(le);
       for (var i = 0; i < le; i++) {
-        if (je.field_id[i] != null) {
-          f += fieldsLookup[je.field_id[i]].name + ' &bull; ';
-          console.log(je.field_id[i].name);
+        if (je.fields_id[i] != null) {
+          f += fieldsLookup[je.fields_id[i]].name + ' &bull; ';
+          console.log(je.fields_id[i].name);
         }
       }
       f = f.slice(0, -8);
