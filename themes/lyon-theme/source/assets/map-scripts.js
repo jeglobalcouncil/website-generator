@@ -549,17 +549,18 @@ function openInfo(je) {
       }
       // Stats
       if (jeinfo.nbr_members !== 0 || jeinfo.nbr_projects !== 0 || jeinfo.nbr_ca !== 0) {
-        document.getElementById('je-stats').innerHTML = '<h3 class="je-subtitle">STATS</h3><div class="stats-container">'
+        var part1 = '<h3 class="je-subtitle">STATS</h3><div class="stats-container">'
+        var part2 = '';
         if (jeinfo.nbr_members !== 0) {
-          document.getElementById('je-stats').innerHTML += '<div class="child"><div class="stat">' + jeinfo.nbr_members + '</div><div class="description">Members</div></div>';
+          part2 += '<div class="child"><div class="stat">' + jeinfo.nbr_members + '</div><div class="description">Members</div></div>';
         }
         if (jeinfo.nbr_projects !== 0) {
-          document.getElementById('je-stats').innerHTML += '<div class="child"><div class="stat">' + jeinfo.nbr_projects + '</div><div class="description">Projects in 2017</div></div>';
+          part2 += '<div class="child"><div class="stat">' + jeinfo.nbr_projects + '</div><div class="description">Projects in 2017</div></div>';
         }
         if (jeinfo.nbr_ca !== 0) {
-          document.getElementById('je-stats').innerHTML += '<div class="child"><div class="stat">' + jeinfo.nbr_ca/1000 + 'k</div><div class="description">Revenue in ' + jeinfo.devise + ' in 2017</div></div>';
+          part2 += '<div class="child"><div class="stat">' + Math.round(jeinfo.nbr_ca/1000) + 'k</div><div class="description">Revenue in ' + jeinfo.devise + ' in 2017</div></div>';
         }
-        document.getElementById('je-stats').innerHTML += '</div>';
+        document.getElementById('je-stats').innerHTML = part1 + part2 + '</div>';
       }
       // Placeholder services
       // jeinfo["service1"] = 'Web, Systems and App Development';
