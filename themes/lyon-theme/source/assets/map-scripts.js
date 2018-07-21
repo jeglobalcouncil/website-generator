@@ -157,7 +157,8 @@ function initMap() {
   // Set markers
   setMarkers(map);
   // Update Lists
-  updateLists();
+  updateFields();
+  updateCountries();
 }
 
 // Get Fields
@@ -248,8 +249,20 @@ function setMarkers(map) {
 }
 
 // Make Field and Country lists show up on search panel
-function updateLists() {
-  console.log('yay')
+function updateFields() {
+  var html = '<option value="">-- Any field --</option>';
+  var length = fields.length;
+  for (var i = 0; i < length; i++) {
+    html += '<option value="' + fields[i] + '">' + fields[i] + '</option>'
+  }
+}
+
+function updateCountries() {
+  var html = '<option value="">-- Any country --</option>';
+  var length = countries.length;
+  for (var i = 0; i < length; i++) {
+    html += '<option value="' + countries[i] + '">' + countries[i] + '</option>'
+  }
 }
 
 function openSearchPanel() {

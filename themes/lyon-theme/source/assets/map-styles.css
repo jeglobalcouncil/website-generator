@@ -124,6 +124,7 @@ a.purple-hover:hover, a.purple-hover:focus {
   border-radius: 2px;
   background-color: #f2f2f2;
   color: #323232;
+  text-transform: capitalize;
 }
 input[type=checkbox] {
   width: 14px;
@@ -400,7 +401,6 @@ label {
   width: 90%;
   width: calc(100% - 24px);
 }
-.powered-by p { margin-bottom: none; }
 .powered-by img {
   display: inline-block;
   width: 24px;
@@ -408,10 +408,7 @@ label {
   top: -2px;
   margin-bottom: -10px;
 }
-.powered-by {
-  text-align: center;
-  margin-top: 24px;
-}
+.powered-by { text-align: center; }
 .card, .hire-btn {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   -webkit-transition: all .15s ease-in;
