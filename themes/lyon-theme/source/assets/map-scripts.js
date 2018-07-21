@@ -175,7 +175,7 @@ function getFields() {
 }
 
 // Get Countries
-function getLists() {
+function getCountries() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
