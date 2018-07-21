@@ -408,7 +408,7 @@ function runSearch() {
       for (var i = 0; i < le; i++) {
         if (je.field_id[i] != null) {
           f += fieldsLookup[je.field_id[i]].name + ' &bull; ';
-          console.log(je.field_id[i]].name);
+          console.log(je.field_id[i].name);
         }
       }
       f = f.slice(0, -8);
