@@ -38,6 +38,7 @@ var fields = [];
 var fieldsLookup = {};
 var countries = [];
 var jemarkers = [];
+var confsLookup = {};
 var searchmarkers = [];
 
 // "Don't show this again" cookie
@@ -248,6 +249,7 @@ function setMarkers(map) {
           var pin = jepin;
         } else {
           var pin = confpin;
+          confsLookup[je.id] = true;
         }
         // Create Marker
         jemarkers[i] = new google.maps.Marker({
@@ -533,7 +535,7 @@ function openInfo(je) {
         document.getElementById('je-uni').innerHTML = '';
       }
       // Field
-      if (!(jeinfo.domains == null || jeinfo.domains == [])) {
+      if (!(jeinfo.domains == null || jeinfo.domains.length == 0)) {
         if (jeinfo.domains.length == 1) {
           if (jeinfo.domains[0].field != null) {
             document.getElementById('je-field').innerHTML = '<h3 class="je-subtitle">FIELD</h3>' + jeinfo.domains[0].field;
@@ -589,8 +591,12 @@ function openInfo(je) {
         document.getElementById('je-stats').innerHTML = '';
       }
       // Placeholder services
-      if (jeinfo.website != null && jeinfo.website != '') {
-        document.getElementById('je-services').innerHTML = '<a href="' + jeinfo.website + '" class="hire-btn">Hire this JE</a>'
+      if (!(confsLookup[jeinfo.id])) {
+        if (!(jeinfo.website == null || jeinfo.website == '')) {
+          document.getElementById('je-services').innerHTML = '<a href="' + jeinfo.website + '" class="hire-btn">Hire this JE</a>'
+        } else {
+          document.getElementById('je-services').innerHTML = '';
+        }
       } else {
         document.getElementById('je-services').innerHTML = '';
       }
