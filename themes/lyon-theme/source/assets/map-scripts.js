@@ -253,7 +253,7 @@ function updateFields() {
   var html = '<option value="">-- Any field --</option>';
   var length = fields.length;
   for (var i = 0; i < length; i++) {
-    html += '<option value="' + fields[i].name + '">' + fields[i].name + '</option>'
+    html += '<option value="' + fields[i].name + '">' + fields[i].name + '</option>';
   }
   console.log(html);
   document.getElementById('field-filter').innerHTML = html;
@@ -263,8 +263,9 @@ function updateCountries() {
   var html = '<option value="">-- Any country --</option>';
   var length = countries.length;
   for (var i = 0; i < length; i++) {
-    html += '<option value="' + countries[i] + '">' + countries[i] + '</option>'
+    html += '<option value="' + countries[i] + '">' + countries[i] + '</option>';
   }
+  console.log(html);
   document.getElementById('country-filter').innerHTML = html;
 }
 
