@@ -542,10 +542,14 @@ function openInfo(je) {
             document.getElementById('je-field').innerHTML += '<br>' + jeinfo.domains[i].field;
           }
         }
+      } else {
+        document.getElementById('je-field').innerHTML = '';
       }
       // Parent
       if (jeinfo.confederation !== null && jeinfo.confederation !== '') {
         document.getElementById('je-parent').innerHTML = '<h3 class="je-subtitle">CONFEDERATION</h3>' + jeinfo.confederation;
+      } else {
+        document.getElementById('je-parent').innerHTML = '';
       }
       // Stats
       if (jeinfo.nbr_members !== 0 || jeinfo.nbr_projects !== 0 || jeinfo.nbr_ca !== 0) {
@@ -561,31 +565,18 @@ function openInfo(je) {
           part2 += '<div class="child"><div class="stat">' + Math.round(jeinfo.nbr_ca/1000) + 'k</div><div class="description">Revenue in ' + jeinfo.devise + ' in 2017</div></div>';
         }
         document.getElementById('je-stats').innerHTML = part1 + part2 + '</div>';
+      } else {
+        document.getElementById('je-stats').innerHTML = '';
       }
       // Placeholder services
-      // jeinfo["service1"] = 'Web, Systems and App Development';
-      // jeinfo["service1img"] = 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=75&fm=jpg&w=400&fit=max';
-      // jeinfo["service2"] = 'Professional Translations';
-      // jeinfo["service2img"] = 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=75&fm=jpg&w=400&fit=max';
-      // jeinfo["link"] = 'https://je.epfl.ch/';
-      // Services
-      // if (jeinfo.service1 != "" || jeinfo.service2 != "") {
-      //   document.getElementById('services-subtitle').innerHTML = 'MAIN SERVICES';
-      //   var services = '';
-      //   if (jeinfo.service1 != "") {
-      //     services += '<div class="card"><div class="card-image" style="background: url(' + jeinfo.service1img + ')"></div><div class="container"><h4>' + jeinfo.service1 + '</h4></div></div>';
-      //   }
-      //   if (jeinfo.service2 != "") {
-      //     services += '<div class="card"><div class="card-image" style="background: url(' + jeinfo.service2img + ')"></div><div class="container"><h4>' + jeinfo.service2 + '</h4></div></div>';
-      //   }
-      //   if (jeinfo.link != "") {
-      //     services += '<a href="' + jeinfo.link + '" class="hire-btn">Hire this JE</a>'
-      //   }
-      //   document.getElementById('je-services').innerHTML = services;
-      // }
+      if (jeinfo.website !== null || jeinfo.website !== '') {
+        document.getElementById('je-services').innerHTML = '<a href="' + jeinfo.website + '" class="hire-btn">Hire this JE</a>'
+      } else {
+        document.getElementById('je-services').innerHTML = '';
+      }
       // Contact
       var hascontact = false;
-      var contact = '<div class="card contact-card">';
+      var contact = '<h3 class="je-subtitle">CONTACT</h3><div class="card contact-card">';
       if (jeinfo.website != null) {
         contact += '<a href="' + jeinfo.website + '"><i class="fa fa-globe"></i></a>';
         hascontact = true;
@@ -599,16 +590,14 @@ function openInfo(je) {
         hascontact = true;
       }
       contact += '</div>';
-      if (hascontact == true) {
-        document.getElementById('contact-subtitle').innerHTML = 'CONTACT';
+      if (hascontact) {
         document.getElementById('je-contact').innerHTML = contact;
       } else {
-        document.getElementById('contact-subtitle').innerHTML = '';
         document.getElementById('je-contact').innerHTML = '';
       }
       // Social Media
       var hassocial = false;
-      var social = '<div class="card contact-card">';
+      var social = '<h3 class="je-subtitle">CONTACT</h3><div class="card contact-card">';
       if (jeinfo.facebook != null) {
         social += '<a href="' + jeinfo.facebook + '"><i class="fab fa-facebook"></i></a>'
         hassocial = true;
@@ -623,37 +612,36 @@ function openInfo(je) {
       }
       social += '</div>';
       if (hassocial == true) {
-        document.getElementById('social-subtitle').innerHTML = 'SOCIAL';
         document.getElementById('je-social').innerHTML = social;
       } else {
-        document.getElementById('social-subtitle').innerHTML = '';
         document.getElementById('je-social').innerHTML = '';
       }
-      // Placeholder Benchmarking CONTACT
-      jeinfo["hasbench"] = 1;
-      jeinfo["benchname"] = 'John Doe';
-      jeinfo["benchposition"] = 'President';
-      jeinfo["benchwpp"] = '+000000000000';
-      jeinfo["benchmess"] = 'doe.john.doe';
       // Benchmarking Contact
-      if (jeinfo.hasbench == 1) {
-        var bench = '<h3 class="je-subtitle ttip">BENCHMARKING CONTACT<div class="tooltiptext">Use this contact if you&apos;re a Junior Entrepreneur that wants to contact this JE to exchange ideas, practices and knowledge!</div></h3><div class="bench-contact">';
-        if (jeinfo.benchname != "") {
-          bench += '<div class="child-60"><div class="contact-name">' + jeinfo.benchname + '</div>'
+      var hasbench = false;
+      var bench = '<h3 class="je-subtitle ttip">BENCHMARKING CONTACT<div class="tooltiptext">Use this contact if you&apos;re a Junior Entrepreneur that wants to contact this JE to exchange ideas, practices and knowledge!</div></h3><div class="bench-contact">';
+      // Benchmarking Contact
+      if (jeinfo.contact != null) {
+        if (jeinfo.contact.name != null) {
+          hasbench = true;
+          bench += '<div class="child-60"><div class="contact-name">' + jeinfo.contact.name + '</div>';
         }
-        if (jeinfo.benchposition != "") {
-          bench += '<div class="contact-position">' + jeinfo.benchposition + '</div></div>'
+        if (jeinfo.contact.position != null) {
+          hasbench = true;
+          bench += '<div class="contact-position">' + jeinfo.contact.position + '</div></div>';
         }
-        bench += '<div class="child-40"><div class="card contact-card">'
-        if (jeinfo.benchwpp != "") {
-          bench += '<a href="https://api.whatsapp.com/send?phone=' + jeinfo.benchwpp + '" class="ttipx"><i class="fab fa-whatsapp"></i><div class="tooltiptext">' + jeinfo.benchwpp + '</div></a>'
+        bench += '<div class="child-40"><div class="card contact-card">';
+        if (jeinfo.contact.email != null) {
+          hasbench = true;
+          bench += '<a href="mailto:' + jeinfo.contact.email + '" class="ttipx"><i class="fa fa-envelope"></i><div class="tooltiptext">' + jeinfo.contact.email + '</div></a>';
         }
-        if (jeinfo.benchmess != "") {
-          bench += '<a href="https://m.me/' + jeinfo.benchmess + '"><i class="fab fa-facebook-messenger"></i></a>'
+        if (jeinfo.contact.linkedin != null) {
+          hasbench = true;
+          bench += '<a href="' + jeinfo.contact.linkedin + '"><i class="fab fa-linkedin"></i></a>';
         }
         bench += '</div></div></div>';
         document.getElementById('je-benchmarking-contact').innerHTML = bench;
       }
+      // End
     }
   };
   console.log(je);
