@@ -625,7 +625,7 @@ function openInfo(je) {
       }
       // Social Media
       var hassocial = false;
-      var social = '<h3 class="je-subtitle">CONTACT</h3><div class="card contact-card">';
+      var social = '<h3 class="je-subtitle">SOCIAL</h3><div class="card contact-card">';
       if (jeinfo.facebook != null) {
         social += '<a href="' + jeinfo.facebook + '"><i class="fab fa-facebook"></i></a>'
         hassocial = true;
@@ -667,7 +667,11 @@ function openInfo(je) {
           bench += '<a href="' + jeinfo.contact.linkedin + '"><i class="fab fa-linkedin"></i></a>';
         }
         bench += '</div></div></div>';
+      }
+      if (hasbench) {
         document.getElementById('je-benchmarking-contact').innerHTML = bench;
+      } else {
+        document.getElementById('je-benchmarking-contact').innerHTML = '';
       }
       // End
     }
