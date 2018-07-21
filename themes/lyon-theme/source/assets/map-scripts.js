@@ -34,9 +34,11 @@ function closeMobileNav() {
 // Declare database as global variable
 var map;
 var mapdb = [];
+var countries = [];
+var fields = [];
 var jemarkers = [];
-var confmarkers = [];
 var searchmarkers = [];
+
 // "Don't show this again" cookie
 function setCookie(cname) {
   var check = document.getElementById(cname).checked;
@@ -48,6 +50,7 @@ function setCookie(cname) {
     document.cookie = cname + "=" + check + expires + ";SameSite=strict;path=/";
   }
 }
+
 // Initialize map
 function initMap() {
   // Map options
@@ -148,9 +151,47 @@ function initMap() {
   }
   // Create map
   map = new google.maps.Map(document.getElementById('map'), options);
+  // Get Lists
+  getFields();
+  getCountries();
   // Set markers
   setMarkers(map);
+  // Update Lists
+  updateLists();
 }
+
+// Get Fields
+function getFields() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      // Save server response
+      fields = JSON.parse(xhttp.responseText);
+    }
+  };
+  xhttp.open("GET", "/api/globalcouncil/locations", true);
+  xhttp.setRequestHeader("Authorization", "Basic " + btoa("globalcouncil:GC_map_2018"));
+  xhttp.send();
+}
+
+// Get Countries
+function getLists() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      // Save server response
+      countries = JSON.parse(xhttp.responseText);
+      // Process country names
+      for (var i = 0; i < countries.length; i++) {
+        countries[i] = countries[i].replace('danemark','denmark').replace('-union','').replace('usa','united-states').replace('_',' ').replace('-',' ');
+      }
+    }
+  };
+  xhttp.open("GET", "/api/globalcouncil/locations", true);
+  xhttp.setRequestHeader("Authorization", "Basic " + btoa("globalcouncil:GC_map_2018"));
+  xhttp.send();
+}
+
 // Set markers
 function setMarkers(map) {
   // Define icon options
@@ -161,27 +202,40 @@ function setMarkers(map) {
     scaledSize: new google.maps.Size(25, 44),
     url: '/assets/maps/jepin.png'
   }
+  var confpin = {
+    size: new google.maps.Size(50, 88),
+    origin: new google.maps.Point(0, 0),
+    anchor: new google.maps.Point(12, 41),
+    scaledSize: new google.maps.Size(25, 44),
+    url: '/assets/maps/confpin.png'
+  }
   // Load database from server
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       // Save server response
       mapdb = JSON.parse(xhttp.responseText);
-      // FIX THIS LATER
-      for (var i = 0; i < mapdb.length; i++) {
-        mapdb[i]["awards"] = [Math.round(Math.random()*0.55),Math.round(Math.random()*0.65),Math.round(Math.random()*0.55)];
-      }
-      // FIX THIS LATER
       // Set JE markers
       for (var i = 0; i < mapdb.length; i++) {
+        // Process country names
+        mapdb[i].country = mapdb[i].country.replace('danemark','denmark').replace('-union','').replace('usa','united-states').replace('_',' ').replace('-',' ');
+        // Get JE
         var je = mapdb[i];
+        // Pick pin type
+        if (je.confederation == 0) {
+          var pin = jepin;
+        } else {
+          var pin = confpin;
+        }
+        // Create Marker
         jemarkers[i] = new google.maps.Marker({
           position: {lat: +je.latitude, lng: +je.longitude},
-          icon: jepin,
+          icon: pin,
           title: je.name,
           id: je.id,
           map: map
         });
+        // Make marker clickable
         google.maps.event.addListener(jemarkers[i], 'click', function () {
           openInfo(this.id);
         });
@@ -191,6 +245,11 @@ function setMarkers(map) {
   xhttp.open("GET", "/api/globalcouncil/map", true);
   xhttp.setRequestHeader("Authorization", "Basic " + btoa("globalcouncil:GC_map_2018"));
   xhttp.send();
+}
+
+// Make Field and Country lists show up on search panel
+function updateLists() {
+  console.log('yay')
 }
 
 function openSearchPanel() {
@@ -236,30 +295,6 @@ function closePanels() {
   }
 }
 
-function openDropdown(event, id) {
-  if (event.keyCode == 13 || event.which == 13) {
-    if (document.getElementById(id).style.display == 'none'){
-      document.getElementById(id).style.display = 'block';
-    } else {
-      document.getElementById(id).style.display = 'none';
-    }
-  }
-}
-
-function openMenu() {
-  document.getElementById('openbtn').style.display = 'none';
-  document.getElementById('closebtn').style.display = 'block';
-  document.getElementById('mobile-menu').style.display = 'block';
-  document.getElementById('dark-bg').style.display = 'block';
-}
-
-function closeMenu() {
-  document.getElementById('openbtn').style.display = 'block';
-  document.getElementById('closebtn').style.display = 'none';
-  document.getElementById('mobile-menu').style.display = 'none';
-  document.getElementById('dark-bg').style.display = 'none';
-}
-
 function runSearch() {
   // Show only "Show results" button
   document.getElementById('search-panel').style.display = 'none';
@@ -272,20 +307,17 @@ function runSearch() {
   }
   searchmarkers.length = 0;
   // Get filter values
-  var award = [
-    document.getElementById('natl-award').checked,
-    document.getElementById('growth-award').checked,
-    document.getElementById('story-award').checked
-  ];
   var country = document.getElementById('country-filter').value;
   var field = document.getElementById('field-filter').value;
+  if (document.getElementById('conf-filter').checked) {
+    var conf = 1;
+  } else {
+    var conf = 0;
+  }
   // Add JEs that satisfy filters to a shortlist
   var shortlist = [];
   for (var i = 0; i < mapdb.length; i++) {
-    // FIX THIS LATER
-    var a = mapdb[i].awards
-    // FIX THIS LATER
-    if ( ( award[0] == a[0] || award[0] == 0 ) && ( award[1] == a[1] || award[1] == 0 ) && ( award[2] == a[2] || award[2] == 0 ) ) {
+    if (mapdb[i].confederation == conf) {
       if (country == '' || mapdb[i].country == country) {
         if (field == '') {
           shortlist.push(mapdb[i]);

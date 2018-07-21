@@ -1,8 +1,8 @@
 <div id="modal" style="font-family: 'Open Sans', sans-serif; display: table; width: 100%; height: 100%; position: fixed; z-index: 9; background-color: #323232; background-color: rgba(0,0,0,0.6)">
   <div id="modal-area" style="display: table-cell; vertical-align: middle;">
     <div style="width: 80%; max-width: 360px; max-height: 480px; margin: 0 auto; position: relative; overflow: hidden; box-sizing: border-box; border-radius: 6px; background-color: #f2f2f2; box-shadow: 0px 6px 18px 0px rgba(0,0,0,0.7); height: 80%; height: 80vh; ">
-      <button style="font-size: 38px; position: absolute; top: -6px; right: 10px; color: #757575; background-color: transparent; border: none; z-index: 9; font-weight: bold;" onclick="document.getElementById('modal').style.display = 'none';">×</button>
-      <div style="overflow-y: auto; position: absolute; height: 100%; width: 100%; box-sizing: border-box; padding: 42px 24px 84px 24px;">
+      <button style="font-size: 38px; position: absolute; top: -6px; right: 12px; color: #757575; background-color: transparent; border: none; z-index: 9; font-weight: bold;" onclick="document.getElementById('modal').style.display = 'none';">×</button>
+      <div style="overflow-y: auto; overflow-y: overlay; position: absolute; height: 100%; width: 100%; box-sizing: border-box; padding: 42px 24px 84px 24px;">
         <center><svg id="i-location" viewBox="-8 0 48 41" width="96" height="82" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
           <circle cx="16" cy="11" r="4" stroke="#24a1c8"/>
           <path d="M24 15 C21 22 16 30 16 30 16 30 11 22 8 15 5 8 10 2 16 2 22 2 27 8 24 15" stroke="#24a1c8"/>
@@ -10,8 +10,9 @@
         </svg></center>
         <h2>Welcome!</h2>
         <p>Junior Enterprises ("JEs") are companies run entirely by university students.</p>
-        <p>They offer services in their fields of study to other companies, institutions, entrepreneurs and society as a whole.</p>
-        <p>To learn more about the JE concept worldwide, check out the menu at the bottom of the map!</p>
+        <p>They offer services in their fields of study to other companies, entrepreneurs and society as a whole.</p>
+        <p>Use this map to find JEs to hire for your next project!</p>
+        <p>Search by name, field and/or country until you find one to contact.</p>
       </div>
       <label style="position: absolute; bottom: 50px; padding: 12px 0; box-sizing: border-box; width: 100%; text-align: center; background-color: inherit;">
         <input type="checkbox" id="dont-show" onkeyup="if(event.keyCode===13){this.click();}">
@@ -90,32 +91,7 @@
             <p>Filter by location:</p>
             <select id="country-filter" onclick="colorIfSelected(this);">
               <option value="">-- Any country --</option>
-              <option value="argentina">Argentina</option>
-              <option value="austria">Austria</option>
-              <option value="belgium">Belgium</option>
-              <option value="brazil">Brazil</option>
-              <option value="canada">Canada</option>
-              <option value="cameroon">Cameroon</option>
-              <option value="chile">Chile</option>
-              <option value="colombia">Colombia</option>
-              <option value="croatia">Croatia</option>
-              <option value="danemark">Denmark</option>
-              <option value="ecuador">Ecuador</option>
-              <option value="england">England</option>
-              <option value="france">France</option>
-              <option value="germany">Germany</option>
-              <option value="italia">Italy</option>
-              <option value="morocco">Morocco</option>
-              <option value="netherlands">Netherlands</option>
-              <option value="poland">Poland</option>
-              <option value="portugal">Portugal</option>
-              <option value="spain">Spain</option>
-              <option value="romania">Romania</option>
-              <option value="sweden">Sweden</option>
-              <option value="switzerland">Switzerland</option>
-              <option value="tunisia">Tunisia</option>
-              <option value="usa">United States</option>
-              <option value="vietnam">Vietnam</option>
+              
             </select>
           </div>
         </div>

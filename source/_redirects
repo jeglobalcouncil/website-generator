@@ -1,2 +1,3 @@
 /api/*  https://junior-connect.com/api/:splat 200!
+http://juniorenterprises.org/* https://juniorenterprises.org/:splat 301!
 /contacts  /contact

@@ -83,8 +83,8 @@ a.purple-hover:hover, a.purple-hover:focus {
   display: none;
   font-size: 38px;
   position: absolute;
-  top: -6px;
-  right: 10px;
+  top: -4px;
+  right: 12px;
   color: #757575;
   background-color: transparent;
   border: none;
@@ -124,13 +124,11 @@ a.purple-hover:hover, a.purple-hover:focus {
   color: #323232;
 }
 input[type=checkbox] {
-  width: 13px;
-  height: 13px;
+  width: 14px;
+  height: 14px;
   padding: 0;
-  margin: 0;
+  margin: 0.25rem 0;
   vertical-align: bottom;
-  position: relative;
-  top: -2px;
   *overflow: hidden;
 }
 label {
@@ -344,7 +342,9 @@ label {
   color: #fff;
   background-color: transparent;
   border: none;
-  padding: 0 10px;
+  padding: 0 12px;
+  font-weight: bold;
+  line-height: 1.2;
 }
 #je-cover {
   width: 100%;
