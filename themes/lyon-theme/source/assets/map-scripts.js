@@ -172,7 +172,7 @@ function getFields() {
       for (var i = 0; i < length; i++) {
         html += '<option value="' + fields[i].id + '">' + fields[i].name + '</option>';
       }
-      html += '<option value="">Other/Undefined</option>'
+      html += '<option value="">Others (Fields currently Undefined on profile)</option>'
       document.getElementById('field-filter').innerHTML = html;
       // Lookup object for fields
       for (var i = 0, len = fields.length; i < len; i++) {
@@ -405,14 +405,15 @@ function runSearch() {
         var fieldsArray = je.fields_id;
       }
       var le = fieldsArray.length;
-      console.log(le);
       for (var i = 0; i < le; i++) {
         if (fieldsArray[i] != null) {
           f += fieldsLookup[fieldsArray[i]].name + ' &bull; ';
         }
       }
       f = f.slice(0, -8);
-      console.log(f);
+      if (f === '') {
+        f = 'Undefined';
+      }
     }
     h +=      '<div style="clear:both;"></div>' +
               '<div class="je-field">' + f + '</div>' +
