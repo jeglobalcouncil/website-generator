@@ -310,8 +310,8 @@ label {
 .hire-btn:focus,
 .modal-btn:hover,
 .modal-btn:focus {
-  background-color: #1f8cad;
-  border-color: #1a7793;
+  background-color: #4abbde;
+  border-color: #24a1c8;
 }
 ::-ms-clear { width : 0; height: 0; }
 ::-webkit-search-cancel-button { display: none; }
