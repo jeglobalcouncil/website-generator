@@ -518,83 +518,70 @@ function openInfo(je) {
       // Name
       document.getElementById('je-name').innerHTML = jeinfo.name;
       // Location
-      if (jeinfo.country == 'usa') {
-        jeinfo.country = "USA";
-      }
       document.getElementById('je-location').innerHTML = jeinfo.city + ' – ' + jeinfo.country;
       // Universities
       if (jeinfo.universities.length != 0) {
-        document.getElementById('je-uni').innerHTML = jeinfo.universities[0];
         if (jeinfo.universities.length == 1) {
-          document.getElementById('uni-subtitle').innerHTML = 'UNIVERSITY';
+          document.getElementById('je-uni').innerHTML = '<h3 class="je-subtitle">UNIVERSITY</h3>' + jeinfo.universities[0];
         } else {
-          document.getElementById('uni-subtitle').innerHTML = 'UNIVERSITIES';
+          document.getElementById('je-uni').innerHTML = '<h3 class="je-subtitle">UNIVERSITIES</h3>' + jeinfo.universities[0];
           for (var i = 1; i < jeinfo.universities.length; i++) {
             document.getElementById('je-uni').innerHTML += '<br>' + jeinfo.universities[i];
           }
         }
       } else {
-        document.getElementById('uni-subtitle').innerHTML = '';
         document.getElementById('je-uni').innerHTML = '';
       }
       // Field
-      if (jeinfo.field != null) {
-        document.getElementById('field-subtitle').innerHTML = 'FIELD';
-      } else {
-        document.getElementById('field-subtitle').innerHTML = '';
+      if (jeinfo.domains !== null && jeinfo.domains !== []) {
+        if (jeinfo.domains.length == 1) {
+          document.getElementById('je-field').innerHTML = '<h3 class="je-subtitle">FIELD</h3>' + jeinfo.domains[0].field;
+        } else {
+          document.getElementById('je-field').innerHTML = '<h3 class="je-subtitle">FIELDS</h3>' + jeinfo.domains[0].field;
+          for (var i = 1; i < jeinfo.domains.length; i++) {
+            document.getElementById('je-field').innerHTML += '<br>' + jeinfo.domains[i].field;
+          }
+        }
       }
-      document.getElementById('je-field').innerHTML = jeinfo.field;
       // Parent
-      if (jeinfo.confederation != null) {
-        document.getElementById('parent-subtitle').innerHTML = 'PARENT';
-      } else {
-        document.getElementById('field-subtitle').innerHTML = '';
+      if (jeinfo.confederation !== null && jeinfo.confederation !== '') {
+        document.getElementById('je-parent').innerHTML = '<h3 class="je-subtitle">CONFEDERATION</h3>' + jeinfo.confederation;
       }
-      document.getElementById('je-parent').innerHTML = jeinfo.confederation;
-      // Placeholder awards
-      // FIX THIS LATER
-      // if (je.awards != [0,0,0]) {
-        document.getElementById('awards-subtitle').innerHTML = 'RECOGNITION';
-        var h = '';
-        // if (je.awards[0] == 1) {
-          var jecountry = jeinfo.country;
-          h += '<i class="fa fa-trophy"></i><span>Best JE in Europe of 2018</span>';
-        // }
-        // if (je.awards[0] == 1) {
-          h += '<i class="fa fa-signal"></i><span>High-growth JE in 2017</span>';
-        // }
-        // if (je.awards[0] == 1) {
-          h += '<i class="fa fa-certificate"></i><span><a href="http://jadenet.org/blog">Success story in confederation blog</a></span>';
-        // }
-        document.getElementById('je-awards').innerHTML = h;
-      // } else {
-      //   document.getElementById('awards-subtitle').innerHTML = '';
-      // }
-      // FIX THIS LATER
-      // Placeholder stats
-      document.getElementById('stats-subtitle').innerHTML = 'STATS';
-      document.getElementById('je-stats').innerHTML = '<div class="stats-container"><div class="child"><div class="stat">35</div><div class="description">Members</div></div><div class="child"><div class="stat">177</div><div class="description">Projects in 2017</div></div><div class="child"><div class="stat">375k€</div><div class="description">Revenue in 2017</div></div></div>';
+      // Stats
+      if (jeinfo.nbr_members !== 0 || jeinfo.nbr_projects !== 0 || jeinfo.nbr_ca !== 0) {
+        document.getElementById('je-stats').innerHTML = '<h3 class="je-subtitle">STATS</h3><div class="stats-container">'
+        if (jeinfo.nbr_members !== 0) {
+          document.getElementById('je-stats').innerHTML += '<div class="child"><div class="stat">' + jeinfo.nbr_members + '</div><div class="description">Members</div></div>';
+        }
+        if (jeinfo.nbr_projects !== 0) {
+          document.getElementById('je-stats').innerHTML += '<div class="child"><div class="stat">' + jeinfo.nbr_projects + '</div><div class="description">Projects in 2017</div></div>';
+        }
+        if (jeinfo.nbr_ca !== 0) {
+          document.getElementById('je-stats').innerHTML += '<div class="child"><div class="stat">' + jeinfo.nbr_ca/1000 + 'k</div><div class="description">Revenue in ' + jeinfo.devise + ' in 2017</div></div>';
+        }
+        document.getElementById('je-stats').innerHTML += '</div>';
+      }
       // Placeholder services
-      jeinfo["service1"] = 'Web, Systems and App Development';
-      jeinfo["service1img"] = 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=75&fm=jpg&w=400&fit=max';
-      jeinfo["service2"] = 'Professional Translations';
-      jeinfo["service2img"] = 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=75&fm=jpg&w=400&fit=max';
-      jeinfo["link"] = 'https://je.epfl.ch/';
+      // jeinfo["service1"] = 'Web, Systems and App Development';
+      // jeinfo["service1img"] = 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=75&fm=jpg&w=400&fit=max';
+      // jeinfo["service2"] = 'Professional Translations';
+      // jeinfo["service2img"] = 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=75&fm=jpg&w=400&fit=max';
+      // jeinfo["link"] = 'https://je.epfl.ch/';
       // Services
-      if (jeinfo.service1 != "" || jeinfo.service2 != "") {
-        document.getElementById('services-subtitle').innerHTML = 'MAIN SERVICES';
-        var services = '';
-        if (jeinfo.service1 != "") {
-          services += '<div class="card"><div class="card-image" style="background: url(' + jeinfo.service1img + ')"></div><div class="container"><h4>' + jeinfo.service1 + '</h4></div></div>';
-        }
-        if (jeinfo.service2 != "") {
-          services += '<div class="card"><div class="card-image" style="background: url(' + jeinfo.service2img + ')"></div><div class="container"><h4>' + jeinfo.service2 + '</h4></div></div>';
-        }
-        if (jeinfo.link != "") {
-          services += '<a href="' + jeinfo.link + '" class="hire-btn">Hire this JE</a>'
-        }
-        document.getElementById('je-services').innerHTML = services;
-      }
+      // if (jeinfo.service1 != "" || jeinfo.service2 != "") {
+      //   document.getElementById('services-subtitle').innerHTML = 'MAIN SERVICES';
+      //   var services = '';
+      //   if (jeinfo.service1 != "") {
+      //     services += '<div class="card"><div class="card-image" style="background: url(' + jeinfo.service1img + ')"></div><div class="container"><h4>' + jeinfo.service1 + '</h4></div></div>';
+      //   }
+      //   if (jeinfo.service2 != "") {
+      //     services += '<div class="card"><div class="card-image" style="background: url(' + jeinfo.service2img + ')"></div><div class="container"><h4>' + jeinfo.service2 + '</h4></div></div>';
+      //   }
+      //   if (jeinfo.link != "") {
+      //     services += '<a href="' + jeinfo.link + '" class="hire-btn">Hire this JE</a>'
+      //   }
+      //   document.getElementById('je-services').innerHTML = services;
+      // }
       // Contact
       var hascontact = false;
       var contact = '<div class="card contact-card">';
