@@ -237,6 +237,10 @@ function setMarkers(map) {
       for (var i = 0; i < mapdb.length; i++) {
         // Process country names
         mapdb[i].country = mapdb[i].country.replace('danemark','denmark').replace('-union','').replace('usa','united-states').replace('_',' ').replace('-',' ');
+        // Process field arrays
+        if (mapdb[i].fields_id !== null && typeof mapdb[i].fields_id === 'object') {
+          mapdb[i].fields_id = Object.values(mapdb[i].fields_id);
+        }
         // Get JE
         var je = mapdb[i];
         // Pick pin type
