@@ -253,8 +253,9 @@ function updateFields() {
   var html = '<option value="">-- Any field --</option>';
   var length = fields.length;
   for (var i = 0; i < length; i++) {
-    html += '<option value="' + fields[i] + '">' + fields[i] + '</option>'
+    html += '<option value="' + fields[i].name + '">' + fields[i].name + '</option>'
   }
+  document.getElementById('field-filter').innerHTML = html;
 }
 
 function updateCountries() {
@@ -263,6 +264,7 @@ function updateCountries() {
   for (var i = 0; i < length; i++) {
     html += '<option value="' + countries[i] + '">' + countries[i] + '</option>'
   }
+  document.getElementById('country-filter').innerHTML = html;
 }
 
 function openSearchPanel() {
