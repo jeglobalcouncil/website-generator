@@ -97,7 +97,6 @@ th:last-child, td:last-child { padding-right: 0; }
   letter-spacing: 1px;
   font-weight: bold;
   background-color: #24a1c8;
-  border-color: #
   transition: all .15s ease-in;
 }
 .button:hover, .button:focus {
@@ -556,6 +555,9 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
   width: 100%;
   left: 0;
 }
+
+@supports (-ms-ime-align:auto) { #big-hero video { display: none; } }  /* HIDE VIDEO ON MS EDGE */
+@media screen\0 { #big-hero video { display: none; } } /* HIDE VIDEO ON MS IE */
 
 .learn-more {
   position: relative;

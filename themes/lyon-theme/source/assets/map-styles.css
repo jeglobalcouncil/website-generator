@@ -30,7 +30,7 @@ a:hover, a:focus { text-decoration: underline; }
 }
 .button:hover, .button:focus {
   background-color: #4abbde;
-  border-color: #24a1c;
+  border-color: #24a1c8;
   text-decoration: none;
 }
 
