@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Junior Enterprise Worldwide
+title: Junior Enterprises Worldwide
 subtitle: Students delivering growth. Worldwide. Since 1967.
-description: The Official Website of the Worldwide Junior Enterprise Network
+description: Find a Junior Enterprise to hire for your next project or discover how to create a JE in your university in the official website of the Worldwide JE Network
 keywords: junior, enterprise, movement, network, university, entrepreneurship
 author: Junior Enterprise Global Council
 language: en
@@ -13,7 +13,7 @@ timezone: UTC
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://jeglobalcouncil.netlify.com/
+url: https://juniorenterprises.org/
 root: /
 permalink: /insights/:post_title/
 permalink_defaults:
