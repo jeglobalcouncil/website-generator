@@ -134,6 +134,8 @@ input[type=checkbox] {
   vertical-align: bottom;
   *overflow: hidden;
 }
+#type-je + div { color: #006C80; }
+#type-conf + div { color: #B17000; }
 label {
   display: inline-block;
 }
@@ -268,7 +270,7 @@ label {
   text-transform: capitalize;
 }
 .result .je-name {
-  max-width: 90%;
+  max-width: 100%;
 }
 .result .je-field {
   max-width: 70%;

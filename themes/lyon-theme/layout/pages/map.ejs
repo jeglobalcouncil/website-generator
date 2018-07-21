@@ -71,24 +71,18 @@
           </div>
         </div>
         <!-- Checkbox Filters -->
-        <p class="last">Filter by recognition:</p>
+        <p class="last">Filter by type:</p>
         <div class="checkbox-container">
           <label>
-            <input type="checkbox" id="natl-award" onkeyup="if(event.keyCode===13){this.click();}">
-            <div class="tooltip">Nationally awarded
-              <span class="tooltiptext">JEs recognized with a confederation-level award in the last 3 years</span>
+            <input type="checkbox" id="type-je" onkeyup="if(event.keyCode===13){this.click();}" checked>
+            <div class="tooltip">Junior Enterprise
+              <span class="tooltiptext">Student-run companies that offer services in their fields of study to clients</span>
             </div>
           </label>
           <label>
-            <input type="checkbox" id="growth-award" onkeyup="if(event.keyCode===13){this.click();}">
-            <div class="tooltip">High-growth
-              <span class="tooltiptext">JEs that surpassed their revenue & number of projects high-growth goals (20%, on average) in the current or previous year</span>
-            </div>
-          </label>
-          <label>
-            <input type="checkbox" id="story-award" onkeyup="if(event.keyCode===13){this.click();}">
-            <div class="tooltip">Success story
-              <span class="tooltiptext">JEs with a success story published in a confederation blog in the last 3 years</span>
+            <input type="checkbox" id="type-conf" onkeyup="if(event.keyCode===13){this.click();}">
+            <div class="tooltip">Confederation
+              <span class="tooltiptext">Umbrella organizations of all Junior Enterprises in a given country or region</span>
             </div>
           </label>
         </div>

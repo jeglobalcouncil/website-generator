@@ -35,6 +35,7 @@ function closeMobileNav() {
 var map;
 var mapdb = [];
 var fields = [];
+var fieldsLookup = {};
 var countries = [];
 var jemarkers = [];
 var searchmarkers = [];
@@ -151,14 +152,11 @@ function initMap() {
   }
   // Create map
   map = new google.maps.Map(document.getElementById('map'), options);
+  // Set markers
+  setMarkers(map);
   // Get Lists
   getFields();
   getCountries();
-  // Set markers
-  setMarkers(map);
-  // Update Lists
-  updateFields();
-  updateCountries();
 }
 
 // Get Fields
@@ -171,13 +169,15 @@ function getFields() {
       // Update fields list
       var html = '<option value="">-- Any field --</option>';
       var length = fields.length;
-      console.log(length);
       for (var i = 0; i < length; i++) {
-        html += '<option value="' + fields[i].name + '">' + fields[i].name + '</option>';
-        console.log(fields[i].name);
+        html += '<option value="' + fields[i].id + '">' + fields[i].name + '</option>';
       }
-      console.log(html);
+      html += '<option value="">Other/Undefined</option>'
       document.getElementById('field-filter').innerHTML = html;
+      // Lookup object for fields
+      for (var i = 0, len = fields.length; i < len; i++) {
+        fieldsLookup[fields[i].id] = fields[i];
+      }
     }
   };
   xhttp.open("GET", "/api/globalcouncil/fields", true);
@@ -199,12 +199,9 @@ function getCountries() {
       // Update countries list
       var html = '<option value="">-- Any country --</option>';
       var length = countries.length;
-      console.log(length);
       for (var i = 0; i < length; i++) {
         html += '<option value="' + countries[i] + '">' + countries[i] + '</option>';
-        console.log(countries[i].name);
       }
-      console.log(html);
       document.getElementById('country-filter').innerHTML = html;
     }
   };
@@ -325,21 +322,27 @@ function runSearch() {
   // Get filter values
   var country = document.getElementById('country-filter').value;
   var field = document.getElementById('field-filter').value;
-  if (document.getElementById('conf-filter').checked) {
-    var conf = 1;
+  if (document.getElementById('type-je').checked) {
+    var listJEs = true;
   } else {
-    var conf = 0;
+    var listJEs = false;
+  }
+  if (document.getElementById('type-conf').checked) {
+    var listConfs = true;
+  } else {
+    var listConfs = false;
   }
   // Add JEs that satisfy filters to a shortlist
   var shortlist = [];
   for (var i = 0; i < mapdb.length; i++) {
-    if (mapdb[i].confederation == conf) {
+    if ( (mapdb[i].confederation == 0 && listJEs) || (mapdb[i].confederation == 1 && listConfs) {
       if (country == '' || mapdb[i].country == country) {
         if (field == '') {
           shortlist.push(mapdb[i]);
         } else {
-          for (var j = 0; j < mapdb[i].field.length; j++) {
-            if (mapdb[i].field[j] == field) {
+          var l = mapdb[i].fields_id.length;
+          for (var j = 0; j < l; j++) {
+            if (mapdb[i].fields_id[j] == field) {
               shortlist.push(mapdb[i]);
             }
           }
@@ -389,24 +392,24 @@ function runSearch() {
   document.getElementById('counter2').innerHTML = result.length + text;
   // Fill html object with results
   var html = result.map(function(je) {
-    var n = je.awards;
     // Name
     var h = '<button class="result-container" onclick="openInfo(&quot;' + je.id + '&quot;)"><div class="result">' +
-              '<div class="je-name">' + je.name + '</div>' +
-              '<div class="je-award">';
-    // Award icons
-    if (n[0] == 1) {
-      h +=      '<i class="fa fa-trophy"></i>';
-    }
-    if (n[1] == 1) {
-      h +=      '<i class="fa fa-signal"></i>';
-    }
-    if (n[2] == 1) {
-      h +=      '<i class="fa fa-certificate"></i>';
-    }
+              '<div class="je-name">' + je.name + '</div>';
     // Field and Country
-    h +=      '</div>' + '<div style="clear:both;"></div>' +
-              '<div class="je-field">' + je.field + '</div>' +
+    if (je.confederation == 1) {
+      var f = 'Confederation';
+    } else {
+      var f = '';
+      var le = je.fields_id.length;
+      for (var i = 0; i < le; i++) {
+        if (je.field_id[i] != null) {
+          f += fieldsLookup[je.field_id[i]].name + ' &bull; ';
+        }
+      }
+      f = f.slice(0, -8);
+    }
+    h +=      '<div style="clear:both;"></div>' +
+              '<div class="je-field">' + f + '</div>' +
               '<div class="je-country">' + je.country + '</div>' +
             '</div></button>';
     return h;
@@ -422,14 +425,26 @@ function runSearch() {
     scaledSize: new google.maps.Size(25, 44),
     url: '/assets/maps/jepin.png'
   }
+  var confpin = {
+    size: new google.maps.Size(50, 88),
+    origin: new google.maps.Point(0, 0),
+    anchor: new google.maps.Point(12, 41),
+    scaledSize: new google.maps.Size(25, 44),
+    url: '/assets/maps/confpin.png'
+  }
   if (result.length != 0) {
     var bounds = new google.maps.LatLngBounds();
     for (var i = 0; i < result.length; i++) {
       var je = result[i];
+      if (je.confederation == 0) {
+        var pin = jepin;
+      } else {
+        var pin = confpin;
+      }
       var myLatLng = new google.maps.LatLng(je.latitude, je.longitude);
       searchmarkers[i] = new google.maps.Marker({
         position: myLatLng,
-        icon: jepin,
+        icon: pin,
         title: je.name,
         id: je.id,
         map: map
