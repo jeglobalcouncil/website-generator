@@ -252,8 +252,10 @@ function setMarkers(map) {
 function updateFields() {
   var html = '<option value="">-- Any field --</option>';
   var length = fields.length;
+  console.log(length);
   for (var i = 0; i < length; i++) {
     html += '<option value="' + fields[i].name + '">' + fields[i].name + '</option>';
+    console.log(fields[i].name);
   }
   console.log(html);
   document.getElementById('field-filter').innerHTML = html;
@@ -262,8 +264,10 @@ function updateFields() {
 function updateCountries() {
   var html = '<option value="">-- Any country --</option>';
   var length = countries.length;
+  console.log(length);
   for (var i = 0; i < length; i++) {
     html += '<option value="' + countries[i] + '">' + countries[i] + '</option>';
+    console.log(countries[i].name);
   }
   console.log(html);
   document.getElementById('country-filter').innerHTML = html;
