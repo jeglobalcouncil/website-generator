@@ -210,6 +210,7 @@ label {
   text-decoration: none;
   transition: all .15s ease-in;
 }
+.hire-btn:focus, .hire-btn:hover { text-decoration: none; }
 #search-btn { margin-top: -6px; }
 #search-results {
   display: none;
@@ -360,9 +361,9 @@ label {
   position: relative;
   top: -120px;
   margin-bottom: -120px;
-  width: 160px;
-  padding-top: 160px;
-  border: 2px solid #ffffff;
+  width: 150px;
+  padding-top: 150px;
+  border: 8px solid #ffffff;
   border-radius: 5px;
   background: #ffffff;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
