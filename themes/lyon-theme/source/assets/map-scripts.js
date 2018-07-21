@@ -34,8 +34,8 @@ function closeMobileNav() {
 // Declare database as global variable
 var map;
 var mapdb = [];
-var countries = [];
 var fields = [];
+var countries = [];
 var jemarkers = [];
 var searchmarkers = [];
 
@@ -255,6 +255,7 @@ function updateFields() {
   for (var i = 0; i < length; i++) {
     html += '<option value="' + fields[i].name + '">' + fields[i].name + '</option>'
   }
+  console.log(html);
   document.getElementById('field-filter').innerHTML = html;
 }
 
