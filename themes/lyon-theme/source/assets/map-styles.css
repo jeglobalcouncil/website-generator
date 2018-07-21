@@ -8,6 +8,8 @@ button { color: inherit; font: inherit; background: none; border: none; padding:
 a { color: #1492b8; text-decoration: none; word-wrap: break-word; transition: all .15s ease-in; }
 a:hover, a:focus { text-decoration: underline; }
 
+p { margin-top: 0; margin-bottom: 0.75rem; }
+
 #map { height: 100%; height: calc(100% - 56px); z-index: 0; }
 
 .button {
@@ -530,6 +532,8 @@ label {
 .je-benchmarking .je-subtitle:first-child {
     margin-top: 0;
 }
+.je-benchmarking.dark { background-color: #e2e2e2; }
+.je-benchmarking p:last-child { margin-bottom: 0; }
 
 
 
