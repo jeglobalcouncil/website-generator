@@ -533,35 +533,55 @@ function openInfo(je) {
         document.getElementById('je-uni').innerHTML = '';
       }
       // Field
-      if (jeinfo.domains !== null && jeinfo.domains !== []) {
+      if (!(jeinfo.domains == null || jeinfo.domains == [])) {
         if (jeinfo.domains.length == 1) {
-          document.getElementById('je-field').innerHTML = '<h3 class="je-subtitle">FIELD</h3>' + jeinfo.domains[0].field;
+          if (jeinfo.domains[0].field != null) {
+            document.getElementById('je-field').innerHTML = '<h3 class="je-subtitle">FIELD</h3>' + jeinfo.domains[0].field;
+          }
         } else {
-          document.getElementById('je-field').innerHTML = '<h3 class="je-subtitle">FIELDS</h3>' + jeinfo.domains[0].field;
+          var a = '<h3 class="je-subtitle">FIELDS</h3>';
+          var b = '';
+          var allnull = true;
+          if (jeinfo.domains[0].field != null) {
+            b += jeinfo.domains[0].field;
+            allnull = false;
+          }
           for (var i = 1; i < jeinfo.domains.length; i++) {
-            document.getElementById('je-field').innerHTML += '<br>' + jeinfo.domains[i].field;
+            if (jeinfo.domains[i].field != null) {
+              if (allnull) {
+                b += jeinfo.domains[i].field;
+              } else {
+                b += '<br>' + jeinfo.domains[i].field;
+              }
+              allnull = false;
+            }
+          }
+          if (!allnull) {
+            document.getElementById('je-field').innerHTML = a + b;
+          } else {
+            document.getElementById('je-field').innerHTML = '';
           }
         }
       } else {
         document.getElementById('je-field').innerHTML = '';
       }
       // Parent
-      if (jeinfo.confederation !== null && jeinfo.confederation !== '') {
+      if (!(jeinfo.confederation == null || jeinfo.confederation == '')) {
         document.getElementById('je-parent').innerHTML = '<h3 class="je-subtitle">CONFEDERATION</h3>' + jeinfo.confederation;
       } else {
         document.getElementById('je-parent').innerHTML = '';
       }
       // Stats
-      if (jeinfo.nbr_members !== 0 || jeinfo.nbr_projects !== 0 || jeinfo.nbr_ca !== 0) {
+      if (jeinfo.nbr_members != 0 || jeinfo.nbr_projects != 0 || jeinfo.nbr_ca != 0) {
         var part1 = '<h3 class="je-subtitle">STATS</h3><div class="stats-container">'
         var part2 = '';
-        if (jeinfo.nbr_members !== 0) {
+        if (jeinfo.nbr_members != 0) {
           part2 += '<div class="child"><div class="stat">' + jeinfo.nbr_members + '</div><div class="description">Members</div></div>';
         }
-        if (jeinfo.nbr_projects !== 0) {
+        if (jeinfo.nbr_projects != 0) {
           part2 += '<div class="child"><div class="stat">' + jeinfo.nbr_projects + '</div><div class="description">Projects in 2017</div></div>';
         }
-        if (jeinfo.nbr_ca !== 0) {
+        if (jeinfo.nbr_ca != 0) {
           part2 += '<div class="child"><div class="stat">' + Math.round(jeinfo.nbr_ca/1000) + 'k</div><div class="description">Revenue in ' + jeinfo.devise + ' in 2017</div></div>';
         }
         document.getElementById('je-stats').innerHTML = part1 + part2 + '</div>';
@@ -569,7 +589,7 @@ function openInfo(je) {
         document.getElementById('je-stats').innerHTML = '';
       }
       // Placeholder services
-      if (jeinfo.website !== null || jeinfo.website !== '') {
+      if (jeinfo.website != null && jeinfo.website != '') {
         document.getElementById('je-services').innerHTML = '<a href="' + jeinfo.website + '" class="hire-btn">Hire this JE</a>'
       } else {
         document.getElementById('je-services').innerHTML = '';
