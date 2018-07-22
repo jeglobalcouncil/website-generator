@@ -15,7 +15,7 @@ But for any of this to happen, its crucial:
 * To have your JE in the map
 * & to have your JE's profile complete and up to date
 
-### So, how can I add my JE or edit its profile?
+#### So, how can I add my JE or edit its profile?
 
 The Global JE Map is powered by the database from [JuniorConnect](https://junior-connect.com/), which is a platform for JEs worldwide originated within JADE Switzerland.
 
@@ -26,7 +26,7 @@ So to add your JE or edit its profile in the Global JE Map, all you have to do i
 * Have a JuniorConnect account
 * And update your JE's profile there
 
-### How to create a JuniorConnect account
+#### How to create a JuniorConnect account
 
 Visit junior-connect.com/features and click on the "Get JuniorConnect" button:
 
@@ -43,7 +43,7 @@ Soon, you'll be contacted by the platform to create your account! You may need t
 
 > **TIP:** If someone in your JE is already in JuniorConnect, then the process is much easier. You can ask them to login, go to "Organization" and then "Add People" and then invite you or give to you your JE's special sign-up link.
 
-### How to edit my JE's profile
+#### How to edit my JE's profile
 
 So you already have a JuniorConnect account. Awesome! Now login and go to "Organization".
 
