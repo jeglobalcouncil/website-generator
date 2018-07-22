@@ -580,7 +580,7 @@ function openInfo(je) {
         var part1 = '<h3 class="je-subtitle">STATS</h3><div class="stats-container">'
         var part2 = '';
         if (jeinfo.nbr_members != 0) {
-          part2 += '<div class="child"><div class="stat">' + jeinfo.nbr_members + '</div><div class="description">Members</div></div>';
+          part2 += '<div class="child"><div class="stat">' + jeinfo.nbr_members + '</div><div class="description">Team Members</div></div>';
         }
         if (jeinfo.nbr_projects != 0) {
           part2 += '<div class="child"><div class="stat">' + jeinfo.nbr_projects + '</div><div class="description">Projects in 2017</div></div>';
