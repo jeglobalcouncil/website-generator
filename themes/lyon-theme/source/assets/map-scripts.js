@@ -616,6 +616,7 @@ function openInfo(je) {
       if (jeinfo.email != null) {
         contact += '<a href=mailto:"' + jeinfo.email + '" class="ttipx"><i class="fa fa-envelope"></i><div class="tooltiptext">' + jeinfo.email + '</div></a>'
         hascontact = true;
+        document.getElementById('jc-access').innerHTML = '<b>Do you have access to ' + jeinfo.email + '?</b><br><a href="https://junior-connect.com/globalcouncil/organization/' + jeinfo.id + '/access" target="_blank">Click here to create a JuniorConnect account</a></p>'
       }
       contact += '</div>';
       if (hascontact) {
