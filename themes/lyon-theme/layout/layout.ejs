@@ -18,9 +18,9 @@
     <!-- Open Graph -->
       <meta property="fb:app_id" content="1731947456924075">
       <% if( page.featured_image ){ %>
-        <%- open_graph({ type: 'blog', image: page.featured_image }) %>
+        <%- open_graph({ type: 'article', image: page.featured_image }) %>
       <% } else { %>
-        <%- open_graph({ type: 'blog' }) %>
+        <%- open_graph({ type: 'article' }) %>
       <% } %>
     <!-- CSS Styles -->
       <% if( page.title == 'Map' ){ %>
