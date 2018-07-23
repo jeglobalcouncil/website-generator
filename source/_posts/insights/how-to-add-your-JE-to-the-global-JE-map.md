@@ -28,6 +28,18 @@ So to add your JE or edit its profile in the Global JE Map, all you have to do i
 
 #### How to create a JuniorConnect account
 
+**METHOD 1**
+
+Visit your JEs profile in the Global JE Map, scroll to the bottom and click on the link to create a JuniorConnect account to register. A verification will be sent to your contact email:
+
+![null](/assets/uploads/snip_20180722210018.jpg)
+
+This link only shows up if your JE has a contact email registered.
+
+If your JE does not have a contact email registered, if you don't have access to the registered email, or if your JE is not currently in the Global JE Map, then you can use the second method:
+
+**METHOD 2**
+
 Visit junior-connect.com/features and click on the "Get JuniorConnect" button:
 
 [![Get Junior Connect Button](/assets/uploads/getjuniorconnect.jpg)](https://junior-connect.com/features)
