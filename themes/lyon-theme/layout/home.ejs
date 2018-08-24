@@ -68,7 +68,7 @@
     <h3>Insights</h3>
     <p><div class="deck">
       <% var i=0 %>
-      <% if(i<3){ %>
+      <% if(i<2){ %>
         <% site.posts.sort('date', -1).forEach(function(post){ %>
           <% if(post.type=='blog'){ %>
             <%- partial('partial/blog-post-card', { post: post }) %>
