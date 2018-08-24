@@ -95,3 +95,11 @@ With this, you can rest assured that these will be priorities for all the 15 Eur
 This article cannot describe all the details or the richness of the JE movement around the world, but having a general view is a great first step. All the confederations of our global network are committed, with common goals and keen to collaborate to achieve them.
 
 The future is global and we are ready to fight for it.
+
+
+
+🌎🌍🌏
+
+
+
+Photo credits: [CNJE & JEToP](https://www.facebook.com/junior.entreprises/videos/430880630767867/)
