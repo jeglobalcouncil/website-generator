@@ -70,30 +70,28 @@ The latest addition to the Global JE network, Norway has the achievement of join
 
 #### Portugal & United Kingdom
 
-The first country has a Confederation – [JADE Portugal](https://www.jadeportugal.pt/) – whilst the second is represented within JADE by a Consultative Member: [WBC](http://www.wbc-uk.com/). But these two countries have something big in common: They’ve been selected to host the next main events of the European JE network.
+The first country has a Confederation – [JADE Portugal](https://www.jadeportugal.pt/) – whilst the second is represented within JADE by a Consultative Member: [WBC](http://www.wbc-uk.com/). But these two countries have something big in common: They’ve been selected to host the **next main events** of the European JE network.
 
-WBC is hosting the [JADE Autumn Conference](https://www.facebook.com/JadeAutumnConference2018/) in November in London. And JADE Portugal will host the Summer JADE Meeting next year, in Coimbra.
+WBC is hosting the [JADE Autumn Conference](https://www.facebook.com/JadeAutumnConference2018/) in November in London. And JADE Portugal will host next year, through one of its JEs, the [Summer JADE Conference](https://www.facebook.com/iscacjuniorsolutions/photos/a.268790073223462/1372347999534325/?type=3) in Coimbra.
 
 With all the exciting developments in the European network, these events are bound to be amazing!
 
 #### Europe
 
-Finally, on Europe, JADE works as an umbrella confederation, bringing together 11 countries with national confederations (Austria, Belgium, France, Germany, Italy, Netherlands, Poland, Portugal, Romania, Spain & Switzerland) and 4 countries with consultative members (Croatia, Norway, Sweden & UK).
+Finally, on Europe, JADE works as an **umbrella confederation**, bringing together 15 countries with national confederations or consultative members (Austria, Belgium, Croatia, France, Germany, Italy, Netherlands, Norway, Poland, Portugal, Romania, Spain, Sweden, Switzerland & UK).
 
-What’s incredible is that all of these countries have a pretty big achievement to share: They’ve signed last month their first ever network strategy, which has been nicknamed the Agreement of Lyon.
+What’s incredible is that all of these countries have a pretty big achievement to share: They’ve signed last month **their first ever network strategy**, which has been nicknamed the **Agreement of Lyon**.
 
 As part of this strategy, all of these countries have committed together to, until 2021:
 
-•	Become 500 JEs (which represents 52% growth from their current number of JEs!)
-
-•	Execute 5750 projects per year (versus 4350 projects this year)
-
-•	And ensure that 300 of these projects are collaborative: executed by two or more JEs working in partnership.
+* Become 500 JEs _(52% growth from their current number of JEs!)_
+* Execute 5750 projects per year _(versus 4350 projects this year)_
+* And ensure that 300 of these projects are collaborative: executed by two or more JEs working in partnership.
 
 With this, you can rest assured that these will be priorities for all the 15 European countries in the JE network.
 
 #### Conclusion
 
-This article cannot describe all the details or the richness of the JE movement around the world, but having a general view is a great first step. All our confederations are committed, with common goals and keen to collaborate to achieve them.
+This article cannot describe all the details or the richness of the JE movement around the world, but having a general view is a great first step. All the confederations of our global network are committed, with common goals and keen to collaborate to achieve them.
 
 The future is global and we are ready to fight for it.
