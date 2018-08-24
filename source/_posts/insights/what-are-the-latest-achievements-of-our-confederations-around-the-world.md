@@ -78,7 +78,7 @@ With all the exciting developments in the European network, these events are bou
 
 #### Europe
 
-Finally, on Europe, JADE works as an **umbrella confederation**, bringing together 15 countries with national confederations or consultative members (Austria, Belgium, Croatia, France, Germany, Italy, Netherlands, Norway, Poland, Portugal, Romania, Spain, Sweden, Switzerland & UK).
+Finally, on Europe, [JADE](http://www.jadenet.org/) works as an **umbrella confederation**, bringing together 15 countries with national confederations or consultative members (Austria, Belgium, Croatia, France, Germany, Italy, Netherlands, Norway, Poland, Portugal, Romania, Spain, Sweden, Switzerland & UK).
 
 What’s incredible is that all of these countries have a pretty big achievement to share: They’ve signed last month **their first ever network strategy**, which has been nicknamed the **Agreement of Lyon**.
 
