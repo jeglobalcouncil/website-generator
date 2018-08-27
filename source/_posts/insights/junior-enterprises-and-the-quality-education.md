@@ -6,7 +6,7 @@ date: '2018-08-27'
 featured_image: /assets/uploads/picture_article_sdg4.png
 topic: Enlargement
 ---
-During the Junior Enterprise Global Forum 2018, the **global strategy** was co-created in order to define the efforts of the Junior Enterprise Network until 2021. We were conscious that different realities require different solutions, but we felt that we needed something to fight for and share responsibilities.
+During the Junior Enterprise Global Forum 2018, the **global strategy** was co-created with the network in order to define the efforts of the Junior Enterprise Global Council until 2021. We were conscious that different realities require different solutions, but we felt that we needed something to fight for and share responsibilities.
 
 #### **The Sustainable Development Goals**
 
