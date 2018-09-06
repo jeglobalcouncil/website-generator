@@ -40,7 +40,7 @@ Skilled junior entrepreneurs, ready to lead the necessary changes, fighting for 
 
 Thus, our strategy contemplates the importance of creating new JEs. Our network has never been as big as it is today: we are already more than** 50 000** students in more than **1 000** Junior Enterprises and more than **1 500** Junior Initiatives in **40** countries, what represents **more than 20%** of the countries in the world. Among them, **17** already have their national confederations of JEs at this moment. 
 
-We are happy with our outcomes but not satisfied yet. We still want more junior enterprises to be created in order to be present in** 70 countries by 2021**, counting with **27 national confederations**. It means that we want to increase in **75%** our presence around the world and we want **more 10 confederations** to be created, representing JEs in accordance to the International Standards in order to consolidate our network in these countries. This growth will allow more and more higher education students to feel the benefits of the JE experience.
+We are happy with our outcomes but not satisfied yet. We still want more junior enterprises to be created in order to be present in** 55 countries by 2021**, counting with **27 national confederations.** These new confederations will be representing JEs in accordance to the International Standards in order to consolidate our network in these countries. This growth will allow more and more higher education students to feel the benefits of the JE experience.
 
 #### Bringing It All Together
 
