@@ -23,6 +23,9 @@
         <% if(confederation.type=='confederation'){ %>
           <%- partial('partial/confederation-card', { confederation: confederation }) %>
         <% } %>
+        <% if(confederation.type=='jade-member'){ %>
+          <%- partial('partial/confederation-card', { confederation: confederation }) %>
+        <% } %>
       <% }) %>
       <div class="horizontal card bg-map-1">
         <div class="twelve columns" style="text-align: center;">
@@ -31,13 +34,9 @@
       </div>
     </div>
     <br>
-    <p>Through JADE, the European confederation, the following confederations or consultative members are also represented in the JE Global Council:</p>
+    <p>Among the members above, JADE Europe is unique because it is an umbrella confederation of all the national confederations in Europe. Because of this, JADE Europe is not part of the Global Council's General Assembly, but can have a <a href="/insights/global-governance-a-growth-based-model/">Council Board</a> position, representing all of Europe in it.</p>
+    <p>Inside JADE, the following countries are consultative members and are thus also represented in the JE Global Council through JADE Europe:</p>
     <div class="deck">
-      <% site.posts.forEach(function(confederation){ %>
-        <% if(confederation.type=='jade-member'){ %>
-          <%- partial('partial/confederation-card', { confederation: confederation }) %>
-        <% } %>
-      <% }) %>
       <% site.posts.forEach(function(confederation){ %>
         <% if(confederation.type=='consultative-member'){ %>
           <%- partial('partial/confederation-card', { confederation: confederation }) %>
