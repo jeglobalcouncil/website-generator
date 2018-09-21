@@ -20,10 +20,7 @@
     <p>The following confederations are part of the <a href="/global-council">Junior Enterprise Global Council</a>:</p>
     <div class="deck">
       <% site.posts.forEach(function(confederation){ %>
-        <% if(confederation.type=='confederation'){ %>
-          <%- partial('partial/confederation-card', { confederation: confederation }) %>
-        <% } %>
-        <% if(confederation.type=='jade-member'){ %>
+        <% if(confederation.type=='confederation' || confederation.type=='jade-member'){ %>
           <%- partial('partial/confederation-card', { confederation: confederation }) %>
         <% } %>
       <% }) %>
