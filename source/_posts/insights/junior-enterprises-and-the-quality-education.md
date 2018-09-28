@@ -4,7 +4,7 @@ title: Junior Enterprises and the Quality Education
 author: Gabriel Caldas
 date: '2018-08-27'
 featured_image: /assets/uploads/picture_article_sdg4.png
-topic: Enlargement
+topic: Impact
 ---
 During the Junior Enterprise Global Forum 2018, the **global strategy** was co-created in order to define the efforts of the Junior Enterprise Network until 2021. We were conscious that different realities require different solutions, but we felt that we needed something to fight for and share responsibilities.
 
@@ -38,7 +38,7 @@ Even though this topic is more focused in youth before their enrollment in terti
 
 Skilled junior entrepreneurs, ready to lead the necessary changes, fighting for a better education, a multicultural and diverse network in more places than ever. Our impact in education is made by promoting an entrepreneurial culture for higher education students and the way we found to expand it mainly by creating new JEs, but we are also trying to do it via events, trainings, fomenting public policies, and so on.
 
-Thus, our strategy contemplates the importance of creating new JEs. Our network has never been as big as it is today: we are already more than** 50 000** students in more than **1 000** Junior Enterprises and more than **1 500** Junior Initiatives in **40** countries, what represents **more than 20%** of the countries in the world. Among them, **17** already have their national confederations of JEs at this moment. 
+Thus, our strategy contemplates the importance of creating new JEs. Our network has never been as big as it is today: we are already more than** 50 000** students in more than **1 000** Junior Enterprises and more than **1 500** Junior Initiatives in **40** countries, what represents **more than 20%** of the countries in the world. Among them, **17** already have their national confederations of JEs at this moment.
 
 We are happy with our outcomes but not satisfied yet. We still want more junior enterprises to be created in order to be present in** 70 countries by 2021**, counting with **27 national confederations**. It means that we want to increase in **75%** our presence around the world and we want **more 10 confederations** to be created, representing JEs in accordance to the International Standards in order to consolidate our network in these countries. This growth will allow more and more higher education students to feel the benefits of the JE experience.
 
