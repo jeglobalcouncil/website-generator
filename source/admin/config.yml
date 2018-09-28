@@ -22,7 +22,7 @@ collections:
       - {label: "Author", name: "author", widget: "relation", collection: "post-authors", searchFields: ["name"], valueField: "name"}
       - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Featured Image", name: "featured_image", widget: "image"}
-      - {label: "Category", name: "topic", widget: "select", options: ["People", "Sales", "Projects", "Network", "Enlargement"] }
+      - {label: "Category", name: "topic", widget: "select", options: ["Knowledge", "Network", "Enlargement", "Development", "Impact"] }
       - {label: "Blog Post Content", name: "body", widget: "markdown"}
 
   - name: "post-authors"

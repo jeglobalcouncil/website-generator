@@ -4,7 +4,7 @@ title: 'Autopoiesis, Collaborative Impact and the JE Network'
 author: Gabriel Caldas
 date: '2018-09-17'
 featured_image: /assets/uploads/38769060_10155938457539480_6648713935186821120_o.jpg
-topic: Network
+topic: Impact
 ---
 #### What’s the Importance of a Network?
 
@@ -16,7 +16,7 @@ The exchange of ideas promoted by the connection of our network can also contrib
 
 #### The Partnerships for the Goals
 
-In the UN Sustainable Development Goals, the **SDG 17: Partnerships for the Goals;** is the most detailed and complex in its content when compared to the others, since it aims to bind them. Somehow the success of the other Goals is related to this SDG that aims to create partnerships for to promote the global development by 2030. Thus, the Junior Enterprises Network can play an important role in this effort to achieve the Goals, since the strength of the network can create partnerships among the Junior Enterprises as well as with other public and private organisations. 
+In the UN Sustainable Development Goals, the **SDG 17: Partnerships for the Goals;** is the most detailed and complex in its content when compared to the others, since it aims to bind them. Somehow the success of the other Goals is related to this SDG that aims to create partnerships for to promote the global development by 2030. Thus, the Junior Enterprises Network can play an important role in this effort to achieve the Goals, since the strength of the network can create partnerships among the Junior Enterprises as well as with other public and private organisations.
 
 As it was said, the National Confederations are quite important to** lead the partnerships **to promote the development brought by the Junior Enterprises. This sharing of ideas and resources increases as the network is developed. The confederations must cherish the **autopoietic network** and ensure that the junior enterprises in a certain country will not be isolated from the rest, maintaining the reach and the diversity of the junior enterprise movement.
 

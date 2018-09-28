@@ -4,7 +4,7 @@ title: 'Junior Enterprises, Decent Work and Economic Growth'
 author: Gabriel Caldas
 date: '2018-09-07'
 featured_image: /assets/uploads/picture_artivlesdg8.png
-topic: Network
+topic: Impact
 ---
 During the Junior Enterprise Global Forum 2018, our **global strategy** was co-created in order to define the efforts of the Junior Enterprise Global Council until 2021. We were conscious that different realities require different solutions, but we felt that we needed something to fight for and share responsibilities.
 
@@ -32,7 +32,7 @@ _By 2030, substantially reduce the proportion of youth not in employment, educat
 
 The unemployment of young people is such a problem everywhere in the world. It is quite hard for them to find a job and when they find, in hard moments, they are generally the first ones to be fired because of **the lack of experience.** The junior enterprises can work in this pillar by offering them an entrepreneurial and global mindset, so that the youth will be more prepared, not only to enter the workforce, but also to be protagonists and innovator that will create impact new solutions for our societies. Besides that, when the Junior Enterprises make more and better projects, it is expected that their turnover will increase and it is essential for them, since, as non-profit organisation, this money can be used to develop the junior entrepreneurs’ skills.
 
-The real experience in a junior enterprise by leading a team, selling a project and developing it is quite important to **empower the youth.** But beyond the JEs, it is quite important to understand that the majority of the jobs are created by small enterprises, which are the main clients of the Junior Enterprises. So, it is logical to say that by improving their state, the junior entrepreneurs indirectly creates jobs opportunities for young people that are not directly involved with the junior enterprises. 
+The real experience in a junior enterprise by leading a team, selling a project and developing it is quite important to **empower the youth.** But beyond the JEs, it is quite important to understand that the majority of the jobs are created by small enterprises, which are the main clients of the Junior Enterprises. So, it is logical to say that by improving their state, the junior entrepreneurs indirectly creates jobs opportunities for young people that are not directly involved with the junior enterprises.
 
 _By 2030, develop and operationalize a global strategy for youth employment and implement the Global Jobs Pact of the International Labour Organisation;_
 

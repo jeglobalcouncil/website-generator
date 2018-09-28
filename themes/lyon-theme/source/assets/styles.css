@@ -531,6 +531,8 @@ a.purple-hover:hover, a.purple-hover:focus {
   z-index: 2;
 }
 .immersive.navbar a { border: none; }
+.immersive.navbar a img { filter: grayscale(100%) brightness(180%) contrast(220%); }
+.immersive.navbar a:hover img { filter: none; }
 .immersive.navbar a.highlight { background: none; color: #323232; }
 .immersive.navbar a.highlight:hover, .immersive.navbar a.highlight:focus { background-color: #fff; color: #24a1c8; border-color: #24a1c8; }
 .immersive.navbar .dropdown-content { margin-top: 0; }
@@ -601,14 +603,14 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
 .Enlargement.tag { background: #6161a8 }
 /* .Enlargement.tag:focus, .Enlargement.tag:hover { background: #7676b2 } */
 
-.Sales.tag { background: #9b5050 }
-/* .Sales.tag:focus, .Sales.tag:hover { background: #ab5f5f } */
+.Development.tag { background: #d2852d }
+/* .Development.tag:focus, .Development.tag:hover { background: #d79447 } */
 
-.People.tag { background: #d2852d }
-/* .People.tag:focus, .People.tag:hover { background: #d79447 } */
+.Impact.tag { background: #323232 }
+/* .Impact.tag:focus, .Impact.tag:hover { background: #424242 } */
 
-.Projects.tag { background: #4c944f }
-/* .Projects.tag:focus, .Projects.tag:hover { background: #58a75b } */
+.Knowledge.tag { background: #4c944f }
+/* .Knowledge.tag:focus, .Knowledge.tag:hover { background: #58a75b } */
 
 .vertical.card p.cite:last-child { margin-bottom: 3.6rem; }
 .vertical.card p.cite:last-child .tag { position: absolute; bottom: 1.5rem; }

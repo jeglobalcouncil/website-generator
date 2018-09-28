@@ -4,7 +4,7 @@ title: How to add your JE to the Global JE Map
 author: João Braquehais
 date: 2018-07-10T00:00:00.000Z
 featured_image: /assets/uploads/map.jpg
-topic: Network
+topic: Knowledge
 ---
 Here at the Junior Enterprise Global Council, we made the [Global Junior Enterprise Map](/map) to be the most complete and accessible public database of JEs worldwide.
 
