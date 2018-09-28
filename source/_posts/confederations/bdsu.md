@@ -1,5 +1,5 @@
 ---
-type: jade-member
+type: confederation
 title: BDSU (Germany)
 logo: /assets/logos/bdsu.png
 no_of_JEs: 32

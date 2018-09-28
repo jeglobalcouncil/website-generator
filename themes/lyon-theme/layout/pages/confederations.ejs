@@ -20,7 +20,7 @@
     <p>The following confederations are part of the <a href="/global-council">Junior Enterprise Global Council</a>:</p>
     <div class="deck">
       <% site.posts.forEach(function(confederation){ %>
-        <% if(confederation.type=='confederation' || confederation.type=='jade-member'){ %>
+        <% if(confederation.type=='confederation'){ %>
           <%- partial('partial/confederation-card', { confederation: confederation }) %>
         <% } %>
       <% }) %>
@@ -31,12 +31,11 @@
       </div>
     </div>
     <br>
-    <p>Among the members above, JADE Europe is unique because it is an umbrella confederation of all the national confederations in Europe. Because of this, JADE Europe is not part of the Global Council's General Assembly, but can have a <a href="/insights/global-governance-a-growth-based-model/">Council Board</a> position, representing all of Europe in it.</p>
-    <p>Inside JADE, the following countries are consultative members and are thus also represented in the JE Global Council through JADE Europe:</p>
+    <p>Beyond the confederations above, our network also includes the following countries which are developing themselves (creating more JEs and establishing a confederation) to soon join the Global Council and thus currently act as observers of the Global Council:</p>
     <div class="deck">
-      <% site.posts.forEach(function(confederation){ %>
-        <% if(confederation.type=='consultative-member'){ %>
-          <%- partial('partial/confederation-card', { confederation: confederation }) %>
+      <% site.posts.forEach(function(observer){ %>
+        <% if(observer.type=='observer'){ %>
+          <%- partial('partial/confederation-card', { confederation: observer }) %>
         <% } %>
       <% }) %>
     </div>

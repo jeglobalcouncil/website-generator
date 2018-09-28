@@ -1,5 +1,5 @@
 ---
-type: jade-member
+type: confederation
 title: JCNetwork (Germany)
 logo: /assets/logos/jcnetwork.png
 no_of_JEs: 34

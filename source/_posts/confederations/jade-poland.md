@@ -1,5 +1,5 @@
 ---
-type: jade-member
+type: confederation
 title: JADE Poland
 logo: /assets/logos/jade-poland.png
 no_of_JEs: 3

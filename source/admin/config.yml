@@ -38,7 +38,7 @@ collections:
 
   - name: "media-publications"
     label: "Media Publications"
-    folder: "source/_posts/media"
+    folder: "source/_posts/media-publications"
     create: true
     slug: "{{slug}}"
     fields:
@@ -83,16 +83,15 @@ collections:
       - {label: "Instagram", name: "instagram", widget: "string"}
       - {label: "Twitter", name: "twitter", widget: "string"}
 
-  - name: "jade-members"
-    label: "JADE Members"
-    folder: "source/_posts/jade-members"
+  - name: "observer"
+    label: "GC Observers"
+    folder: "source/_posts/observers"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Type", name: "type", widget: "select", options: ["jade-member", "consultative-member"] }
+      - {label: "Type", name: "type", widget: "hidden", default: "observer"}
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Logo", name: "logo", widget: "image"}
-      - {label: "Number of JEs (Leave empty if Consultative Member)", name: "no_of_JEs", widget: "number"}
       - {label: "Website URL", name: "full_url", widget: "string"}
       - {label: "Website URL (Pretty version, without http or /'s)", name: "short_url", widget: "string"}
       - {label: "Facebook", name: "facebook", widget: "string"}

@@ -1,5 +1,5 @@
 ---
-type: jade-member
+type: confederation
 title: JADE Switzerland
 logo: /assets/logos/jade-switzerland.png
 no_of_JEs: 10

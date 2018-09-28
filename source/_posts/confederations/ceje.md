@@ -1,5 +1,5 @@
 ---
-type: jade-member
+type: confederation
 title: CEJE (Spain)
 logo: /assets/logos/ceje.png
 no_of_JEs: 15

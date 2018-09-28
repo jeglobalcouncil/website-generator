@@ -1,5 +1,5 @@
 ---
-type: jade-member
+type: confederation
 title: JADE Belgium
 logo: /assets/logos/jade-belgium.png
 no_of_JEs: 16

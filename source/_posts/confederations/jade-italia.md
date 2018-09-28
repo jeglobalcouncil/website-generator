@@ -1,5 +1,5 @@
 ---
-type: jade-member
+type: confederation
 title: JADE Italia
 logo: /assets/logos/jade-italia.png
 no_of_JEs: 17

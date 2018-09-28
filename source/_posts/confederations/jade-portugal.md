@@ -1,5 +1,5 @@
 ---
-type: jade-member
+type: confederation
 title: JADE Portugal
 logo: /assets/logos/jade-portugal.png
 no_of_JEs: 14
