@@ -31,3 +31,7 @@ The greatest experiences in our lives are related to the people we meet and the 
 #### Bonus: Spread a Purpose
 
 If you decide to go to a place where the JE movement is still beginning, you can also work to spread our purpose to new parts of the globe. By traveling in the Exchange Program you can take the responsibility to boost the junior entrepreneurs' energy and contribute for more students, in more countries, to have the chance we had to be part of a junior enterprise.
+
+
+
+Discover now all the details of the program and the sign-up [here!](https://exchange.juniorenterprises.org/)
