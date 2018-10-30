@@ -2,7 +2,7 @@
 type: confederation
 title: Junior Enterprise USA
 logo: /assets/logos/jeusa.png
-no_of_JEs: 4
+no_of_JEs: 5
 no_of_JEurs: 100
 no_of_projects:
 turnover:

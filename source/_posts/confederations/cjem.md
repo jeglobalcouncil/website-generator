@@ -2,7 +2,7 @@
 type: confederation
 title: CJEM (Morocco)
 logo: /assets/logos/cjem.png
-no_of_JEs: 8
+no_of_JEs: 9
 no_of_JEurs: 100
 no_of_projects:
 turnover:

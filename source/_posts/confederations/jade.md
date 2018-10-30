@@ -2,7 +2,7 @@
 type: confederation
 title: JADE (Europe)
 logo: /assets/logos/jade.png
-no_of_JEs: 342
+no_of_JEs: 347
 no_of_JEurs: 28000
 no_of_projects: 4350
 turnover: 14600000

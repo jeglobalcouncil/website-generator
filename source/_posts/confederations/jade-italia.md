@@ -2,7 +2,7 @@
 type: confederation
 title: JADE Italia
 logo: /assets/logos/jade-italia.png
-no_of_JEs: 17
+no_of_JEs: 18
 short_url: jadeitalia.org
 full_url: https://jadeitalia.org/
 facebook: https://www.facebook.com/jadeitalia.org/

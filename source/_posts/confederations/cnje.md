@@ -2,7 +2,7 @@
 type: confederation
 title: CNJE (France)
 logo: /assets/logos/cnje.png
-no_of_JEs: 180
+no_of_JEs: 185
 no_of_JEurs:
 no_of_projects:
 turnover:
