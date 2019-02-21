@@ -4,7 +4,7 @@ title: FAQ - Exchange Program
 author: Gabriel Caldas
 date: '2018-11-12'
 featured_image: /assets/uploads/exchange-program-promotion-posts-1-.png
-topic: Network
+topic: Opportunities
 ---
 The Exchange Program of the Junior Enterprise Network is here! But, do you have questions about it?
 

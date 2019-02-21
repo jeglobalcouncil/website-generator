@@ -6,8 +6,7 @@ date: '2018-09-19'
 featured_image: /assets/uploads/37883429_1019563061559166_808505379901145088_n.jpg
 topic: Network
 ---
-_"All the models are wrong. Some are useful." George E P Box
-_
+_"All the models are wrong. Some are useful." George E P Box_
 
 It is with this phrase that the Junior Enterprise Global Council and its 8 member Confederations began to rethink the organization's decision-making system.
 

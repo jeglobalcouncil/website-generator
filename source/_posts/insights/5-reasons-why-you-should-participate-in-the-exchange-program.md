@@ -4,7 +4,7 @@ title: 5 Reasons Why You Should Participate in the Exchange Program
 author: Gabriel Caldas
 date: '2018-10-26'
 featured_image: /assets/uploads/foto-3.jpg
-topic: Network
+topic: Opportunities
 ---
 Another edition of the Exchange Program is coming and I cannot help not talking about how great is this opportunity that you are having right now. One year ago I could also travel by the Exchange Program and it was one of the best decisions I have ever made and I strongly suggest you to do the same. There are infinite reasons to go to the Exchange Program, but in this article I will talk about 5 of them that I believe that must be highlighted.
 

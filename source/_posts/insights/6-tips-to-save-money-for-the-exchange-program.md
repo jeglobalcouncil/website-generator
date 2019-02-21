@@ -4,7 +4,7 @@ title: 6 Tips to Save Money for the Exchange Program
 author: Gabriel Caldas
 date: '2018-11-07'
 featured_image: /assets/uploads/exchange-program-promotion-posts.png
-topic: Network
+topic: Opportunities
 ---
 In the [Exchange Program](https://exchange.juniorenterprises.org/), while you get free hosting in the house of a Junior Entrepreneur, you are responsible for the other travel costs. If you’re going to work for a JE in a nearby country, these costs are smaller, but if you’re going to another continent, the costs could add up.
 
