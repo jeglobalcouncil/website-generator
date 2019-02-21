@@ -72,16 +72,16 @@ collections:
       - {label: "Confederation Name", name: "title", widget: "string"}
       - {label: "Confederation Logo", name: "logo", widget: "image"}
       - {label: "Number of JEs", name: "no_of_JEs", widget: "number"}
-      - {label: "Number of JEurs", name: "no_of_JEurs", widget: "number"}
-      - {label: "Number of Projects Last Year", name: "no_of_projects", widget: "number"}
-      - {label: "Turnover in Local Currency Last Year", name: "turnover", widget: "number"}
-      - {label: "Conversion Rate of Local Currency to USD by the end of Last Year", name: "conversion_rate", widget: "number"}
+      - {label: "Number of JEurs", name: "no_of_JEurs", widget: "number", required: false}
+      - {label: "Number of Projects Last Year", name: "no_of_projects", widget: "number", required: false}
+      - {label: "Turnover in Local Currency Last Year", name: "turnover", widget: "number", required: false}
+      - {label: "Conversion Rate of Local Currency to USD by the end of Last Year", name: "conversion_rate", widget: "number", required: false}
       - {label: "Don't count twice? (Mark true if this confederation is part of another GC Confederation)", name: "skip", widget: "boolean", default: "false"}
-      - {label: "Website URL", name: "full_url", widget: "string"}
-      - {label: "Website URL (Pretty version, without http or /'s)", name: "short_url", widget: "string"}
-      - {label: "Facebook", name: "facebook", widget: "string"}
-      - {label: "Instagram", name: "instagram", widget: "string"}
-      - {label: "Twitter", name: "twitter", widget: "string"}
+      - {label: "Website URL", name: "full_url", widget: "string", required: false}
+      - {label: "Website URL (Pretty version, without http or /'s)", name: "short_url", widget: "string", required: false}
+      - {label: "Facebook", name: "facebook", widget: "string", required: false}
+      - {label: "Instagram", name: "instagram", widget: "string", required: false}
+      - {label: "Twitter", name: "twitter", widget: "string", required: false}
 
   - name: "observer"
     label: "GC Observers"
