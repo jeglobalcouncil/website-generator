@@ -2,10 +2,12 @@
 type: confederation
 title: CEJE (Spain)
 logo: /assets/logos/ceje.png
-no_of_JEs: 17
+no_of_JEs: 16
+no_of_JEurs: .nan
+skip: true
+full_url: 'http://ceje.org/'
 short_url: ceje.org
-full_url: http://ceje.org/
-facebook: https://www.facebook.com/CEJE.network/
-instagram: https://www.instagram.com/ceje.network/
-twitter:
+facebook: 'https://www.facebook.com/CEJE.network/'
+instagram: 'https://www.instagram.com/ceje.network/'
 ---
+
