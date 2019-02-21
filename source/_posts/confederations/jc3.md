@@ -4,7 +4,7 @@ title: JC3 (Canada)
 logo: /assets/logos/jc3.png
 no_of_JEs: 6
 no_of_JEurs: 100
-no_of_projects:
+no_of_projects: 0
 turnover:
 conversion_rate:
 skip: false

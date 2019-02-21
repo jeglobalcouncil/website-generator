@@ -4,7 +4,7 @@ title: JECam (Cameroon)
 logo: /assets/logos/jecam.png
 no_of_JEs: 12
 no_of_JEurs: 100
-no_of_projects:
+no_of_projects: 0
 turnover:
 conversion_rate:
 skip: false

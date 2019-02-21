@@ -7,7 +7,7 @@
     <% if(confederation.skip==false){ %>
       <% if (!isNaN(confederation.no_of_JEs)) { jes += confederation.no_of_JEs } %>
       <% if (!isNaN(confederation.no_of_JEurs)) { jeurs += confederation.no_of_JEurs } %>
-      <% if (!isNaN(confederation.no_of_projects)) { jeurs += confederation.no_of_projects } %>
+      <% if (!isNaN(confederation.no_of_projects)) { projects += confederation.no_of_projects } %>
       <% if ((!isNaN(confederation.turnover))&&(!isNaN(confederation.conversion_rate))) { turnover += confederation.turnover*confederation.conversion_rate } %>
     <% } %>
   <% } %>
@@ -35,7 +35,7 @@
       <div class="three columns u-transparent u-button">
         <span class="number"><%- number_format(thousand_projects, {precision: 1}) %></span>
         <span class="symbol">K</span>
-        <br>Projects in 2017
+        <br>Projects per Year
       </div>
     </div>
     <div class="row">
@@ -43,7 +43,7 @@
         <span class="small symbol">US$</span>
         <span class="number"><%- number_format(turnover_millions, {precision: 1}) %></span>
         <span class="symbol">M</span>
-        <br>Turnover in 2017
+        <br>Yearly Turnover
       </div>
       <div class="seven columns u-transparent u-button">
         <span class="symbol">#1</span>
