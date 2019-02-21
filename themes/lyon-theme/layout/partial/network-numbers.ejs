@@ -5,10 +5,10 @@
 <% site.posts.forEach(function(confederation){ %>
   <% if(confederation.type=='confederation'){ %>
     <% if(confederation.skip==false){ %>
-      <% jes += confederation.no_of_JEs %>
-      <% jeurs += confederation.no_of_JEurs %>
-      <% projects += confederation.no_of_projects %>
-      <% turnover += confederation.turnover*confederation.conversion_rate %>
+      <% if (!isNaN(confederation.no_of_JEs)) { jes += confederation.no_of_JEs } %>
+      <% if (!isNaN(confederation.no_of_JEurs)) { jeurs += confederation.no_of_JEurs } %>
+      <% if (!isNaN(confederation.no_of_projects)) { jeurs += confederation.no_of_projects } %>
+      <% if ((!isNaN(confederation.turnover))&&(!isNaN(confederation.conversion_rate))) { turnover += confederation.turnover*confederation.conversion_rate } %>
     <% } %>
   <% } %>
 <% }) %>
