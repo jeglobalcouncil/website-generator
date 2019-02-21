@@ -50,7 +50,7 @@ collections:
       - {label: "Cover Image", name: "cover", widget: "image"}
 
   - name: "gc-partners"
-    label: "GC Partners"
+    label: "JEGlobal Partners"
     folder: "source/_posts/partners"
     create: true
     slug: "{{slug}}"
@@ -63,7 +63,7 @@ collections:
       - {label: "Partner Website", name: "link", widget: "string", required: false}
 
   - name: "confederations"
-    label: "GC Confederations"
+    label: "JEGlobal Confederations"
     folder: "source/_posts/confederations"
     create: true
     slug: "{{slug}}"
@@ -84,7 +84,7 @@ collections:
       - {label: "Twitter", name: "twitter", widget: "string", required: false}
 
   - name: "observer"
-    label: "GC Observers"
+    label: "JEGlobal Observers"
     folder: "source/_posts/observers"
     create: true
     slug: "{{slug}}"
