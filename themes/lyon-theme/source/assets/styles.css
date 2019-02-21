@@ -584,14 +584,15 @@ VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV */
 
 #footer { padding: 0.75rem 0; }
 #premium-partners { padding: 0.25rem 0; }
-#footer img, #premium-partners img { height: 60px; }
+#footer img { height: 100px; }
+#premium-partners img { height: 60px; }
 #premium-partners img { filter: brightness(0); transition: 0.15s ease-in filter; display: inline-block; vertical-align: bottom; margin: 0.5rem; }
 #premium-partners a:hover img, #premium-partners a:focus img { filter: brightness(1); }
 #footer a { width: 100%; color: inherit; padding-top: 0.5rem; }
 #footer a:hover, #footer a:focus { color: #24a1c8; text-decoration: none; }
 #footer nav a { display: inline-block; }
 @media (min-width: 750px) {
-  #footer nav a { width: auto; line-height: 60px; padding-left: 1rem; padding-top: 0; }
+  #footer nav a { width: auto; line-height: 100px; padding-left: 1rem; padding-top: 0; }
 }
 
 /* Blog Post Cards
