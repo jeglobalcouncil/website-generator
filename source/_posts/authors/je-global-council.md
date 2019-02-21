@@ -1,6 +1,7 @@
 ---
 type: author
-title: Junior Enterprise Global Council
+title: Junior Enterprises Global
 description: Working to make JEs a truly global and connected movement
-image: /assets/uploads/32287728_952268118288661_2787257844653621248_n.jpg
+image: /assets/uploads/49898366_1145462075635930_2956786487363895296_n.png
 ---
+
