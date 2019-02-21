@@ -2,7 +2,7 @@
 type: blog
 title: FAQ - Exchange Program
 author: Gabriel Caldas
-date: '2018-11-12'
+date: '2018-10-20'
 featured_image: /assets/uploads/exchange-program-promotion-posts-1-.png
 topic: Opportunities
 ---
