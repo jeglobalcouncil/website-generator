@@ -60,7 +60,7 @@ collections:
       - {label: "Partner Description", name: "description", widget: "string"}
       - {label: "Premium Partner?", name: "premium", widget: "boolean", default: "false"}
       - {label: "Partner Logo", name: "logo", widget: "image"}
-      - {label: "Partner Website", name: "link", widget: "string"}
+      - {label: "Partner Website", name: "link", widget: "string", required: false}
 
   - name: "confederations"
     label: "GC Confederations"
@@ -92,8 +92,8 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "observer"}
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Logo", name: "logo", widget: "image"}
-      - {label: "Website URL", name: "full_url", widget: "string"}
-      - {label: "Website URL (Pretty version, without http or /'s)", name: "short_url", widget: "string"}
-      - {label: "Facebook", name: "facebook", widget: "string"}
-      - {label: "Instagram", name: "instagram", widget: "string"}
-      - {label: "Twitter", name: "twitter", widget: "string"}
+      - {label: "Website URL", name: "full_url", widget: "string", required: false}
+      - {label: "Website URL (Pretty version, without http or /'s)", name: "short_url", widget: "string", required: false}
+      - {label: "Facebook", name: "facebook", widget: "string", required: false}
+      - {label: "Instagram", name: "instagram", widget: "string", required: false}
+      - {label: "Twitter", name: "twitter", widget: "string", required: false}
