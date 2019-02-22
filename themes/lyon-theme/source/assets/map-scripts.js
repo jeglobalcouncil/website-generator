@@ -546,6 +546,7 @@ function openInfo(je) {
           var a = '<h3 class="je-subtitle">FIELDS</h3>';
           var b = '';
           var allnull = true;
+          var repeat = false;
           if (jeinfo.domains[0].field != null) {
             b += jeinfo.domains[0].field;
             allnull = false;
@@ -555,7 +556,14 @@ function openInfo(je) {
               if (allnull) {
                 b += jeinfo.domains[i].field;
               } else {
-                b += '<br>' + jeinfo.domains[i].field;
+                for (var j = 0; j < i; j++) {
+                  if (jeinfo.domains[i].field == jeinfo.domains[j].field) {
+                    repeat = true;
+                  }
+                }
+                if (!repeat) {
+                  b += '<br>' + jeinfo.domains[i].field;
+                }
               }
               allnull = false;
             }
@@ -583,10 +591,10 @@ function openInfo(je) {
           part2 += '<div class="child"><div class="stat">' + jeinfo.nbr_members + '</div><div class="description">Team Members</div></div>';
         }
         if (jeinfo.nbr_projects != 0) {
-          part2 += '<div class="child"><div class="stat">' + jeinfo.nbr_projects + '</div><div class="description">Projects in 2017</div></div>';
+          part2 += '<div class="child"><div class="stat">' + jeinfo.nbr_projects + '</div><div class="description">Projects in 2018</div></div>';
         }
-        if (jeinfo.nbr_ca != 0) {
-          part2 += '<div class="child"><div class="stat">' + Math.round(jeinfo.nbr_ca/1000) + 'k</div><div class="description">Revenue in ' + jeinfo.devise + ' in 2017</div></div>';
+        if ((jeinfo.nbr_ca != 0)&&(Math.round(jeinfo.nbr_ca/1000) != 0)) {
+          part2 += '<div class="child"><div class="stat">' + Math.round(jeinfo.nbr_ca/1000) + 'k</div><div class="description">Revenue in ' + jeinfo.devise + ' in 2018</div></div>';
         }
         document.getElementById('je-stats').innerHTML = part1 + part2 + '</div>';
       } else {
