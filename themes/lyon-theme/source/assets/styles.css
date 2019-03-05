@@ -39,6 +39,12 @@ html { font: 14px/1.6 'Open Sans', sans-serif; }
   html { font-size: 18px; }
 }
 
+@font-face {
+  font-family: 'Arvo';
+  font-display: auto;
+  src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+}
+
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
