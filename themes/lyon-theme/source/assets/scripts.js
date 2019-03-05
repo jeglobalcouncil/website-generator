@@ -112,8 +112,11 @@ window.onload = function() {
       new TxtType(elements[i], JSON.parse(toRotate), period);
     }
   }
-  bubbleGraph();
 };
+
+window.onload = function() {
+  bubbleGraph();
+}
 
 // -------------------- //
 //     Bubble Graph     //
