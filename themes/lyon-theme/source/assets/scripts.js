@@ -120,7 +120,7 @@ window.onload = function() {
 // -------------------- //
 
 function bubbleGraph() {
-  var bubbleData = process.env.home_page_map_db;
+  // var bubbleData = process.env.home_page_map_db
   var ctx = document.getElementById('bubbleChart').getContext('2d');
   var bubbleChart = new Chart(ctx, {
       type: 'bubble',
