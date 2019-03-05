@@ -3,7 +3,7 @@ type: blog
 title: 6 Tips to Save Money for the Exchange Program
 author: Gabriel Caldas
 date: '2018-11-07'
-featured_image: /assets/uploads/exchange-program-promotion-posts.png
+featured_image: /assets/uploads/exchange-program-promotion-posts.jpg
 topic: Opportunities
 ---
 In the [Exchange Program](https://exchange.juniorenterprises.org/), while you get free hosting in the house of a Junior Entrepreneur, you are responsible for the other travel costs. If you’re going to work for a JE in a nearby country, these costs are smaller, but if you’re going to another continent, the costs could add up.
@@ -30,7 +30,7 @@ The flight is one of the more expensive parts of the trip. But depending on the 
 
 #### 5.	Cheaper Health Insurances
 
-Did you know you can find health insurance discount codes only by searching in Google? Many companies offer these discounts for the whole world and you can get it by typing: “_insurance name_ discount code” in Google. Besides, comparing the different ones is also a good way to find the best option for you.
+Did you know you can find health insurance discount codes only by searching in Google? Many companies offer these discounts for the whole world and you can get it by typing: “_insurance name_ discount code” in Google. Besides that, comparing the different ones is also a good way to find the best option for you.
 
 #### 6.	Invite your Friends
 
