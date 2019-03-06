@@ -105,7 +105,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Type", name: "type", widget: "hidden", default: "team-database"}
-      - {label: "Title", name: "title", widget: "hidden", default: "Team Database"}
+      - {label: "Title", name: "title", widget: "string", default: "Team Database"}
       - label: "ExBo Members"
         name: "exbo-members"
         widget: "list"
