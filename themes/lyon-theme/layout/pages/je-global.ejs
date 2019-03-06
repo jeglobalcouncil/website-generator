@@ -51,37 +51,37 @@
 <div class="bg-white"><div class="container">
   <section>
     <h3>Our team</h3>
-    <p>To execute all our programs and activities, we have an executive team, currently composed of 3 board members and 8 managers. Beyond the team, a group of ambassadors helps us promote the JE concept in more countries.</p>
+    <p>To execute all our programs and activities, we have an executive team, composed of 3 board members and a team of managers. Beyond this team, a group of ambassadors helps us promote the JE concept in more countries.</p>
     <h4>Executive Board</h4>
-    <div class="u-center u-tiny-text">
-      <% site.posts.forEach(function(teamdatabase){ %>
-        <% if(teamdatabase.type=='team-database'){ %>
-          <% teamdatabase.exbomembers.forEach(function(exbomember){ %>
-            <%- partial('partial/team-member-card', { member: exbomember }) %>
-          <% }) %>
-        <% } %>
-      <% }) %>
-    </div>
+      <div class="u-center u-tiny-text">
+        <% site.posts.forEach(function(teamdatabase){ %>
+          <% if(teamdatabase.type=='team-database'){ %>
+            <% teamdatabase.exbomembers.forEach(function(exbomember){ %>
+              <%- partial('partial/team-member-card', { member: exbomember.exbomember }) %>
+            <% }) %>
+          <% } %>
+        <% }) %>
+      </div>
     <h4>Executive Team</h4>
-    <div class="u-center u-tiny-text">
-      <% site.posts.forEach(function(teamdatabase){ %>
-        <% if(teamdatabase.type=='team-database'){ %>
-          <% teamdatabase.teammembers.forEach(function(teammember){ %>
-            <%- partial('partial/team-member-card', { member: teammember.teammember }) %>
-          <% }) %>
-        <% } %>
-      <% }) %>
-    </div>
+      <div class="u-center u-tiny-text">
+        <% site.posts.forEach(function(teamdatabase){ %>
+          <% if(teamdatabase.type=='team-database'){ %>
+            <% teamdatabase.teammembers.forEach(function(teammember){ %>
+              <%- partial('partial/team-member-card', { member: teammember.teammember }) %>
+            <% }) %>
+          <% } %>
+        <% }) %>
+      </div>
     <h4>Ambassadors</h4>
-    <div class="u-center u-tiny-text">
-      <% site.posts.forEach(function(teamdatabase){ %>
-        <% if(teamdatabase.type=='team-database'){ %>
-          <% teamdatabase.ambassadors.forEach(function(ambassador){ %>
-            <%- partial('partial/team-member-card', { member: ambassador }) %>
-          <% }) %>
-        <% } %>
-      <% }) %>
-    </div>
+      <div class="u-center u-tiny-text">
+        <% site.posts.forEach(function(teamdatabase){ %>
+          <% if(teamdatabase.type=='team-database'){ %>
+            <% teamdatabase.ambassadors.forEach(function(ambassador){ %>
+              <%- partial('partial/team-member-card', { member: ambassador.ambassador }) %>
+            <% }) %>
+          <% } %>
+        <% }) %>
+      </div>
   </section>
 </div></div>
 
