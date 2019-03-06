@@ -57,7 +57,7 @@
       <% site.posts.forEach(function(teamdatabase){ %>
         <% if(teamdatabase.type=='team-database'){ %>
           <% teamdatabase.exbomembers.forEach(function(exbomember){ %>
-            <%- partial('partial/team-member-card', { teammember: exbomember }) %>
+            <%- partial('partial/team-member-card', { member: exbomember }) %>
           <% }) %>
         <% } %>
       <% }) %>
@@ -67,7 +67,7 @@
       <% site.posts.forEach(function(teamdatabase){ %>
         <% if(teamdatabase.type=='team-database'){ %>
           <% teamdatabase.teammembers.forEach(function(teammember){ %>
-            <%- partial('partial/team-member-card', { teammember: teammember }) %>
+            <%- partial('partial/team-member-card', { member: teammember.teammember }) %>
           <% }) %>
         <% } %>
       <% }) %>
@@ -77,7 +77,7 @@
       <% site.posts.forEach(function(teamdatabase){ %>
         <% if(teamdatabase.type=='team-database'){ %>
           <% teamdatabase.ambassadors.forEach(function(ambassador){ %>
-            <%- partial('partial/team-member-card', { teammember: ambassador }) %>
+            <%- partial('partial/team-member-card', { member: ambassador }) %>
           <% }) %>
         <% } %>
       <% }) %>
