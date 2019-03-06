@@ -1,13 +1,16 @@
 ---
 title: Team Database
-exbo-members:
-  - exbo-member:
-      name: A
-team-members:
-  - team-member:
-      name: A
-ambassadors:
-  - ambassador:
-      name: A
+exbomembers:
+  - exbomember:
+      email: secretarygeneral@juniorenterprises.org
+      name: Kalil
+      position: Secretary General
+      profilepic: /assets/uploads/kalil-el-kadri.jpg
+teammembers:
+  - teammember:
+      name: Placeholder 1
+  - teammember:
+      name: Placeholder 2
+ambassadors: []
 ---
 
