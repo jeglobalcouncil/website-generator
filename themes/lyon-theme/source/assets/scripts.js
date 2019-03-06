@@ -105,11 +105,14 @@ TxtType.prototype.tick = function() {
 
 window.onload = function() {
   var elements = document.getElementsByClassName('typewriter');
+  console.log('hello');
   for (var i = 0; i < elements.length; i++) {
     var toRotate = elements[i].getAttribute('data-type');
     var period = elements[i].getAttribute('data-period');
+    console.log('goodbye');
     if (toRotate) {
       new TxtType(elements[i], JSON.parse(toRotate), period);
+      console.log('oops');
     }
   }
 };
