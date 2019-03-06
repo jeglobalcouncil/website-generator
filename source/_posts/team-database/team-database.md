@@ -1,30 +1,16 @@
 ---
 title: Team Database
-exbo-members:
-  - exbo-member:
+exbomembers:
+  - exbomember:
       email: secretarygeneral@juniorenterprises.org
-      name: Kalil El-Kadri
+      name: Kalil
       position: Secretary General
-      profile-pic: /assets/uploads/kalil-el-kadri.jpg
-  - exbo-member:
-      email: development@juniorenterprises.org
-      name: Lucas Mantovani
-      position: Head of Development
-      profile-pic: /assets/uploads/lucas-mantovani.jpg
-team-members:
-  - team-member:
-      email: gabrielcostacaldas@gmail.com
-      name: Gabriel Caldas
-      position: Communications Manager
-      profile-pic: /assets/uploads/gabriel-caldas.jpg
-ambassadors:
-  - ambassador:
-      name: 'Ambassador #1'
-      position: Country A
-      profile-pic: /assets/uploads/32287728_952268118288661_2787257844653621248_n.jpg
-  - ambassador:
-      name: 'Ambassador #2'
-      position: Country B
-      profile-pic: /assets/uploads/49898366_1145462075635930_2956786487363895296_n.png
+      profilepic: /assets/uploads/kalil-el-kadri.jpg
+teammembers:
+  - teammember:
+      name: Placeholder 1
+  - teammember:
+      name: Placeholder 2
+ambassadors: []
 ---
 
