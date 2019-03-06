@@ -1,4 +1,5 @@
 ---
+title: Team Database
 exbo-members:
   - exbo-member:
       name: A
