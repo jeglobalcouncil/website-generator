@@ -58,7 +58,7 @@
         <% if(teamdatabase.type=='team-database'){ %>
           <% teamdatabase.exbomembers.forEach(function(exbomember){ %>
             <%- partial('partial/team-member-card', { teammember: exbomember }) %>
-          <% } %>
+          <% }) %>
         <% } %>
       <% }) %>
     </div>
@@ -68,7 +68,7 @@
         <% if(teamdatabase.type=='team-database'){ %>
           <% teamdatabase.teammembers.forEach(function(teammember){ %>
             <%- partial('partial/team-member-card', { teammember: teammember }) %>
-          <% } %>
+          <% }) %>
         <% } %>
       <% }) %>
     </div>
@@ -78,7 +78,7 @@
         <% if(teamdatabase.type=='team-database'){ %>
           <% teamdatabase.ambassadors.forEach(function(ambassador){ %>
             <%- partial('partial/team-member-card', { teammember: ambassador }) %>
-          <% } %>
+          <% }) %>
         <% } %>
       <% }) %>
     </div>
