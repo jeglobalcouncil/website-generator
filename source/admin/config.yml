@@ -107,26 +107,26 @@ collections:
       - {label: "Type", name: "type", widget: "hidden", default: "team-database"}
       - {label: "Title", name: "title", widget: "string", default: "Team Database"}
       - label: "ExBo Members"
-        name: "exbo-members"
+        name: "exbomembers"
         widget: "list"
         fields:
           - label: "ExBo Member"
-            name: "exbo-member"
+            name: "exbomember"
             widget: "object"
             fields:
-              - {label: "Profile Picture", name: "profile-pic", widget: "image"}
+              - {label: "Profile Picture", name: "profilepic", widget: "image"}
               - {label: "Name", name: "name", widget: "string"}
               - {label: "Position", name: "position", widget: "string"}
               - {label: "E-Mail Address", name: "email", widget: "string"}
       - label: "Team Members"
-        name: "team-members"
+        name: "teammembers"
         widget: "list"
         fields:
           - label: "Team Member"
-            name: "team-member"
+            name: "teammember"
             widget: "object"
             fields:
-              - {label: "Profile Picture", name: "profile-pic", widget: "image"}
+              - {label: "Profile Picture", name: "profilepic", widget: "image"}
               - {label: "Name", name: "name", widget: "string"}
               - {label: "Position", name: "position", widget: "string"}
               - {label: "E-Mail Address", name: "email", widget: "string"}
@@ -138,7 +138,7 @@ collections:
             name: "ambassador"
             widget: "object"
             fields:
-              - {label: "Profile Picture", name: "profile-pic", widget: "image"}
+              - {label: "Profile Picture", name: "profilepic", widget: "image"}
               - {label: "Name", name: "name", widget: "string"}
               - {label: "Position", name: "position", widget: "string"}
               - {label: "E-Mail Address", name: "email", widget: "string"}

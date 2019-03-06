@@ -51,98 +51,36 @@
 <div class="bg-white"><div class="container">
   <section>
     <h3>Our team</h3>
-    <p>To execute all our programs and activities, we have an executive team, currently composed of 3 board members and 8 managers.</p>
+    <p>To execute all our programs and activities, we have an executive team, currently composed of 3 board members and 8 managers. Beyond the team, a group of ambassadors helps us promote the JE concept in more countries.</p>
+    <h4>Executive Board</h4>
     <div class="u-center u-tiny-text">
-      <div class="team-member">
-        <img src="/assets/team/kalil-el-kadri.jpg">
-        <h5>Kalil El Kadri</h5>
-        <p>Secretary General</p>
-        <p><a href="mailto:kalil.monteiro@brasiljunior.org.br">kalil.monteiro@brasiljunior.org.br</a></p>
-      </div>
-      <div class="team-member">
-        <img src="/assets/team/lucas-mantovani.jpg">
-        <h5>Lucas Mantovani</h5>
-        <p>Head of Development</p>
-        <p><a href="mailto:lucas.mantovani@brasiljunior.org.br">lucas.mantovani@brasiljunior.org.br</a></p>
-      </div>
-      <div class="team-member">
-        <img src="/assets/team/albey-alpizar.jpg">
-        <h5>Albey Alpízar</h5>
-        <p>Head of Global Growth</p>
-        <p><a href="mailto:albey.alpizar@jadenet.org">albey.alpizar@jadenet.org</a></p>
-      </div>
-      <div class="team-member">
-        <img src="/assets/team/alexandre-krul.jpg">
-        <h5>Alexandre Krul</h5>
-        <p>Enlargement Manager (Asia-Pacific / Latin America)</p>
-        <p><a href="mailto:krulalexandre@gmail.com">krulalexandre@gmail.com</a></p>
-      </div>
-      <div class="team-member">
-        <img src="/assets/team/aniek-wouters.jpg">
-        <h5>Aniek Wouters</h5>
-        <p>Development Manager</p>
-        <p><a href="mailto:aniek.wouters@unipartners.nl">aniek.wouters@unipartners.nl</a></p>
-      </div>
-      <div class="team-member">
-        <img src="/assets/team/caio-fernandes.jpg">
-        <h5>Caio Fernandes</h5>
-        <p>Enlargement Manager (Africa & Middle East)</p>
-        <p><a href="mailto:caiocaiofernandes@gmail.com">caiocaiofernandes@gmail.com</a></p>
-      </div>
-      <div class="team-member">
-        <img src="/assets/team/clara-bernabe.jpg">
-        <h5>Clara Bernabé</h5>
-        <p>Enlargement Manager (Africa & Middle East)</p>
-        <p><a href="mailto:clara.bernabe95@gmail.com">clara.bernabe95@gmail.com</a></p>
-      </div>
-      <div class="team-member">
-        <img src="/assets/team/gabriel-caldas.jpg">
-        <h5>Gabriel Caldas</h5>
-        <p>Communications Manager</p>
-        <p><a href="mailto:gabrielcostacaldas@gmail.com">gabrielcostacaldas@gmail.com</a></p>
-      </div>
-      <div class="team-member">
-        <img src="/assets/team/joao-almeida.jpg">
-        <h5>João Almeida</h5>
-        <p>Global Public Affairs Manager</p>
-        <p><a href="mailto:joaoalmeida.rc@gmail.com">joaoalmeida.rc@gmail.com</a></p>
-      </div>
-      <div class="team-member">
-        <img src="/assets/team/joao-braquehais.jpg">
-        <h5>João Braquehais</h5>
-        <p>Communications Manager</p>
-        <p><a href="mailto:joaobraq@gmail.com">joaobraq@gmail.com</a></p>
-      </div>
-      <div class="team-member">
-        <img src="/assets/team/mayssa-ferhi.jpg">
-        <h5>Mayssa Ferhi</h5>
-        <p>Enlargement Manager (Africa & Middle East)</p>
-        <p><a href="mailto:mayssa_ferhi@outlook.com">mayssa_ferhi@outlook.com</a></p>
-      </div>
-      <div class="team-member">
-        <img src="/assets/team/mortadha-rajhi.jpg">
-        <h5>Mortadha Rajhi</h5>
-        <p>Operations Manager</p>
-        <p><a href="mailto:rajhimortadha7@gmail.com">rajhimortadha7@gmail.com</a></p>
-      </div>
-      <div class="team-member">
-        <img src="/assets/team/nicolas-munoz.jpg">
-        <h5>Nicolás Muñoz</h5>
-        <p>Enlargement Manager (Latin America)</p>
-        <p><a href="mailto:v.munoz07@ufromail.cl">v.munoz07@ufromail.cl</a></p>
-      </div>
-      <div class="team-member">
-        <img src="/assets/team/yasmim-lopes.jpg">
-        <h5>Yasmim Lopes</h5>
-        <p>Enlargement Manager (Asia-Pacific)</p>
-        <p><a href="mailto:yasmimalexandra@hotmail.com">yasmimalexandra@hotmail.com</a></p>
-      </div>
-      <div class="team-member">
-        <img src="/assets/team/youssef-joudi.jpg">
-        <h5>Youssef Joudi</h5>
-        <p>Enlargement Manager (Africa & Middle East)</p>
-        <p><a href="mailto:youssefjoudi95@gmail.com">youssefjoudi95@gmail.com</a></p>
-      </div>
+      <% site.posts.forEach(function(teamdatabase){ %>
+        <% if(teamdatabase.type=='team-database'){ %>
+          <% teamdatabase.exbomembers.forEach(function(exbomember){ %>
+            <%- partial('partial/team-member-card', { teammember: exbomember }) %>
+          <% } %>
+        <% } %>
+      <% }) %>
+    </div>
+    <h4>Executive Team</h4>
+    <div class="u-center u-tiny-text">
+      <% site.posts.forEach(function(teamdatabase){ %>
+        <% if(teamdatabase.type=='team-database'){ %>
+          <% teamdatabase.teammembers.forEach(function(teammember){ %>
+            <%- partial('partial/team-member-card', { teammember: teammember }) %>
+          <% } %>
+        <% } %>
+      <% }) %>
+    </div>
+    <h4>Ambassadors</h4>
+    <div class="u-center u-tiny-text">
+      <% site.posts.forEach(function(teamdatabase){ %>
+        <% if(teamdatabase.type=='team-database'){ %>
+          <% teamdatabase.ambassadors.forEach(function(ambassador){ %>
+            <%- partial('partial/team-member-card', { teammember: ambassador }) %>
+          <% } %>
+        <% } %>
+      <% }) %>
     </div>
   </section>
 </div></div>
