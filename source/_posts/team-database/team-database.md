@@ -1,5 +1,6 @@
 ---
 title: Team Database
+type: team-database
 exbomembers:
   - exbomember:
       email: secretarygeneral@juniorenterprises.org
@@ -13,4 +14,3 @@ teammembers:
       name: Placeholder 2
 ambassadors: []
 ---
-
