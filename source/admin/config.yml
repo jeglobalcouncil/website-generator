@@ -49,7 +49,7 @@ collections:
       - {label: "Link to Publication", name: "link", widget: "string"}
       - {label: "Cover Image", name: "cover", widget: "image"}
 
-  - name: "gc-partners"
+  - name: "partners"
     label: "JEGlobal Partners"
     folder: "source/_posts/partners"
     create: true
@@ -97,3 +97,48 @@ collections:
       - {label: "Facebook", name: "facebook", widget: "string", required: false}
       - {label: "Instagram", name: "instagram", widget: "string", required: false}
       - {label: "Twitter", name: "twitter", widget: "string", required: false}
+
+  - name: "team-database"
+    label: "JEGlobal Team Members"
+    folder: "source/_posts/team-database"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Type", name: "type", widget: "hidden", default: "team-database"}
+      - {label: "Title", name: "title", widget: "hidden", default: "Team Database"}
+      - label: "ExBo Members"
+        name: "exbo-members"
+        widget: "list"
+        fields:
+          - label: "ExBo Member"
+            name: "exbo-member"
+            widget: "object"
+            fields:
+              - {label: "Profile Picture", name: "profile-pic", widget: "image"}
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Position", name: "position", widget: "string"}
+              - {label: "E-Mail Address", name: "email", widget: "string"}
+      - label: "Team Members"
+        name: "team-members"
+        widget: "list"
+        fields:
+          - label: "Team Member"
+            name: "team-member"
+            widget: "object"
+            fields:
+              - {label: "Profile Picture", name: "profile-pic", widget: "image"}
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Position", name: "position", widget: "string"}
+              - {label: "E-Mail Address", name: "email", widget: "string"}
+      - label: "Ambassadors"
+        name: "ambassadors"
+        widget: "list"
+        fields:
+          - label: "Ambassador"
+            name: "ambassador"
+            widget: "object"
+            fields:
+              - {label: "Profile Picture", name: "profile-pic", widget: "image"}
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Position", name: "position", widget: "string"}
+              - {label: "E-Mail Address", name: "email", widget: "string"}
