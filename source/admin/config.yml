@@ -109,7 +109,7 @@ collections:
       - label: "ExBo Members"
         name: "exbomembers"
         widget: "list"
-        field:
+        fields:
           - label: "ExBo Member"
             name: "exbomember"
             widget: "object"
@@ -121,7 +121,7 @@ collections:
       - label: "Team Members"
         name: "teammembers"
         widget: "list"
-        field:
+        fields:
           - label: "Team Member"
             name: "teammember"
             widget: "object"
@@ -133,7 +133,7 @@ collections:
       - label: "Ambassadors"
         name: "ambassadors"
         widget: "list"
-        field:
+        fields:
           - label: "Ambassador"
             name: "ambassador"
             widget: "object"
