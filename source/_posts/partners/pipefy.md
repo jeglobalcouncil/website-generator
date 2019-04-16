@@ -7,7 +7,7 @@ description: >-
   to streamline and automate any business process on your own – from employee
   onboarding to customer service to agile development. With this partnership,
   Pipefy Standard Plan is FREE for every Junior Enterprise of the world.
-premium: 'false'
+premium: true
 logo: /assets/uploads/pipefy.png
 link: www.pipefy.com
 ---
