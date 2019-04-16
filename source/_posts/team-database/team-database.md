@@ -45,7 +45,7 @@ teammembers:
   - teammember:
       name: Emir Ben Zayed
       position: Communications Manager
-      profilepic: /assets/uploads/emirbenzayed.jpg
+      profilepic: /assets/uploads/emirbenzayed-nf_resize-smartcrop-w-300-h-300.jpg
   - teammember:
       name: Fatma Besbes
       position: Communications Manager
