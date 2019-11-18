@@ -19,17 +19,9 @@ exbomembers:
       profilepic: /assets/uploads/iuribonna.jpg
 teammembers:
   - teammember:
-      name: Abir Arous
-      position: ' Connection Manager'
-      profilepic: /assets/uploads/abirarous.jpg
-  - teammember:
       name: Raisa Kacuta
       position: Connection Manager
       profilepic: /assets/uploads/raisakacuta.jpg
-  - teammember:
-      name: Natália Del Bianco
-      position: Global Public Affairs Manager
-      profilepic: /assets/uploads/nataliadelbianco.png
   - teammember:
       name: Baptiste Baudu
       position: Enlargement Manager
@@ -46,14 +38,6 @@ teammembers:
       name: Emir Ben Zayed
       position: Communications Manager
       profilepic: /assets/uploads/emirbenzayed-nf_resize-smartcrop-w-300-h-300.jpg
-  - teammember:
-      name: Fatma Besbes
-      position: Communications Manager
-      profilepic: /assets/uploads/fatmabesbes.jpeg
-  - teammember:
-      name: Patrícia Borralho
-      position: Operations Manager
-      profilepic: /assets/uploads/patriciaborralho.jpeg
 ambassadors: []
 ---
 
