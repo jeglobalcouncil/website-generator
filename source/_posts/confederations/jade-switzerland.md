@@ -1,7 +1,7 @@
 ---
 type: confederation
-title: JADE Switzerland
-logo: /assets/logos/jade-switzerland.png
+title: Junior-Enterprises Switzerland
+logo: /assets/uploads/switzerland-logo-junior-enterprises.png
 no_of_JEs: 10
 no_of_JEurs: 200
 no_of_projects: 400
