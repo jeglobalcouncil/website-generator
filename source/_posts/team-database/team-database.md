@@ -4,32 +4,24 @@ title: Team Database
 exbomembers:
   - exbomember:
       email: secretarygeneral@juniorenterprises.org
-      name: Gustavo Werlang
+      name: Isabella Florio
       position: Secretary General
-      profilepic: /assets/uploads/gustavowerlang.jpg
+      profilepic: /assets/uploads/isi_pro.jpeg
   - exbomember:
       email: globalgrowth@juniorenterprises.org
       name: Mayssa Ferhi
       position: Head of Global Growth
-      profilepic: /assets/uploads/mayssaferhi.jpg
+      profilepic: /assets/uploads/69963437_2864197973624616_4891875494246481920_n.jpg
   - exbomember:
       email: development@juniorenterprises.org
-      name: Iuri Bonna
+      name: Nàtalia Melo Del Bianco
       position: Head of Development
-      profilepic: /assets/uploads/iuribonna.jpg
+      profilepic: /assets/uploads/nataliadelbianco.png
 teammembers:
-  - teammember:
-      name: Abir Arous
-      position: ' Connection Manager'
-      profilepic: /assets/uploads/abirarous.jpg
   - teammember:
       name: Raisa Kacuta
       position: Connection Manager
       profilepic: /assets/uploads/raisakacuta.jpg
-  - teammember:
-      name: Natália Del Bianco
-      position: Global Public Affairs Manager
-      profilepic: /assets/uploads/nataliadelbianco.png
   - teammember:
       name: Baptiste Baudu
       position: Enlargement Manager
@@ -46,14 +38,6 @@ teammembers:
       name: Emir Ben Zayed
       position: Communications Manager
       profilepic: /assets/uploads/emirbenzayed-nf_resize-smartcrop-w-300-h-300.jpg
-  - teammember:
-      name: Fatma Besbes
-      position: Communications Manager
-      profilepic: /assets/uploads/fatmabesbes.jpeg
-  - teammember:
-      name: Patrícia Borralho
-      position: Operations Manager
-      profilepic: /assets/uploads/patriciaborralho.jpeg
 ambassadors: []
 ---
 
