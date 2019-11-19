@@ -1,12 +1,12 @@
 ---
 type: confederation
-title: BDSU (Germany)
-logo: /assets/logos/bdsu.png
+title: Junior-Enterprises Germany
+logo: /assets/uploads/germany-logo-junior-enterprises.png
 no_of_JEs: 32
 skip: true
+full_url: 'https://www.bdsu.de/'
 short_url: www.bdsu.de
-full_url: https://www.bdsu.de/
-facebook: https://www.facebook.com/BDSUev/
-instagram: https://www.instagram.com/bdsu_e.v/
-twitter:
+facebook: 'https://www.facebook.com/BDSUev/'
+instagram: 'https://www.instagram.com/bdsu_e.v/'
 ---
+
