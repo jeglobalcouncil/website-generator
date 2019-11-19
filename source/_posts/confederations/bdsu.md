@@ -1,7 +1,7 @@
 ---
 type: confederation
 title: Junior-Enterprises Germany
-logo: /assets/logos/bdsu.png
+logo: /assets/uploads/germany-logo-junior-enterprises.png
 no_of_JEs: 32
 skip: true
 full_url: 'https://www.bdsu.de/'
