@@ -1,7 +1,7 @@
 ---
 type: confederation
-title: JADE Portugal
-logo: /assets/logos/jade-portugal.png
+title: Junior-Enterprises Portugal
+logo: /assets/uploads/portugal-logo-junior-enterprises.png
 no_of_JEs: 16
 skip: true
 full_url: 'https://www.jadeportugal.pt/'
