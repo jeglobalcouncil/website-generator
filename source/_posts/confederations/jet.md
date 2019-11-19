@@ -1,6 +1,6 @@
 ---
 type: confederation
-title: JET (Tunisia)
+title: Junior-Enterprises Tunisia
 logo: /assets/logos/jet.png
 no_of_JEs: 38
 no_of_JEurs: 2500
