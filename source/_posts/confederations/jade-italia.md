@@ -1,7 +1,7 @@
 ---
 type: confederation
-title: JADE Italia
-logo: /assets/logos/jade-italia.png
+title: Junior-Enterprises Italy
+logo: /assets/uploads/italy-logo-junior-enterprises.png
 no_of_JEs: 18
 no_of_JEurs: 650
 no_of_projects: 160
