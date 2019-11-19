@@ -1,7 +1,7 @@
 ---
 type: confederation
-title: JADE Belgium
-logo: /assets/logos/jade-belgium.png
+title: 'Junior-Enterprises Belgium '
+logo: /assets/uploads/belgium-logo-junior-enterprises.png
 no_of_JEs: 15
 no_of_JEurs: 450
 turnover: 400000
