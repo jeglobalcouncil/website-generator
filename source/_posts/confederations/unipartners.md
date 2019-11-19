@@ -1,7 +1,7 @@
 ---
 type: confederation
-title: UniPartners (Netherlands)
-logo: /assets/logos/unipartners.png
+title: Junior-Enterprises Netherlands
+logo: /assets/uploads/netherlands-logo-junior-enterprises.png
 no_of_JEs: 12
 no_of_JEurs: 318
 no_of_projects: 247
