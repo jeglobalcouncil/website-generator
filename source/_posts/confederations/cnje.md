@@ -1,6 +1,6 @@
 ---
 type: confederation
-title: CNJE (France)
+title: Junior-Enterprises France
 logo: /assets/logos/cnje.png
 no_of_JEs: 185
 no_of_JEurs: 22000
