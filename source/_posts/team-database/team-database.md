@@ -11,7 +11,7 @@ exbomembers:
       email: globalgrowth@juniorenterprises.org
       name: Mayssa Ferhi
       position: Head of Global Growth
-      profilepic: /assets/uploads/mayssaferhi.jpg
+      profilepic: /assets/uploads/69963437_2864197973624616_4891875494246481920_n.jpg
   - exbomember:
       email: development@juniorenterprises.org
       name: Nàtalia Melo Del Bianco
