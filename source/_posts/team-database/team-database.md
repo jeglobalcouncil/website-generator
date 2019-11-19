@@ -4,9 +4,9 @@ title: Team Database
 exbomembers:
   - exbomember:
       email: secretarygeneral@juniorenterprises.org
-      name: Gustavo Werlang
+      name: Isabella Florio
       position: Secretary General
-      profilepic: /assets/uploads/gustavowerlang.jpg
+      profilepic: /assets/uploads/isi_pro.jpeg
   - exbomember:
       email: globalgrowth@juniorenterprises.org
       name: Mayssa Ferhi
@@ -14,9 +14,9 @@ exbomembers:
       profilepic: /assets/uploads/mayssaferhi.jpg
   - exbomember:
       email: development@juniorenterprises.org
-      name: Iuri Bonna
+      name: Nàtalia Melo Del Bianco
       position: Head of Development
-      profilepic: /assets/uploads/iuribonna.jpg
+      profilepic: /assets/uploads/nataliadelbianco.png
 teammembers:
   - teammember:
       name: Raisa Kacuta
