@@ -1,7 +1,7 @@
 ---
 type: confederation
-title: JADE (Europe)
-logo: /assets/logos/jade.png
+title: Junior-Enterprises Europe
+logo: /assets/uploads/download.png
 no_of_JEs: 352
 no_of_JEurs: 28000
 no_of_projects: 4350
