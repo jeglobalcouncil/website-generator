@@ -1,7 +1,7 @@
 ---
 type: confederation
-title: JADE Poland
-logo: /assets/logos/jade-poland.png
+title: Junior-Enterprises Poland
+logo: /assets/uploads/poland-logo-junior-enterprises.png
 no_of_JEs: 3
 skip: true
 full_url: 'http://jadepl.org/'
