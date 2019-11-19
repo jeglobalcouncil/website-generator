@@ -1,7 +1,7 @@
 ---
 type: confederation
-title: JADE Austria
-logo: /assets/logos/jade-austria.png
+title: Junior-Enterprises Austria
+logo: /assets/uploads/austria-logo-junior-enterprises.png
 no_of_JEs: 5
 skip: true
 full_url: 'http://www.jadeaustria.at/'
