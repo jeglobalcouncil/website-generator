@@ -9,6 +9,6 @@ description: >-
   Pipefy Standard Plan is FREE for every Junior Enterprise of the world.
 premium: true
 logo: /assets/uploads/pipefy-logo.png
-link: www.pipefy.com
+link: https://www.pipefy.com/
 ---
 
