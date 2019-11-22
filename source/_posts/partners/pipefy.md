@@ -8,7 +8,7 @@ description: >-
   onboarding to customer service to agile development. With this partnership,
   Pipefy Standard Plan is FREE for every Junior Enterprise of the world.
 premium: true
-logo: /assets/uploads/pipefy-logo-01.png
+logo: /assets/uploads/pipefy-logo.png
 link: www.pipefy.com
 ---
 
