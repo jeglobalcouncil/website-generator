@@ -2,7 +2,7 @@
 type: confederation
 title: Brasil Júnior
 logo: /assets/logos/brasil-junior.png
-no_of_JEs: 806
+no_of_JEs: 805
 no_of_JEurs: 20000
 no_of_projects: 18307
 turnover: 29400000
