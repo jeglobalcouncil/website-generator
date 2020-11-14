@@ -3,20 +3,15 @@ type: team-database
 title: Team Database
 exbomembers:
   - exbomember:
-      email: secretarygeneral@juniorenterprises.org
-      name: Isabella Florio
-      position: Secretary General
-      profilepic: /assets/uploads/isi_pro.jpeg
-  - exbomember:
-      email: globalgrowth@juniorenterprises.org
-      name: Mayssa Ferhi
-      position: Head of Global Growth
-      profilepic: /assets/uploads/69963437_2864197973624616_4891875494246481920_n.jpg
-  - exbomember:
       email: development@juniorenterprises.org
       name: Nàtalia Melo Del Bianco
       position: Head of Development
       profilepic: /assets/uploads/nataliadelbianco.png
+  - exbomember:
+      email: teresa.Brazio@juniorentreprises.org
+      name: Teresa Brázio
+      position: Vice President
+      profilepic: /assets/uploads/board-recovered-06.png
 teammembers:
   - teammember:
       name: Raisa Kacuta
