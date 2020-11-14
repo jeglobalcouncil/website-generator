@@ -1,7 +1,7 @@
 ---
 type: confederation
 title: Raíces (Argentina)
-logo: /assets/uploads/raices.png
+logo: /assets/uploads/horizontal.png
 no_of_JEs: 4
 no_of_JEurs: 85
 skip: 'false'
